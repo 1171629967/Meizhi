@@ -171,7 +171,7 @@
 - (void)downOrUp{
     NSInteger downOrUpDistance;
     if (isDown) {
-        downOrUpDistance = -75;
+        downOrUpDistance = -73;
 //        [(UIButton *)[self viewWithTag:wuzhishanTag] setUserInteractionEnabled:YES];
 //        [(UIButton *)[self viewWithTag:yulingongguangTag] setUserInteractionEnabled:YES];
 //        [(UIButton *)[self viewWithTag:fastRoadTag] setUserInteractionEnabled:YES];
@@ -179,7 +179,7 @@
 //        [(UIButton *)[self viewWithTag:kehuInfoTag] setUserInteractionEnabled:YES];
 //        [(UIButton *)[self viewWithTag:voiceBtnTag] setUserInteractionEnabled:YES];
     }else {
-        downOrUpDistance = 75;
+        downOrUpDistance = 73;
 //        [(UIButton *)[self viewWithTag:wuzhishanTag] setUserInteractionEnabled:NO];
 //        [(UIButton *)[self viewWithTag:yulingongguangTag] setUserInteractionEnabled:NO];
 //        [(UIButton *)[self viewWithTag:fastRoadTag] setUserInteractionEnabled:NO];
@@ -200,7 +200,7 @@
     if (!isDown) {
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration:.3f];
-        self.tabBarView.frame = CGRectMake(0, self.tabBarView.frame.origin.y+75, 1024, 118);
+        self.tabBarView.frame = CGRectMake(0, self.tabBarView.frame.origin.y+73, 1024, 118);
         [UIView commitAnimations];
         isDown = !isDown;
     }

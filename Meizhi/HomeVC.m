@@ -28,8 +28,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    //[self loadPianTouData];
-    //[self performSelector:@selector(playPiantou) withObject:self afterDelay:0.1];
+//  [self loadPianTouData];
+//  [self performSelector:@selector(playPiantou) withObject:self afterDelay:0.1];
     [self initViews];
 }
 

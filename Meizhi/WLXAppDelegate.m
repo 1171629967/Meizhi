@@ -7,7 +7,7 @@
 //
 
 #import "WLXAppDelegate.h"
-#import "PianTouVC.h"
+#import "HomeVC.h"
 
 @implementation WLXAppDelegate
 
@@ -16,9 +16,9 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     self.window.backgroundColor = [UIColor whiteColor];
     
-    PianTouVC *ptVC = [[PianTouVC alloc] init];
+    HomeVC *homeVC = [[HomeVC alloc] init];
     
-    self.window.rootViewController = ptVC;
+    self.window.rootViewController = homeVC;
     [self.window makeKeyAndVisible];
     return YES;
 }

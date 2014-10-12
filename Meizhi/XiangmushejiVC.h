@@ -7,7 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FTCircleImageView.h"
 
 @interface XiangmushejiVC : UIViewController
+{
+    int startX;
+    int endX;
+    NSMutableArray *array;
+    int currentImageNo;
+    FTCircleImageView *circleView;   
+}
+
 
 @end

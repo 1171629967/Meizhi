@@ -54,12 +54,14 @@
 //片头视频播放完毕后的回调
 - (void)myMovieFinishedCallback:(NSNotification*)aNotification
 {
-    MPMoviePlayerController* theMovie=[aNotification object];
+    MPMoviePlayerController *theMovie=[aNotification object];
     [[NSNotificationCenter defaultCenter] removeObserver:self
                                                     name:MPMoviePlayerPlaybackDidFinishNotification
                                                   object:theMovie];
     
     [theMovie.view removeFromSuperview];
+    
+    
     
 }
 

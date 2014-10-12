@@ -7,6 +7,7 @@
 //
 
 #import "ZhanshishejiVC.h"
+#import "PanoramaGL/PLView.h"
 
 @interface ZhanshishejiVC ()
 
@@ -26,7 +27,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -34,5 +36,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 @end

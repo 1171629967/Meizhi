@@ -92,7 +92,7 @@
                             <rect key="frame" x="50" y="53" width="400" height="420"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         </imageView>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" text="标题" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G1D-QC-og7">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="标题" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="G1D-QC-og7">
                             <rect key="frame" x="479" y="77" width="310" height="43"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.37647062540054321" green="0.011764707043766975" blue="0.023529414087533951" alpha="1" colorSpace="deviceRGB"/>
@@ -100,7 +100,7 @@
                             <fontDescription key="fontDescription" type="system" pointSize="20"/>
                             <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                         </textView>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" text="正文" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3da-ak-9cP">
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" showsHorizontalScrollIndicator="NO" editable="NO" text="正文" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="3da-ak-9cP">
                             <rect key="frame" x="479" y="145" width="310" height="328"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" red="0.37647062540054321" green="0.011764707043766975" blue="0.023529414087533951" alpha="1" colorSpace="deviceRGB"/>

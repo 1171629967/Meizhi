@@ -1,15 +1,16 @@
 //
-//  ZhanshishejiVC.h
+//  ZTView.h
 //  Meizhi
 //
-//  Created by 王 李鑫 on 14-10-12.
+//  Created by 王 李鑫 on 14-10-13.
 //  Copyright (c) 2014年 wlx. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "FTDoorBaseView.h"
 #import "PLView.h"
 
-@interface ZhanshishejiVC : UIViewController
+@interface ZTView : FTDoorBaseView
 {
     PLView *plView;
 }

@@ -7,6 +7,7 @@
 //
 
 #import "HomeVC.h"
+#import "ZTView.h"
 
 
 @interface HomeVC ()
@@ -126,7 +127,9 @@
         case 3:
             if (currentTag != 3) {
                 [self removeAllviewsOnMyBackView];
-                [self.myBackView addSubview:zhanshishejiVC.view];
+                ZTView *ztView = [[ZTView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+                
+                [self.myBackView addSubview:ztView];
             }
             break;
         case 4:

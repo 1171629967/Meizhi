@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09D72A5019EA832B0058D54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A4F19EA832B0058D54C /* Foundation.framework */; };
+		09D72A5219EA832B0058D54C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5119EA832B0058D54C /* CoreGraphics.framework */; };
+		09D72A5419EA832B0058D54C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5319EA832B0058D54C /* UIKit.framework */; };
+		09D72A5A19EA832B0058D54C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09D72A5819EA832B0058D54C /* InfoPlist.strings */; };
+		09D72A5C19EA832B0058D54C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D72A5B19EA832B0058D54C /* main.m */; };
+		09D72A6019EA832B0058D54C /* WLXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D72A5F19EA832B0058D54C /* WLXAppDelegate.m */; };
+		09D72A6619EA832B0058D54C /* PianTouVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D72A6519EA832B0058D54C /* PianTouVC.m */; };
+		09D72A6819EA832B0058D54C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09D72A6719EA832B0058D54C /* Images.xcassets */; };
+		09D72A6F19EA832B0058D54C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A6E19EA832B0058D54C /* XCTest.framework */; };
+		09D72A7019EA832B0058D54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A4F19EA832B0058D54C /* Foundation.framework */; };
+		09D72A7119EA832B0058D54C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5319EA832B0058D54C /* UIKit.framework */; };
+		09D72A7919EA832B0058D54C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 09D72A7719EA832B0058D54C /* InfoPlist.strings */; };
+		09D72A7B19EA832B0058D54C /* MeizhiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D72A7A19EA832B0058D54C /* MeizhiTests.m */; };
+		09D72A8519EA84390058D54C /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A8419EA84390058D54C /* MediaPlayer.framework */; };
+		09D72A8819EA86630058D54C /* piantou.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 09D72A8719EA86630058D54C /* piantou.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		09D72A7219EA832B0058D54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 09D72A4419EA832B0058D54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 09D72A4B19EA832B0058D54C;
+			remoteInfo = Meizhi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09D72A4C19EA832B0058D54C /* Meizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D72A4F19EA832B0058D54C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		09D72A5119EA832B0058D54C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		09D72A5319EA832B0058D54C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		09D72A5719EA832B0058D54C /* Meizhi-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Meizhi-Info.plist"; sourceTree = "<group>"; };
+		09D72A5919EA832B0058D54C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09D72A5B19EA832B0058D54C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		09D72A5D19EA832B0058D54C /* Meizhi-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Meizhi-Prefix.pch"; sourceTree = "<group>"; };
+		09D72A5E19EA832B0058D54C /* WLXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WLXAppDelegate.h; sourceTree = "<group>"; };
+		09D72A5F19EA832B0058D54C /* WLXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLXAppDelegate.m; sourceTree = "<group>"; };
+		09D72A6419EA832B0058D54C /* PianTouVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PianTouVC.h; sourceTree = "<group>"; };
+		09D72A6519EA832B0058D54C /* PianTouVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PianTouVC.m; sourceTree = "<group>"; };
+		09D72A6719EA832B0058D54C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		09D72A6D19EA832B0058D54C /* MeizhiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeizhiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		09D72A6E19EA832B0058D54C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		09D72A7619EA832B0058D54C /* MeizhiTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeizhiTests-Info.plist"; sourceTree = "<group>"; };
+		09D72A7819EA832B0058D54C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		09D72A7A19EA832B0058D54C /* MeizhiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeizhiTests.m; sourceTree = "<group>"; };
+		09D72A8419EA84390058D54C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		09D72A8719EA86630058D54C /* piantou.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = piantou.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09D72A4919EA832B0058D54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D72A8519EA84390058D54C /* MediaPlayer.framework in Frameworks */,
+				09D72A5219EA832B0058D54C /* CoreGraphics.framework in Frameworks */,
+				09D72A5419EA832B0058D54C /* UIKit.framework in Frameworks */,
+				09D72A5019EA832B0058D54C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09D72A6A19EA832B0058D54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D72A6F19EA832B0058D54C /* XCTest.framework in Frameworks */,
+				09D72A7119EA832B0058D54C /* UIKit.framework in Frameworks */,
+				09D72A7019EA832B0058D54C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09D72A4319EA832B0058D54C = {
+			isa = PBXGroup;
+			children = (
+				09D72A8619EA86560058D54C /* 视频 */,
+				09D72A5519EA832B0058D54C /* Meizhi */,
+				09D72A7419EA832B0058D54C /* MeizhiTests */,
+				09D72A4E19EA832B0058D54C /* Frameworks */,
+				09D72A4D19EA832B0058D54C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		09D72A4D19EA832B0058D54C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				09D72A4C19EA832B0058D54C /* Meizhi.app */,
+				09D72A6D19EA832B0058D54C /* MeizhiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		09D72A4E19EA832B0058D54C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				09D72A8419EA84390058D54C /* MediaPlayer.framework */,
+				09D72A4F19EA832B0058D54C /* Foundation.framework */,
+				09D72A5119EA832B0058D54C /* CoreGraphics.framework */,
+				09D72A5319EA832B0058D54C /* UIKit.framework */,
+				09D72A6E19EA832B0058D54C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		09D72A5519EA832B0058D54C /* Meizhi */ = {
+			isa = PBXGroup;
+			children = (
+				09D72A5E19EA832B0058D54C /* WLXAppDelegate.h */,
+				09D72A5F19EA832B0058D54C /* WLXAppDelegate.m */,
+				09D72A6419EA832B0058D54C /* PianTouVC.h */,
+				09D72A6519EA832B0058D54C /* PianTouVC.m */,
+				09D72A6719EA832B0058D54C /* Images.xcassets */,
+				09D72A5619EA832B0058D54C /* Supporting Files */,
+			);
+			path = Meizhi;
+			sourceTree = "<group>";
+		};
+		09D72A5619EA832B0058D54C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09D72A5719EA832B0058D54C /* Meizhi-Info.plist */,
+				09D72A5819EA832B0058D54C /* InfoPlist.strings */,
+				09D72A5B19EA832B0058D54C /* main.m */,
+				09D72A5D19EA832B0058D54C /* Meizhi-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09D72A7419EA832B0058D54C /* MeizhiTests */ = {
+			isa = PBXGroup;
+			children = (
+				09D72A7A19EA832B0058D54C /* MeizhiTests.m */,
+				09D72A7519EA832B0058D54C /* Supporting Files */,
+			);
+			path = MeizhiTests;
+			sourceTree = "<group>";
+		};
+		09D72A7519EA832B0058D54C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				09D72A7619EA832B0058D54C /* MeizhiTests-Info.plist */,
+				09D72A7719EA832B0058D54C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09D72A8619EA86560058D54C /* 视频 */ = {
+			isa = PBXGroup;
+			children = (
+				09D72A8719EA86630058D54C /* piantou.mp4 */,
+			);
+			name = "视频";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		09D72A4B19EA832B0058D54C /* Meizhi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D72A7E19EA832B0058D54C /* Build configuration list for PBXNativeTarget "Meizhi" */;
+			buildPhases = (
+				09D72A4819EA832B0058D54C /* Sources */,
+				09D72A4919EA832B0058D54C /* Frameworks */,
+				09D72A4A19EA832B0058D54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Meizhi;
+			productName = Meizhi;
+			productReference = 09D72A4C19EA832B0058D54C /* Meizhi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		09D72A6C19EA832B0058D54C /* MeizhiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09D72A8119EA832B0058D54C /* Build configuration list for PBXNativeTarget "MeizhiTests" */;
+			buildPhases = (
+				09D72A6919EA832B0058D54C /* Sources */,
+				09D72A6A19EA832B0058D54C /* Frameworks */,
+				09D72A6B19EA832B0058D54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				09D72A7319EA832B0058D54C /* PBXTargetDependency */,
+			);
+			name = MeizhiTests;
+			productName = MeizhiTests;
+			productReference = 09D72A6D19EA832B0058D54C /* MeizhiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		09D72A4419EA832B0058D54C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WLX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = wlx;
+				TargetAttributes = {
+					09D72A6C19EA832B0058D54C = {
+						TestTargetID = 09D72A4B19EA832B0058D54C;
+					};
+				};
+			};
+			buildConfigurationList = 09D72A4719EA832B0058D54C /* Build configuration list for PBXProject "Meizhi" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 09D72A4319EA832B0058D54C;
+			productRefGroup = 09D72A4D19EA832B0058D54C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				09D72A4B19EA832B0058D54C /* Meizhi */,
+				09D72A6C19EA832B0058D54C /* MeizhiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09D72A4A19EA832B0058D54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D72A8819EA86630058D54C /* piantou.mp4 in Resources */,
+				09D72A6819EA832B0058D54C /* Images.xcassets in Resources */,
+				09D72A5A19EA832B0058D54C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09D72A6B19EA832B0058D54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D72A7919EA832B0058D54C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09D72A4819EA832B0058D54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D72A6619EA832B0058D54C /* PianTouVC.m in Sources */,
+				09D72A6019EA832B0058D54C /* WLXAppDelegate.m in Sources */,
+				09D72A5C19EA832B0058D54C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		09D72A6919EA832B0058D54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09D72A7B19EA832B0058D54C /* MeizhiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		09D72A7319EA832B0058D54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 09D72A4B19EA832B0058D54C /* Meizhi */;
+			targetProxy = 09D72A7219EA832B0058D54C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		09D72A5819EA832B0058D54C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09D72A5919EA832B0058D54C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		09D72A7719EA832B0058D54C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				09D72A7819EA832B0058D54C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		09D72A7C19EA832B0058D54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		09D72A7D19EA832B0058D54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		09D72A7F19EA832B0058D54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meizhi/Meizhi-Prefix.pch";
+				INFOPLIST_FILE = "Meizhi/Meizhi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		09D72A8019EA832B0058D54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meizhi/Meizhi-Prefix.pch";
+				INFOPLIST_FILE = "Meizhi/Meizhi-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		09D72A8219EA832B0058D54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meizhi.app/Meizhi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meizhi/Meizhi-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MeizhiTests/MeizhiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		09D72A8319EA832B0058D54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Meizhi.app/Meizhi";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Meizhi/Meizhi-Prefix.pch";
+				INFOPLIST_FILE = "MeizhiTests/MeizhiTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09D72A4719EA832B0058D54C /* Build configuration list for PBXProject "Meizhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D72A7C19EA832B0058D54C /* Debug */,
+				09D72A7D19EA832B0058D54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		09D72A7E19EA832B0058D54C /* Build configuration list for PBXNativeTarget "Meizhi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D72A7F19EA832B0058D54C /* Debug */,
+				09D72A8019EA832B0058D54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		09D72A8119EA832B0058D54C /* Build configuration list for PBXNativeTarget "MeizhiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09D72A8219EA832B0058D54C /* Debug */,
+				09D72A8319EA832B0058D54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 09D72A4419EA832B0058D54C /* Project object */;
+}

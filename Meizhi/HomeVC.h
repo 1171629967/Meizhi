@@ -28,9 +28,15 @@
     DaikuanjisuanVC *daikuanjisuanVC;
     
     int currentTag;
+    
+    BOOL isDown;
 }
 @property (strong, nonatomic) IBOutlet UIView *myBackView;
+@property (strong, nonatomic) IBOutlet UIView *tabBarView;
 
+
+
+@property (strong, nonatomic) IBOutlet UIButton *bt_logo;
 @property (strong, nonatomic) IBOutlet UIButton *bt_quweijiazhi;
 @property (strong, nonatomic) IBOutlet UIButton *bt_xiangmusheji;
 @property (strong, nonatomic) IBOutlet UIButton *bt_zanshisheji;

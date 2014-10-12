@@ -41,6 +41,10 @@
 		09D96CBC19EABFF1000D15AA /* KanfangVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D96CBA19EABFF1000D15AA /* KanfangVC.xib */; };
 		09D96CC019EAC003000D15AA /* DaikuanjisuanVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96CBE19EAC003000D15AA /* DaikuanjisuanVC.m */; };
 		09D96CC119EAC003000D15AA /* DaikuanjisuanVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D96CBF19EAC003000D15AA /* DaikuanjisuanVC.xib */; };
+		09D96CC419EAD3DD000D15AA /* quweijiazhi_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D96CC319EAD3DD000D15AA /* quweijiazhi_back.png */; };
+		09D96CC819EAD821000D15AA /* meizhi_biaoqian.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D96CC719EAD821000D15AA /* meizhi_biaoqian.png */; };
+		09D96CCA19EADCA8000D15AA /* 弹出窗背景图.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D96CC919EADCA8000D15AA /* 弹出窗背景图.png */; };
+		09D96CCC19EADEB8000D15AA /* 弹出框图片.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D96CCB19EADEB8000D15AA /* 弹出框图片.png */; };
 		09DEA10819EA9C2100F9EB93 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEA10619EA9C2100F9EB93 /* HomeVC.m */; };
 		09DEA10919EA9C2100F9EB93 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DEA10719EA9C2100F9EB93 /* HomeVC.xib */; };
 /* End PBXBuildFile section */
@@ -100,6 +104,10 @@
 		09D96CBD19EAC003000D15AA /* DaikuanjisuanVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DaikuanjisuanVC.h; sourceTree = "<group>"; };
 		09D96CBE19EAC003000D15AA /* DaikuanjisuanVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DaikuanjisuanVC.m; sourceTree = "<group>"; };
 		09D96CBF19EAC003000D15AA /* DaikuanjisuanVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DaikuanjisuanVC.xib; sourceTree = "<group>"; };
+		09D96CC319EAD3DD000D15AA /* quweijiazhi_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quweijiazhi_back.png; sourceTree = "<group>"; };
+		09D96CC719EAD821000D15AA /* meizhi_biaoqian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meizhi_biaoqian.png; sourceTree = "<group>"; };
+		09D96CC919EADCA8000D15AA /* 弹出窗背景图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "弹出窗背景图.png"; sourceTree = "<group>"; };
+		09D96CCB19EADEB8000D15AA /* 弹出框图片.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "弹出框图片.png"; sourceTree = "<group>"; };
 		09DEA10519EA9C2100F9EB93 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		09DEA10619EA9C2100F9EB93 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		09DEA10719EA9C2100F9EB93 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
@@ -223,6 +231,7 @@
 		09D96C8C19EA9DD0000D15AA /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				09D96CC219EAD3BB000D15AA /* 区位价值图 */,
 				09D96C8D19EA9DE1000D15AA /* 导航栏 */,
 			);
 			name = "图片";
@@ -301,6 +310,17 @@
 				09D96CBF19EAC003000D15AA /* DaikuanjisuanVC.xib */,
 			);
 			name = "贷款计算";
+			sourceTree = "<group>";
+		};
+		09D96CC219EAD3BB000D15AA /* 区位价值图 */ = {
+			isa = PBXGroup;
+			children = (
+				09D96CC719EAD821000D15AA /* meizhi_biaoqian.png */,
+				09D96CC319EAD3DD000D15AA /* quweijiazhi_back.png */,
+				09D96CC919EADCA8000D15AA /* 弹出窗背景图.png */,
+				09D96CCB19EADEB8000D15AA /* 弹出框图片.png */,
+			);
+			name = "区位价值图";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -384,16 +404,20 @@
 				09D72A8819EA86630058D54C /* piantou.mp4 in Resources */,
 				09DEA10919EA9C2100F9EB93 /* HomeVC.xib in Resources */,
 				09D96CA519EAB99C000D15AA /* daohang_icon_daikuanjisuan.png in Resources */,
+				09D96CCA19EADCA8000D15AA /* 弹出窗背景图.png in Resources */,
 				09D96CA619EAB99C000D15AA /* daohang_icon_huxingjianshang.png in Resources */,
 				09D96CB719EABFD5000D15AA /* HuxingjianshangVC.xib in Resources */,
 				09D96CBC19EABFF1000D15AA /* KanfangVC.xib in Resources */,
+				09D96CCC19EADEB8000D15AA /* 弹出框图片.png in Resources */,
 				09D96C8F19EA9DF6000D15AA /* daohang_back.png in Resources */,
 				09D96CC119EAC003000D15AA /* DaikuanjisuanVC.xib in Resources */,
 				09D96CAF19EABF96000D15AA /* ZhanshishejiVC.xib in Resources */,
+				09D96CC419EAD3DD000D15AA /* quweijiazhi_back.png in Resources */,
 				09D72A6819EA832B0058D54C /* Images.xcassets in Resources */,
 				09D96C9A19EAA12D000D15AA /* QuweijiazhiVC.xib in Resources */,
 				09D96CA919EABB4E000D15AA /* daohang_icon_logo.png in Resources */,
 				09D72A5A19EA832B0058D54C /* InfoPlist.strings in Resources */,
+				09D96CC819EAD821000D15AA /* meizhi_biaoqian.png in Resources */,
 				09D96CA719EAB99C000D15AA /* daohang_icon_zanshisheji.png in Resources */,
 				09D96C9F19EAA141000D15AA /* XiangmushejiVC.xib in Resources */,
 				09D96C9219EA9E86000D15AA /* daohang_icon_quweijiazhi.png in Resources */,

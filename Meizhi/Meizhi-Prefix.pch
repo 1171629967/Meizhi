@@ -13,4 +13,10 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+
+
+//消息通知固定字符串
+#define Notification_DownTabBarView @"Notification_DownTabBarView"
+
+
 #endif

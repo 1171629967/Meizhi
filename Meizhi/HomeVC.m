@@ -79,6 +79,7 @@
 
 - (void)initViews
 {
+    self.bt_logo.tag = 0;
     self.bt_quweijiazhi.tag = 1;
     self.bt_xiangmusheji.tag = 2;
     self.bt_zanshisheji.tag = 3;
@@ -96,6 +97,9 @@
     //默认加载区位价值模块
     [self.myBackView addSubview:quweijiazhiVC.view];
     currentTag = 1;
+    
+    //注册收起底部导航栏的通知
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(downTabBarView) name:Notification_DownTabBarView object:nil];
 }
 
 
@@ -104,6 +108,9 @@
     UIButton *bt = (UIButton *)sender;
     int tag = (int)bt.tag;
     switch (tag) {
+        case 0:
+            [self downOrUp];
+            break;
         case 1:
             if (currentTag != 1) {
                 [self removeAllviewsOnMyBackView];
@@ -143,7 +150,10 @@
         default:
             break;
     }
-    currentTag = tag;
+    if (tag != 0) {
+        currentTag = tag;
+    }
+    
 }
 
 
@@ -154,4 +164,49 @@
         [view removeFromSuperview];
     }
 }
+
+
+
+//控制条上下移动
+- (void)downOrUp{
+    NSInteger downOrUpDistance;
+    if (isDown) {
+        downOrUpDistance = -75;
+//        [(UIButton *)[self viewWithTag:wuzhishanTag] setUserInteractionEnabled:YES];
+//        [(UIButton *)[self viewWithTag:yulingongguangTag] setUserInteractionEnabled:YES];
+//        [(UIButton *)[self viewWithTag:fastRoadTag] setUserInteractionEnabled:YES];
+//        [(UIButton *)[self viewWithTag:jishuSupportTag] setUserInteractionEnabled:YES];
+//        [(UIButton *)[self viewWithTag:kehuInfoTag] setUserInteractionEnabled:YES];
+//        [(UIButton *)[self viewWithTag:voiceBtnTag] setUserInteractionEnabled:YES];
+    }else {
+        downOrUpDistance = 75;
+//        [(UIButton *)[self viewWithTag:wuzhishanTag] setUserInteractionEnabled:NO];
+//        [(UIButton *)[self viewWithTag:yulingongguangTag] setUserInteractionEnabled:NO];
+//        [(UIButton *)[self viewWithTag:fastRoadTag] setUserInteractionEnabled:NO];
+//        [(UIButton *)[self viewWithTag:jishuSupportTag] setUserInteractionEnabled:NO];
+//        [(UIButton *)[self viewWithTag:kehuInfoTag] setUserInteractionEnabled:NO];
+//        [(UIButton *)[self viewWithTag:voiceBtnTag] setUserInteractionEnabled:NO];
+    }
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:.3f];
+    self.tabBarView.frame = CGRectMake(0, self.tabBarView.frame.origin.y+downOrUpDistance, 1024, 118);
+    [UIView commitAnimations];
+    isDown = !isDown;
+    //[self btnTouched:nil];
+}
+
+- (void)downTabBarView
+{
+    if (!isDown) {
+        [UIView beginAnimations:nil context:nil];
+        [UIView setAnimationDuration:.3f];
+        self.tabBarView.frame = CGRectMake(0, self.tabBarView.frame.origin.y+75, 1024, 118);
+        [UIView commitAnimations];
+        isDown = !isDown;
+    }
+    
+}
+
+
+
 @end

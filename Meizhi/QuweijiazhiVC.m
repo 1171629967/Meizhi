@@ -7,6 +7,7 @@
 //
 
 #import "QuweijiazhiVC.h"
+#import "FTTool.h"
 
 @interface QuweijiazhiVC ()
 
@@ -82,6 +83,8 @@
         default:
             break;
     }
+    
     self.v_tanchukuang.hidden = NO;
+    [FTTool alertView:self.v_tanchukuang];
 }
 @end

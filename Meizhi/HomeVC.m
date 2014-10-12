@@ -7,7 +7,7 @@
 //
 
 #import "HomeVC.h"
-#import "ZTView.h"
+#import "CustSkyBoxView.h"
 
 
 @interface HomeVC ()
@@ -127,8 +127,8 @@
         case 3:
             if (currentTag != 3) {
                 [self removeAllviewsOnMyBackView];
-                ZTView *ztView = [[ZTView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
-                
+                //ZTView *ztView = [[ZTView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+                CustSkyBoxView *ztView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:@"中庭"];
                 [self.myBackView addSubview:ztView];
             }
             break;

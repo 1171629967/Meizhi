@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0917F76519EB313F00A7655B /* FTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0917F76419EB313F00A7655B /* FTTool.m */; };
+		0917F76819EB35F600A7655B /* kefang_icon_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76719EB35F600A7655B /* kefang_icon_1.png */; };
+		0917F76A19EB364F00A7655B /* kanfang_icon_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76919EB364F00A7655B /* kanfang_icon_2.png */; };
+		0917F77219EB375A00A7655B /* KT_o_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76C19EB375A00A7655B /* KT_o_0.jpg */; };
+		0917F77319EB375A00A7655B /* KT_o_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76D19EB375A00A7655B /* KT_o_1.jpg */; };
+		0917F77419EB375A00A7655B /* KT_o_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76E19EB375A00A7655B /* KT_o_2.jpg */; };
+		0917F77519EB375A00A7655B /* KT_o_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76F19EB375A00A7655B /* KT_o_3.jpg */; };
+		0917F77619EB375A00A7655B /* KT_o_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77019EB375A00A7655B /* KT_o_4.jpg */; };
+		0917F77719EB375A00A7655B /* KT_o_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77119EB375A00A7655B /* KT_o_5.jpg */; };
 		09D72A5019EA832B0058D54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A4F19EA832B0058D54C /* Foundation.framework */; };
 		09D72A5219EA832B0058D54C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5119EA832B0058D54C /* CoreGraphics.framework */; };
 		09D72A5419EA832B0058D54C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5319EA832B0058D54C /* UIKit.framework */; };
@@ -125,7 +134,7 @@
 		09D96EFE19EB072F000D15AA /* PLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96ED519EB072F000D15AA /* PLView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		09D96EFF19EB072F000D15AA /* PLViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96ED719EB072F000D15AA /* PLViewBase.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		09D96F0019EB072F000D15AA /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09D96EDA19EB072F000D15AA /* README.txt */; };
-		09D96F2919EB1120000D15AA /* ZTView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96F2819EB1120000D15AA /* ZTView.m */; };
+		09D96F2919EB1120000D15AA /* CustSkyBoxView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96F2819EB1120000D15AA /* CustSkyBoxView.m */; };
 		09D96F2D19EB11A0000D15AA /* FTDoorBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96F2C19EB11A0000D15AA /* FTDoorBaseView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		09D96F4019EB14BA000D15AA /* ZT_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09D96F3A19EB14BA000D15AA /* ZT_0.jpg */; };
 		09D96F4119EB14BA000D15AA /* ZT_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09D96F3B19EB14BA000D15AA /* ZT_1.jpg */; };
@@ -148,6 +157,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0917F76319EB313F00A7655B /* FTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTool.h; sourceTree = "<group>"; };
+		0917F76419EB313F00A7655B /* FTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTool.m; sourceTree = "<group>"; };
+		0917F76719EB35F600A7655B /* kefang_icon_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kefang_icon_1.png; sourceTree = "<group>"; };
+		0917F76919EB364F00A7655B /* kanfang_icon_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanfang_icon_2.png; sourceTree = "<group>"; };
+		0917F76C19EB375A00A7655B /* KT_o_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_0.jpg; sourceTree = "<group>"; };
+		0917F76D19EB375A00A7655B /* KT_o_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_1.jpg; sourceTree = "<group>"; };
+		0917F76E19EB375A00A7655B /* KT_o_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_2.jpg; sourceTree = "<group>"; };
+		0917F76F19EB375A00A7655B /* KT_o_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_3.jpg; sourceTree = "<group>"; };
+		0917F77019EB375A00A7655B /* KT_o_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_4.jpg; sourceTree = "<group>"; };
+		0917F77119EB375A00A7655B /* KT_o_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_5.jpg; sourceTree = "<group>"; };
 		09D72A4C19EA832B0058D54C /* Meizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D72A4F19EA832B0058D54C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09D72A5119EA832B0058D54C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -338,8 +357,8 @@
 		09D96ED819EB072F000D15AA /* PLViewBaseProtected.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLViewBaseProtected.h; sourceTree = "<group>"; };
 		09D96ED919EB072F000D15AA /* PLViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLViewDelegate.h; sourceTree = "<group>"; };
 		09D96EDA19EB072F000D15AA /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		09D96F2719EB1120000D15AA /* ZTView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZTView.h; sourceTree = "<group>"; };
-		09D96F2819EB1120000D15AA /* ZTView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZTView.m; sourceTree = "<group>"; };
+		09D96F2719EB1120000D15AA /* CustSkyBoxView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustSkyBoxView.h; sourceTree = "<group>"; };
+		09D96F2819EB1120000D15AA /* CustSkyBoxView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustSkyBoxView.m; sourceTree = "<group>"; };
 		09D96F2B19EB11A0000D15AA /* FTDoorBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTDoorBaseView.h; sourceTree = "<group>"; };
 		09D96F2C19EB11A0000D15AA /* FTDoorBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTDoorBaseView.m; sourceTree = "<group>"; };
 		09D96F3A19EB14BA000D15AA /* ZT_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ZT_0.jpg; sourceTree = "<group>"; };
@@ -378,6 +397,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0917F76619EB35E200A7655B /* 看房icon */ = {
+			isa = PBXGroup;
+			children = (
+				0917F76719EB35F600A7655B /* kefang_icon_1.png */,
+				0917F76919EB364F00A7655B /* kanfang_icon_2.png */,
+			);
+			name = "看房icon";
+			sourceTree = "<group>";
+		};
+		0917F76B19EB374900A7655B /* 客厅skybox */ = {
+			isa = PBXGroup;
+			children = (
+				0917F76C19EB375A00A7655B /* KT_o_0.jpg */,
+				0917F76D19EB375A00A7655B /* KT_o_1.jpg */,
+				0917F76E19EB375A00A7655B /* KT_o_2.jpg */,
+				0917F76F19EB375A00A7655B /* KT_o_3.jpg */,
+				0917F77019EB375A00A7655B /* KT_o_4.jpg */,
+				0917F77119EB375A00A7655B /* KT_o_5.jpg */,
+			);
+			name = "客厅skybox";
+			sourceTree = "<group>";
+		};
 		09D72A4319EA832B0058D54C = {
 			isa = PBXGroup;
 			children = (
@@ -428,6 +469,10 @@
 				09DEA10519EA9C2100F9EB93 /* HomeVC.h */,
 				09DEA10619EA9C2100F9EB93 /* HomeVC.m */,
 				09DEA10719EA9C2100F9EB93 /* HomeVC.xib */,
+				0917F76319EB313F00A7655B /* FTTool.h */,
+				0917F76419EB313F00A7655B /* FTTool.m */,
+				09D96F2719EB1120000D15AA /* CustSkyBoxView.h */,
+				09D96F2819EB1120000D15AA /* CustSkyBoxView.m */,
 				09D72A6719EA832B0058D54C /* Images.xcassets */,
 				09D72A5619EA832B0058D54C /* Supporting Files */,
 			);
@@ -474,6 +519,8 @@
 		09D96C8C19EA9DD0000D15AA /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				0917F76B19EB374900A7655B /* 客厅skybox */,
+				0917F76619EB35E200A7655B /* 看房icon */,
 				09D96F0E19EB0C97000D15AA /* 中庭skybox */,
 				09D96CD219EAEB85000D15AA /* 项目360鸟瞰 */,
 				09D96CC219EAD3BB000D15AA /* 区位价值图 */,
@@ -513,8 +560,6 @@
 				09D96C9B19EAA141000D15AA /* XiangmushejiVC.h */,
 				09D96C9C19EAA141000D15AA /* XiangmushejiVC.m */,
 				09D96C9D19EAA141000D15AA /* XiangmushejiVC.xib */,
-				09D96F2719EB1120000D15AA /* ZTView.h */,
-				09D96F2819EB1120000D15AA /* ZTView.m */,
 			);
 			name = "项目设计";
 			sourceTree = "<group>";
@@ -849,6 +894,7 @@
 				09D96F0019EB072F000D15AA /* README.txt in Resources */,
 				09D96EDB19EB072F000D15AA /* CHANGES.txt in Resources */,
 				09D96D2419EAEB9B000D15AA /* c11_0039.jpg in Resources */,
+				0917F77619EB375A00A7655B /* KT_o_4.jpg in Resources */,
 				09DEA10919EA9C2100F9EB93 /* HomeVC.xib in Resources */,
 				09D96D2519EAEB9B000D15AA /* c11_0040.jpg in Resources */,
 				09D96D1819EAEB9B000D15AA /* c11_0027.jpg in Resources */,
@@ -868,7 +914,9 @@
 				09D96CB719EABFD5000D15AA /* HuxingjianshangVC.xib in Resources */,
 				09D96CBC19EABFF1000D15AA /* KanfangVC.xib in Resources */,
 				09D96CFE19EAEB9B000D15AA /* c11_001.jpg in Resources */,
+				0917F77719EB375A00A7655B /* KT_o_5.jpg in Resources */,
 				09D96D1319EAEB9B000D15AA /* c11_0022.jpg in Resources */,
+				0917F77219EB375A00A7655B /* KT_o_0.jpg in Resources */,
 				09D96CCC19EADEB8000D15AA /* 弹出框图片.png in Resources */,
 				09D96C8F19EA9DF6000D15AA /* daohang_back.png in Resources */,
 				09D96CC119EAC003000D15AA /* DaikuanjisuanVC.xib in Resources */,
@@ -879,6 +927,7 @@
 				09D96D1D19EAEB9B000D15AA /* c11_0032.jpg in Resources */,
 				09D96D0B19EAEB9B000D15AA /* c11_0014.jpg in Resources */,
 				09D96CAF19EABF96000D15AA /* ZhanshishejiVC.xib in Resources */,
+				0917F77519EB375A00A7655B /* KT_o_3.jpg in Resources */,
 				09D96D2219EAEB9B000D15AA /* c11_0037.jpg in Resources */,
 				09D96D0219EAEB9B000D15AA /* c11_005.jpg in Resources */,
 				09D96D1A19EAEB9B000D15AA /* c11_0029.jpg in Resources */,
@@ -898,15 +947,19 @@
 				09D96D1519EAEB9B000D15AA /* c11_0024.jpg in Resources */,
 				09D72A5A19EA832B0058D54C /* InfoPlist.strings in Resources */,
 				09D96CC819EAD821000D15AA /* meizhi_biaoqian.png in Resources */,
+				0917F77319EB375A00A7655B /* KT_o_1.jpg in Resources */,
 				09D96D0319EAEB9B000D15AA /* c11_006.jpg in Resources */,
 				09D96F4219EB14BA000D15AA /* ZT_2.jpg in Resources */,
 				09D96D1419EAEB9B000D15AA /* c11_0023.jpg in Resources */,
 				09D96D1619EAEB9B000D15AA /* c11_0025.jpg in Resources */,
 				09D96D0919EAEB9B000D15AA /* c11_0012.jpg in Resources */,
 				09D96D1119EAEB9B000D15AA /* c11_0020.jpg in Resources */,
+				0917F76819EB35F600A7655B /* kefang_icon_1.png in Resources */,
+				0917F76A19EB364F00A7655B /* kanfang_icon_2.png in Resources */,
 				09D96D1B19EAEB9B000D15AA /* c11_0030.jpg in Resources */,
 				09D96D0519EAEB9B000D15AA /* c11_008.jpg in Resources */,
 				09D96D1719EAEB9B000D15AA /* c11_0026.jpg in Resources */,
+				0917F77419EB375A00A7655B /* KT_o_2.jpg in Resources */,
 				09D96D1219EAEB9B000D15AA /* c11_0021.jpg in Resources */,
 				09D96CA719EAB99C000D15AA /* daohang_icon_zanshisheji.png in Resources */,
 				09D96C9F19EAA141000D15AA /* XiangmushejiVC.xib in Resources */,
@@ -949,6 +1002,7 @@
 				09D96EF219EB072F000D15AA /* PLScene.m in Sources */,
 				09D96EFF19EB072F000D15AA /* PLViewBase.m in Sources */,
 				09D96EF019EB072F000D15AA /* PLRenderableElementBase.m in Sources */,
+				0917F76519EB313F00A7655B /* FTTool.m in Sources */,
 				09D96EFE19EB072F000D15AA /* PLView.m in Sources */,
 				09D96EDE19EB072F000D15AA /* glues_project.c in Sources */,
 				09D96EFC19EB072F000D15AA /* PLUtils.m in Sources */,
@@ -960,7 +1014,7 @@
 				09D96C9E19EAA141000D15AA /* XiangmushejiVC.m in Sources */,
 				09D96EEC19EB072F000D15AA /* PLObject.m in Sources */,
 				09D96CC019EAC003000D15AA /* DaikuanjisuanVC.m in Sources */,
-				09D96F2919EB1120000D15AA /* ZTView.m in Sources */,
+				09D96F2919EB1120000D15AA /* CustSkyBoxView.m in Sources */,
 				09D96EE519EB072F000D15AA /* PLCylindricalPanorama.m in Sources */,
 				09D72A5C19EA832B0058D54C /* main.m in Sources */,
 				09D96EDD19EB072F000D15AA /* glues_mipmap.c in Sources */,

@@ -10,9 +10,11 @@
 #import "FTDoorBaseView.h"
 #import "PLView.h"
 
-@interface ZTView : FTDoorBaseView
+@interface CustSkyBoxView : FTDoorBaseView
 {
     PLView *plView;
 }
+
+- (id)initWithFrame:(CGRect)frame andType:(NSString *)type;
 
 @end

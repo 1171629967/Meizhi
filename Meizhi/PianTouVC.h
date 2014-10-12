@@ -12,6 +12,9 @@
 @interface PianTouVC : UIViewController
 {
     MPMoviePlayerController *theMovie;
+    
+    
+    
 }
 
 @end

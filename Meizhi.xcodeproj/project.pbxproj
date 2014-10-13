@@ -971,17 +971,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-<<<<<<< Updated upstream
+
 				0926526419EC810D00E057E7 /* sidebar_ciwoshi.png in Resources */,
 				09D96EE219EB072F000D15AA /* LICENSE.txt in Resources */,
 				0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */,
 				0926525919EC7D0300E057E7 /* kanfang_bg.jpg in Resources */,
-=======
-				1A9B855419EC1C080082E0EC /* jsqbackView.jpg in Resources */,
-				09D96EE219EB072F000D15AA /* LICENSE.txt in Resources */,
-				0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */,
-				1A9B855519EC1C080082E0EC /* radioBtn1.png in Resources */,
->>>>>>> Stashed changes
+
 				09D96D0019EAEB9B000D15AA /* c11_003.jpg in Resources */,
 				09D96F4019EB14BA000D15AA /* ZT_0.jpg in Resources */,
 				09D96C9319EA9E86000D15AA /* daohang_icon_xiamgmusheji.png in Resources */,

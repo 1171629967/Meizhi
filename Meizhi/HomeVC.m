@@ -127,9 +127,7 @@
         case 3:
             if (currentTag != 3) {
                 [self removeAllviewsOnMyBackView];
-                //ZTView *ztView = [[ZTView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
-                CustSkyBoxView *ztView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:@"中庭"];
-                [self.myBackView addSubview:ztView];
+                [self.myBackView addSubview:zhanshishejiVC.view];
             }
             break;
         case 4:

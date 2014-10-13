@@ -73,6 +73,15 @@
     self.latelocal =_curlocal;
     self.image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@%d.jpg",_path360,preName,_curCount]];
     
+    
+    //当旋转到前10帧的时候，显示特定按钮，进入中庭
+    if (_curCount < 2) {
+        [self.ztDelegate isShowButton:YES];
+    }
+    else
+    {
+        [self.ztDelegate isShowButton:NO];
+    }
 }
 
 -(void)touchesEnded:(NSSet *)touches withEvent:(UIEvent *)event{

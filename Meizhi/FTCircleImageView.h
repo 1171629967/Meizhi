@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 #import "FTRoundEndProtal.h"
+
+@protocol ZTProtal <NSObject>
+-(void)isShowButton:(BOOL)isShow;
+@end
+
+
 @interface FTCircleImageView : UIImageView
 {
     NSInteger _count;   //图片总数
@@ -19,7 +25,11 @@
     BOOL _isRound;      //是否是circle替换
     NSString *preName;
     id<FTRoundEndProtal> delegate;
+    
+    
 }
+
+@property (nonatomic,assign) id<ZTProtal> ztDelegate;
 @property (nonatomic,assign) CGPoint curlocal;
 @property (nonatomic,assign) CGPoint latelocal;
 @property (nonatomic,assign) NSInteger count;

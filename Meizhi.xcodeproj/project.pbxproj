@@ -16,6 +16,8 @@
 		0917F77519EB375A00A7655B /* KT_o_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76F19EB375A00A7655B /* KT_o_3.jpg */; };
 		0917F77619EB375A00A7655B /* KT_o_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77019EB375A00A7655B /* KT_o_4.jpg */; };
 		0917F77719EB375A00A7655B /* KT_o_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77119EB375A00A7655B /* KT_o_5.jpg */; };
+		0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926525419EC691500E057E7 /* 内庭景观按钮.png */; };
+		0926525719EC6DE200E057E7 /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926525619EC6DE200E057E7 /* 返回按钮.png */; };
 		09D72A5019EA832B0058D54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A4F19EA832B0058D54C /* Foundation.framework */; };
 		09D72A5219EA832B0058D54C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5119EA832B0058D54C /* CoreGraphics.framework */; };
 		09D72A5419EA832B0058D54C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5319EA832B0058D54C /* UIKit.framework */; };
@@ -167,6 +169,8 @@
 		0917F76F19EB375A00A7655B /* KT_o_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_3.jpg; sourceTree = "<group>"; };
 		0917F77019EB375A00A7655B /* KT_o_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_4.jpg; sourceTree = "<group>"; };
 		0917F77119EB375A00A7655B /* KT_o_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_5.jpg; sourceTree = "<group>"; };
+		0926525419EC691500E057E7 /* 内庭景观按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内庭景观按钮.png"; sourceTree = "<group>"; };
+		0926525619EC6DE200E057E7 /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮.png"; sourceTree = "<group>"; };
 		09D72A4C19EA832B0058D54C /* Meizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D72A4F19EA832B0058D54C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09D72A5119EA832B0058D54C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -419,6 +423,15 @@
 			name = "客厅skybox";
 			sourceTree = "<group>";
 		};
+		0926525319EC68FF00E057E7 /* 项目设计图 */ = {
+			isa = PBXGroup;
+			children = (
+				0926525419EC691500E057E7 /* 内庭景观按钮.png */,
+				0926525619EC6DE200E057E7 /* 返回按钮.png */,
+			);
+			name = "项目设计图";
+			sourceTree = "<group>";
+		};
 		09D72A4319EA832B0058D54C = {
 			isa = PBXGroup;
 			children = (
@@ -519,6 +532,7 @@
 		09D96C8C19EA9DD0000D15AA /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				0926525319EC68FF00E057E7 /* 项目设计图 */,
 				0917F76B19EB374900A7655B /* 客厅skybox */,
 				0917F76619EB35E200A7655B /* 看房icon */,
 				09D96F0E19EB0C97000D15AA /* 中庭skybox */,
@@ -886,6 +900,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D96EE219EB072F000D15AA /* LICENSE.txt in Resources */,
+				0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */,
 				09D96D0019EAEB9B000D15AA /* c11_003.jpg in Resources */,
 				09D96F4019EB14BA000D15AA /* ZT_0.jpg in Resources */,
 				09D96C9319EA9E86000D15AA /* daohang_icon_xiamgmusheji.png in Resources */,
@@ -938,6 +953,7 @@
 				09D96D0A19EAEB9B000D15AA /* c11_0013.jpg in Resources */,
 				09D96D2019EAEB9B000D15AA /* c11_0035.jpg in Resources */,
 				09D96D0F19EAEB9B000D15AA /* c11_0018.jpg in Resources */,
+				0926525719EC6DE200E057E7 /* 返回按钮.png in Resources */,
 				09D96D0D19EAEB9B000D15AA /* c11_0016.jpg in Resources */,
 				09D72A6819EA832B0058D54C /* Images.xcassets in Resources */,
 				09D96D1019EAEB9B000D15AA /* c11_0019.jpg in Resources */,

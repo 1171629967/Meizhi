@@ -105,11 +105,11 @@
     dbbxbtn.frame = CGRectMake(176, 582, 30, 30);
     [self addSubview:dbbxbtn];
     
-    UIButton *fanhui = [UIButton buttonWithType:UIButtonTypeCustom];
-    [fanhui setImage:[UIImage imageNamed:@"jisuanqibtn1.png"] forState:UIControlStateNormal];
-    [fanhui addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
-    fanhui.frame = CGRectMake(853, 43, 76, 41);
-    [self addSubview:fanhui];
+//    UIButton *fanhui = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [fanhui setImage:[UIImage imageNamed:@"jisuanqibtn1.png"] forState:UIControlStateNormal];
+//    [fanhui addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+//    fanhui.frame = CGRectMake(853, 43, 76, 41);
+//    [self addSubview:fanhui];
 
 }
 

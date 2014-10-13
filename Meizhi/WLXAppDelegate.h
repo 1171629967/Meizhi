@@ -12,4 +12,5 @@
 
 @property (strong, nonatomic) UIWindow *window;
 //syj的注释
+//吊袜的注释
 @end

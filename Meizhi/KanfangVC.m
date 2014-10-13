@@ -28,19 +28,15 @@
 {
     [super viewDidLoad];
     
-    CustSkyBoxView *ztView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:@"客厅"];
-    [self.view addSubview:ztView];
+    [self initViews];
+    
+//    CustSkyBoxView *ztView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:@"客厅"];
+//    [self.view addSubview:ztView];
     
     
-    //初始化一个底部的scrollview加入视图
-    sv = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 548, 1024, 120)];
-    [sv setTag:100];
-    sv.scrollEnabled = YES;
-    sv.backgroundColor = [UIColor colorWithRed:0 green:0 blue:0 alpha:0.5];
-    [self.view addSubview:sv];
+   
     
-    //在滚动视图中加入所有图标icon控件
-    [self addScrollIcon];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -49,69 +45,87 @@
     // Dispose of any resources that can be recreated.
 }
 
-
-
-//给滚动栏添加图标
-- (void)addScrollIcon
+-(void)initViews
 {
-    NSString *formatStr = @"kanfang_icon_%d.png";
+    currentTag = 1;
     
-   
-    for (int i = 0; i < 7; i++) {
-        UIImageView *iv = [[UIImageView alloc] initWithFrame:CGRectMake(i*200+10*(i+1), 10, 200, 100)];
-        [iv setTag:i+1];
-        UIImage *image = [UIImage imageNamed:[NSString stringWithFormat:formatStr,i+1]];
-        [iv setImage:image];
-        [sv addSubview:iv];
-        
-        //给背景layer加白色
-        iv.layer.borderColor = [UIColor whiteColor].CGColor;
-        
-        iv.userInteractionEnabled=YES;
-        UITapGestureRecognizer *singleTap =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(iconClick:)];
-        [iv addGestureRecognizer:singleTap];
-    }
-    //设置scrollview可滚动范围
-    [sv setContentSize:CGSizeMake(200*7+10*(7+1), 120)];
+    self.bt_menuCloseOrOpen.tag = 0;
+    self.bt_menu_pingming.tag = 1;
+    self.bt_menu_kecanting.tag = 2;
+    self.bt_menu_zhuwoshi.tag = 3;
+    self.bt_menu_ciwoshi.tag = 4;
+    self.bt_menu_weishengjian.tag = 5;
+    self.bt_menu_chufang.tag = 6;
+    self.bt_menu_shufang.tag = 7;
 }
 
-- (void)iconClick:(id)sender
-{    
-    UITapGestureRecognizer *singleTap = (UITapGestureRecognizer *)sender;
-    int tag = (int)[singleTap view].tag;
 
-    //事先把所有底边边距恢复为0
-    for (UIImageView *iv in [sv subviews]) {
-        iv.layer.borderWidth = 0;
+//控制条上下移动
+- (void)leftOrRight{
+    NSInteger leftOrRightDistance;
+    if (isRight) {
+        leftOrRightDistance = -202;
+        self.iv_return.hidden = YES;
+    }else {
+        leftOrRightDistance = 202;
+        self.iv_return.hidden = NO;
     }
-    //设置选中的那个边距为4
-    [singleTap view].layer.borderWidth = 4;
-    
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:.3f];
+    self.v_menu.frame = CGRectMake(self.v_menu.frame.origin.x+leftOrRightDistance, 170, 260, 428);
+    [UIView commitAnimations];
+    isRight = !isRight;
+}
+
+
+
+- (IBAction)menuClick:(id)sender
+{
+    UIButton *bt = (UIButton *)sender;
+    int tag = (int)bt.tag;
     switch (tag) {
-        case 1:
-            
+        case 0:
+            [self leftOrRight];
             break;
-        case 2:
             
-            break;
-        case 3:
-            
-            break;
-        case 4:
-            
-            break;
-        case 5:
-            
-            break;
-        case 6:
-            
-            break;
-        case 7:
-            
-            break;
         default:
             break;
     }
+    if (tag != 0) {
+        currentTag = tag;
+    }
+}
+
+- (IBAction)bt_click30m:(id)sender
+{
+    currentFangType = @"30m";
+    self.bt_30m.hidden = YES;
+    self.bt_50m.hidden = YES;
+    self.v_menu.hidden = NO;
+    self.bt_back.hidden = NO;
+    
+    self.iv_back.image = [UIImage imageNamed:@"pingmiantu_30f"];
+}
+
+- (IBAction)bt_click50m:(id)sender
+{
+    currentFangType = @"50m";
+    self.bt_30m.hidden = YES;
+    self.bt_50m.hidden = YES;
+    self.v_menu.hidden = NO;
+    self.bt_back.hidden = NO;
+    
+    self.iv_back.image = [UIImage imageNamed:@"pingmiantu_50f"];
+}
+
+- (IBAction)back:(id)sender
+{
+    self.bt_30m.hidden = NO;
+    self.bt_50m.hidden = NO;
+    self.v_menu.hidden = YES;
+    self.bt_back.hidden = YES;
+    
+    self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
 }
 
 

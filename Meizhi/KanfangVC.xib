@@ -6,6 +6,20 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="KanfangVC">
             <connections>
+                <outlet property="bt_30m" destination="x3L-PU-VnJ" id="5WE-C7-bGI"/>
+                <outlet property="bt_50m" destination="HnT-FM-ecP" id="9Cy-c8-hSI"/>
+                <outlet property="bt_back" destination="hVm-gh-FFi" id="FUi-bS-jgs"/>
+                <outlet property="bt_menuCloseOrOpen" destination="2IS-hj-Yap" id="fCV-rz-wBC"/>
+                <outlet property="bt_menu_chufang" destination="Zwa-EC-TAL" id="T3l-KL-cTK"/>
+                <outlet property="bt_menu_ciwoshi" destination="Iwp-am-5ZI" id="pKm-eK-L3L"/>
+                <outlet property="bt_menu_kecanting" destination="NUJ-Ii-jGY" id="Mfo-JO-vGa"/>
+                <outlet property="bt_menu_pingming" destination="s0s-WM-6hd" id="Veq-6m-v5E"/>
+                <outlet property="bt_menu_shufang" destination="UBQ-AS-9oS" id="GQD-mc-2Ps"/>
+                <outlet property="bt_menu_weishengjian" destination="L7D-CV-rML" id="aMu-99-k4p"/>
+                <outlet property="bt_menu_zhuwoshi" destination="egw-B7-IfJ" id="ZgS-Ug-3wt"/>
+                <outlet property="iv_back" destination="GM0-lw-AB7" id="GMP-NW-7C0"/>
+                <outlet property="iv_return" destination="KEy-L4-Kl8" id="aPr-Zb-h8Z"/>
+                <outlet property="v_menu" destination="dLg-BW-TnC" id="i3p-wD-F8D"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,16 +28,153 @@
             <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
             <subviews>
-                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="360看房" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w4a-Gt-1GF">
-                    <rect key="frame" x="395" y="471" width="63" height="21"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="kanfang_bg.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GM0-lw-AB7">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3L-PU-VnJ">
+                    <rect key="frame" x="26" y="125" width="462" height="462"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                    <nil key="highlightedColor"/>
-                </label>
+                    <state key="normal" image="30m.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="bt_click30m:" destination="-1" eventType="touchUpInside" id="p0U-sy-ncJ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HnT-FM-ecP">
+                    <rect key="frame" x="528" y="125" width="462" height="462"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="50m.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="bt_click50m:" destination="-1" eventType="touchUpInside" id="IpE-Cw-AIi"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hVm-gh-FFi">
+                    <rect key="frame" x="26" y="20" width="100" height="100"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" image="sidebar_return.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="back:" destination="-1" eventType="touchUpInside" id="Ljz-kR-xhh"/>
+                    </connections>
+                </button>
+                <view hidden="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dLg-BW-TnC">
+                    <rect key="frame" x="764" y="170" width="260" height="428"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sidebar_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="DaF-Zg-iNC">
+                            <rect key="frame" x="0.0" y="0.0" width="260" height="428"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        </imageView>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="sidebar_return.png" translatesAutoresizingMaskIntoConstraints="NO" id="KEy-L4-Kl8">
+                            <rect key="frame" x="9" y="9" width="46" height="49"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2IS-hj-Yap">
+                            <rect key="frame" x="9" y="5" width="46" height="49"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="rBQ-PF-rdt"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s0s-WM-6hd">
+                            <rect key="frame" x="68" y="5" width="179" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="sidebar_pingmian.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="WPZ-4s-QLW"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NUJ-Ii-jGY">
+                            <rect key="frame" x="68" y="63" width="179" height="56"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="sidebar_kecanting.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="Pg6-bF-5S7"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egw-B7-IfJ">
+                            <rect key="frame" x="68" y="127" width="179" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="sidebar_zhuwoshi.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="dk7-AW-R8Z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iwp-am-5ZI">
+                            <rect key="frame" x="68" y="185" width="179" height="55"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="sidebar_ciwoshi.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="rab-p3-h1f"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L7D-CV-rML">
+                            <rect key="frame" x="68" y="248" width="179" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="sidebar_weishengjian.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="UVJ-xs-fI0"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zwa-EC-TAL">
+                            <rect key="frame" x="68" y="306" width="179" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="sidebar_chufang.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="Y8s-g5-ywL"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UBQ-AS-9oS">
+                            <rect key="frame" x="68" y="368" width="179" height="50"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <state key="normal" image="sidebar_shufang.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="menuClick:" destination="-1" eventType="touchUpInside" id="59S-5f-Fla"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
             <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
         </view>
     </objects>
+    <resources>
+        <image name="30m.png" width="925" height="877"/>
+        <image name="50m.png" width="925" height="877"/>
+        <image name="kanfang_bg.jpg" width="1024" height="768"/>
+        <image name="sidebar_bg.png" width="453" height="716"/>
+        <image name="sidebar_chufang.png" width="350" height="100"/>
+        <image name="sidebar_ciwoshi.png" width="350" height="100"/>
+        <image name="sidebar_kecanting.png" width="350" height="100"/>
+        <image name="sidebar_pingmian.png" width="350" height="100"/>
+        <image name="sidebar_return.png" width="100" height="100"/>
+        <image name="sidebar_shufang.png" width="350" height="100"/>
+        <image name="sidebar_weishengjian.png" width="350" height="100"/>
+        <image name="sidebar_zhuwoshi.png" width="350" height="100"/>
+    </resources>
 </document>

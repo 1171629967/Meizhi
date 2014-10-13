@@ -158,6 +158,14 @@
 		09D96F4519EB14BA000D15AA /* ZT_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09D96F3F19EB14BA000D15AA /* ZT_5.jpg */; };
 		09DEA10819EA9C2100F9EB93 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEA10619EA9C2100F9EB93 /* HomeVC.m */; };
 		09DEA10919EA9C2100F9EB93 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DEA10719EA9C2100F9EB93 /* HomeVC.xib */; };
+		1A9B854719EC1A8B0082E0EC /* FThdjsq.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B854419EC1A8B0082E0EC /* FThdjsq.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1A9B854819EC1A8B0082E0EC /* FTjsqView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A9B854619EC1A8B0082E0EC /* FTjsqView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		1A9B854D19EC1BFF0082E0EC /* jisuanqibtn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9B854A19EC1BFF0082E0EC /* jisuanqibtn1.png */; };
+		1A9B854E19EC1BFF0082E0EC /* jisuanqibtn3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9B854B19EC1BFF0082E0EC /* jisuanqibtn3.png */; };
+		1A9B854F19EC1BFF0082E0EC /* jisuanqibtn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9B854C19EC1BFF0082E0EC /* jisuanqibtn2.png */; };
+		1A9B855319EC1C080082E0EC /* radioBtn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9B855019EC1C080082E0EC /* radioBtn2.png */; };
+		1A9B855419EC1C080082E0EC /* jsqbackView.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A9B855119EC1C080082E0EC /* jsqbackView.jpg */; };
+		1A9B855519EC1C080082E0EC /* radioBtn1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A9B855219EC1C080082E0EC /* radioBtn1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -398,6 +406,16 @@
 		09DEA10519EA9C2100F9EB93 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		09DEA10619EA9C2100F9EB93 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		09DEA10719EA9C2100F9EB93 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
+		1A9B854319EC1A8B0082E0EC /* FThdjsq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FThdjsq.h; sourceTree = "<group>"; };
+		1A9B854419EC1A8B0082E0EC /* FThdjsq.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FThdjsq.m; sourceTree = "<group>"; };
+		1A9B854519EC1A8B0082E0EC /* FTjsqView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTjsqView.h; sourceTree = "<group>"; };
+		1A9B854619EC1A8B0082E0EC /* FTjsqView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTjsqView.m; sourceTree = "<group>"; };
+		1A9B854A19EC1BFF0082E0EC /* jisuanqibtn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jisuanqibtn1.png; sourceTree = "<group>"; };
+		1A9B854B19EC1BFF0082E0EC /* jisuanqibtn3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jisuanqibtn3.png; sourceTree = "<group>"; };
+		1A9B854C19EC1BFF0082E0EC /* jisuanqibtn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jisuanqibtn2.png; sourceTree = "<group>"; };
+		1A9B855019EC1C080082E0EC /* radioBtn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioBtn2.png; sourceTree = "<group>"; };
+		1A9B855119EC1C080082E0EC /* jsqbackView.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = jsqbackView.jpg; sourceTree = "<group>"; };
+		1A9B855219EC1C080082E0EC /* radioBtn1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = radioBtn1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -568,6 +586,7 @@
 		09D96C8C19EA9DD0000D15AA /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				1A9B854919EC1BCE0082E0EC /* 房贷计算器 */,
 				0926525319EC68FF00E057E7 /* 项目设计图 */,
 				0917F76B19EB374900A7655B /* 客厅skybox */,
 				0917F76619EB35E200A7655B /* 看房 */,
@@ -647,6 +666,10 @@
 		09D96CB219EABFBE000D15AA /* 贷款计算 */ = {
 			isa = PBXGroup;
 			children = (
+				1A9B854319EC1A8B0082E0EC /* FThdjsq.h */,
+				1A9B854419EC1A8B0082E0EC /* FThdjsq.m */,
+				1A9B854519EC1A8B0082E0EC /* FTjsqView.h */,
+				1A9B854619EC1A8B0082E0EC /* FTjsqView.m */,
 				09D96CBD19EAC003000D15AA /* DaikuanjisuanVC.h */,
 				09D96CBE19EAC003000D15AA /* DaikuanjisuanVC.m */,
 				09D96CBF19EAC003000D15AA /* DaikuanjisuanVC.xib */,
@@ -858,6 +881,19 @@
 			name = DoorViews;
 			sourceTree = "<group>";
 		};
+		1A9B854919EC1BCE0082E0EC /* 房贷计算器 */ = {
+			isa = PBXGroup;
+			children = (
+				1A9B855019EC1C080082E0EC /* radioBtn2.png */,
+				1A9B855119EC1C080082E0EC /* jsqbackView.jpg */,
+				1A9B855219EC1C080082E0EC /* radioBtn1.png */,
+				1A9B854A19EC1BFF0082E0EC /* jisuanqibtn1.png */,
+				1A9B854B19EC1BFF0082E0EC /* jisuanqibtn3.png */,
+				1A9B854C19EC1BFF0082E0EC /* jisuanqibtn2.png */,
+			);
+			name = "房贷计算器";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -935,10 +971,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< Updated upstream
 				0926526419EC810D00E057E7 /* sidebar_ciwoshi.png in Resources */,
 				09D96EE219EB072F000D15AA /* LICENSE.txt in Resources */,
 				0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */,
 				0926525919EC7D0300E057E7 /* kanfang_bg.jpg in Resources */,
+=======
+				1A9B855419EC1C080082E0EC /* jsqbackView.jpg in Resources */,
+				09D96EE219EB072F000D15AA /* LICENSE.txt in Resources */,
+				0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */,
+				1A9B855519EC1C080082E0EC /* radioBtn1.png in Resources */,
+>>>>>>> Stashed changes
 				09D96D0019EAEB9B000D15AA /* c11_003.jpg in Resources */,
 				09D96F4019EB14BA000D15AA /* ZT_0.jpg in Resources */,
 				09D96C9319EA9E86000D15AA /* daohang_icon_xiamgmusheji.png in Resources */,
@@ -963,6 +1006,7 @@
 				09D96CA619EAB99C000D15AA /* daohang_icon_huxingjianshang.png in Resources */,
 				09D96D0719EAEB9B000D15AA /* c11_0010.jpg in Resources */,
 				09D96D1E19EAEB9B000D15AA /* c11_0033.jpg in Resources */,
+				1A9B855319EC1C080082E0EC /* radioBtn2.png in Resources */,
 				09D96D0619EAEB9B000D15AA /* c11_009.jpg in Resources */,
 				09D96F4319EB14BA000D15AA /* ZT_3.jpg in Resources */,
 				09D96CB719EABFD5000D15AA /* HuxingjianshangVC.xib in Resources */,
@@ -974,6 +1018,7 @@
 				09D96CFE19EAEB9B000D15AA /* c11_001.jpg in Resources */,
 				0917F77719EB375A00A7655B /* KT_o_5.jpg in Resources */,
 				09D96D1319EAEB9B000D15AA /* c11_0022.jpg in Resources */,
+				1A9B854D19EC1BFF0082E0EC /* jisuanqibtn1.png in Resources */,
 				0917F77219EB375A00A7655B /* KT_o_0.jpg in Resources */,
 				09D96CCC19EADEB8000D15AA /* 弹出框图片.png in Resources */,
 				09D96C8F19EA9DF6000D15AA /* daohang_back.png in Resources */,
@@ -982,6 +1027,7 @@
 				0926526719EC810D00E057E7 /* sidebar_shufang.png in Resources */,
 				09D96D0419EAEB9B000D15AA /* c11_007.jpg in Resources */,
 				09D96D2319EAEB9B000D15AA /* c11_0038.jpg in Resources */,
+				1A9B854F19EC1BFF0082E0EC /* jisuanqibtn2.png in Resources */,
 				09D96CFD19EAEB9B000D15AA /* c11_000.jpg in Resources */,
 				09D96D0C19EAEB9B000D15AA /* c11_0015.jpg in Resources */,
 				0926527719EC904700E057E7 /* pingmiantu_30f.png in Resources */,
@@ -1019,6 +1065,7 @@
 				09D96D1419EAEB9B000D15AA /* c11_0023.jpg in Resources */,
 				09D96D1619EAEB9B000D15AA /* c11_0025.jpg in Resources */,
 				09D96D0919EAEB9B000D15AA /* c11_0012.jpg in Resources */,
+				1A9B854E19EC1BFF0082E0EC /* jisuanqibtn3.png in Resources */,
 				09D96D1119EAEB9B000D15AA /* c11_0020.jpg in Resources */,
 				09D96D1B19EAEB9B000D15AA /* c11_0030.jpg in Resources */,
 				09D96D0519EAEB9B000D15AA /* c11_008.jpg in Resources */,
@@ -1088,10 +1135,12 @@
 				09D96EE819EB072F000D15AA /* PLIntersection.m in Sources */,
 				09D96EFB19EB072F000D15AA /* PLTransitionFadeOut.m in Sources */,
 				09D96EF419EB072F000D15AA /* PLSceneElementBase.m in Sources */,
+				1A9B854719EC1A8B0082E0EC /* FThdjsq.m in Sources */,
 				09D96EE919EB072F000D15AA /* PLJSONLoader.m in Sources */,
 				09D96EDC19EB072F000D15AA /* glues_error.c in Sources */,
 				09D96EDF19EB072F000D15AA /* glues_quad.c in Sources */,
 				09D96EFA19EB072F000D15AA /* PLTransitionFadeIn.m in Sources */,
+				1A9B854819EC1A8B0082E0EC /* FTjsqView.m in Sources */,
 				09D96F2D19EB11A0000D15AA /* FTDoorBaseView.m in Sources */,
 				09D96EE619EB072F000D15AA /* PLHotspot.m in Sources */,
 				09D96EEF19EB072F000D15AA /* PLPanoramaBase.m in Sources */,

@@ -147,6 +147,7 @@
                 [self removeAllviewsOnMyBackView];
                 [self.myBackView addSubview:daikuanjisuanVC.view];
             }
+            [self downTabBarView];
             break;
         default:
             break;

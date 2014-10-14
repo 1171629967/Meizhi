@@ -43,6 +43,30 @@
     else if([type isEqualToString:@"50m主卧"]){
         string = @"zhuwo_50m";
     }
+    else if([type isEqualToString:@"30m次卧"]){
+        string = @"ciwo_30m";
+    }
+    else if([type isEqualToString:@"50m次卧"]){
+        string = @"ciwo_50m";
+    }
+    else if([type isEqualToString:@"30m卫生间"]){
+        string = @"weishengjiantop_30m";
+    }
+    else if([type isEqualToString:@"50m卫生间"]){
+        string = @"weishengjiantop_50m";
+    }
+    else if([type isEqualToString:@"30m厨房"]){
+        string = @"chufang_30m";
+    }
+    else if([type isEqualToString:@"50m厨房"]){
+        string = @"chufang_50m";
+    }
+    else if([type isEqualToString:@"30m儿童房"]){
+        string = @"ertongfang_30m";
+    }
+    else if([type isEqualToString:@"50m儿童房"]){
+        string = @"ertongfang_50m";
+    }
     
     PLCubicPanorama *cubicPanorama = [PLCubicPanorama panorama];
     

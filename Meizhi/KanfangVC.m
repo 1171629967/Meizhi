@@ -128,10 +128,10 @@
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
-                    
+                    [self performSelectorInBackground:@selector(add30mCiwo) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    
+                    //[self performSelectorInBackground:@selector(add50mCiwo) withObject:nil];
                 }
             }
             break;
@@ -140,10 +140,10 @@
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
-                    
+                    [self performSelectorInBackground:@selector(add30mWeishengjian) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    
+                   // [self performSelectorInBackground:@selector(add50mWeishengjian) withObject:nil];
                 }
             }
             break;
@@ -152,10 +152,10 @@
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
-                    
+                    [self performSelectorInBackground:@selector(add30mChufang) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    
+                    //[self performSelectorInBackground:@selector(add50mChufang) withObject:nil];
                 }
             }
             break;
@@ -164,10 +164,10 @@
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
-                    
+                    [self performSelectorInBackground:@selector(add30mErtongfang) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    
+                    //[self performSelectorInBackground:@selector(add50mErtongfang) withObject:nil];
                 }
             }
             break;
@@ -238,6 +238,38 @@
 -(void)add50mZhuwo
 {
     [self loadSkybox:@"50m主卧"];
+}
+-(void)add30mCiwo
+{
+    [self loadSkybox:@"30m次卧"];
+}
+-(void)add50mCiwo
+{
+    [self loadSkybox:@"50m次卧"];
+}
+-(void)add30mWeishengjian
+{
+    [self loadSkybox:@"30m卫生间"];
+}
+-(void)add50mWeishengjian
+{
+    [self loadSkybox:@"50m卫生间"];
+}
+-(void)add30mChufang
+{
+    [self loadSkybox:@"30m厨房"];
+}
+-(void)add50mChufang
+{
+    [self loadSkybox:@"50m厨房"];
+}
+-(void)add30mErtongfang
+{
+    [self loadSkybox:@"30m儿童房"];
+}
+-(void)add50mErtongfang
+{
+    [self loadSkybox:@"50m儿童房"];
 }
 
 //加载skybox

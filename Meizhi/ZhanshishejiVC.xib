@@ -6,6 +6,9 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZhanshishejiVC">
             <connections>
+                <outlet property="bt1" destination="YVB-g5-2Xx" id="PDV-wc-8fE"/>
+                <outlet property="bt2" destination="una-3b-WRK" id="BfR-pg-psF"/>
+                <outlet property="bt3" destination="una-3b-WRK" id="bFf-dE-dsI"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -24,6 +27,9 @@
                     <state key="normal" backgroundImage="zhanshi_sanwei.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="btClick:" destination="-1" eventType="touchDown" id="WCp-za-yLz"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="una-3b-WRK">
                     <rect key="frame" x="386" y="190" width="250" height="315"/>
@@ -31,6 +37,9 @@
                     <state key="normal" backgroundImage="zhanshi_xiaoguotu.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="btClick:" destination="-1" eventType="touchDown" id="Xzh-EJ-hon"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bik-6C-JGo">
                     <rect key="frame" x="690" y="180" width="250" height="315"/>
@@ -38,6 +47,9 @@
                     <state key="normal" backgroundImage="zhanshi_xuanchuan.png">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="btClick:" destination="-1" eventType="touchDown" id="mdy-zk-BGm"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>

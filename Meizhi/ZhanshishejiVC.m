@@ -37,6 +37,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)btClick:(id)sender
+{
+    NSLog(@"sdfsdfsdfffsdfsfd");
+}
+
 
 
 @end

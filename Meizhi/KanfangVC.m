@@ -87,7 +87,90 @@
         case 0:
             [self leftOrRight];
             break;
+        case 1:
+            if (currentTag != 1) {
+                [self removeAllViewOnMatherView];
+                if ([currentFangType isEqualToString:@"30m"]) {
+                    self.iv_back.image = [UIImage imageNamed:@"pingmiantu_30f"];
+                }
+                else if([currentFangType isEqualToString:@"50m"]){
+                    self.iv_back.image = [UIImage imageNamed:@"pingmiantu_50f"];
+                }
+            }
             
+            break;
+        case 2:
+            if (currentTag != 2) {
+                [self removeAllViewOnMatherView];
+                self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
+                if ([currentFangType isEqualToString:@"30m"]) {
+                    [self performSelectorInBackground:@selector(add30mKeting) withObject:nil];
+                }
+                else if([currentFangType isEqualToString:@"50m"]){
+                    //[self performSelectorInBackground:@selector(add50mKeting) withObject:nil];
+                }
+            }
+            break;
+        case 3:
+            if (currentTag != 3) {
+                [self removeAllViewOnMatherView];
+                self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
+                if ([currentFangType isEqualToString:@"30m"]) {
+                    [self performSelectorInBackground:@selector(add30mZhuwo) withObject:nil];
+                }
+                else if([currentFangType isEqualToString:@"50m"]){
+                    //[self performSelectorInBackground:@selector(add50mZhuwo) withObject:nil];
+                }
+            }
+            break;
+        case 4:
+            if (currentTag != 4) {
+                [self removeAllViewOnMatherView];
+                self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
+                if ([currentFangType isEqualToString:@"30m"]) {
+                    
+                }
+                else if([currentFangType isEqualToString:@"50m"]){
+                    
+                }
+            }
+            break;
+        case 5:
+            if (currentTag != 5) {
+                [self removeAllViewOnMatherView];
+                self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
+                if ([currentFangType isEqualToString:@"30m"]) {
+                    
+                }
+                else if([currentFangType isEqualToString:@"50m"]){
+                    
+                }
+            }
+            break;
+        case 6:
+            if (currentTag != 6) {
+                [self removeAllViewOnMatherView];
+                self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
+                if ([currentFangType isEqualToString:@"30m"]) {
+                    
+                }
+                else if([currentFangType isEqualToString:@"50m"]){
+                    
+                }
+            }
+            break;
+        case 7:
+            if (currentTag != 7) {
+                [self removeAllViewOnMatherView];
+                self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
+                if ([currentFangType isEqualToString:@"30m"]) {
+                    
+                }
+                else if([currentFangType isEqualToString:@"50m"]){
+                    
+                }
+            }
+            break;
         default:
             break;
     }
@@ -126,7 +209,46 @@
     self.bt_back.hidden = YES;
     
     self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
+    [self removeAllViewOnMatherView];
 }
+
+
+//移除加载在这里的一些控件
+-(void)removeAllViewOnMatherView
+{
+    for (UIView *view in [self.v_matherView subviews]) {
+        [view removeFromSuperview];
+    }
+}
+
+
+
+-(void)add30mKeting
+{
+    [self loadSkybox:@"30m客厅"];
+}
+-(void)add50mKeting
+{
+    [self loadSkybox:@"50m客厅"];
+}
+-(void)add30mZhuwo
+{
+    [self loadSkybox:@"30m主卧"];
+}
+-(void)add50mZhuwo
+{
+    [self loadSkybox:@"50m主卧"];
+}
+
+//加载skybox
+- (void)loadSkybox:(NSString *)type
+{
+    skyboxView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:type];
+    [self.v_matherView addSubview:skyboxView];
+    
+    
+}
+
 
 
 @end

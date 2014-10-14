@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0917F76519EB313F00A7655B /* FTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0917F76419EB313F00A7655B /* FTTool.m */; };
-		0917F77219EB375A00A7655B /* KT_o_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76C19EB375A00A7655B /* KT_o_0.jpg */; };
-		0917F77319EB375A00A7655B /* KT_o_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76D19EB375A00A7655B /* KT_o_1.jpg */; };
-		0917F77419EB375A00A7655B /* KT_o_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76E19EB375A00A7655B /* KT_o_2.jpg */; };
-		0917F77519EB375A00A7655B /* KT_o_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76F19EB375A00A7655B /* KT_o_3.jpg */; };
-		0917F77619EB375A00A7655B /* KT_o_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77019EB375A00A7655B /* KT_o_4.jpg */; };
-		0917F77719EB375A00A7655B /* KT_o_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77119EB375A00A7655B /* KT_o_5.jpg */; };
+		0917F77219EB375A00A7655B /* KT_30m_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76C19EB375A00A7655B /* KT_30m_0.jpg */; };
+		0917F77319EB375A00A7655B /* KT_30m_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76D19EB375A00A7655B /* KT_30m_1.jpg */; };
+		0917F77419EB375A00A7655B /* KT_30m_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76E19EB375A00A7655B /* KT_30m_2.jpg */; };
+		0917F77519EB375A00A7655B /* KT_30m_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F76F19EB375A00A7655B /* KT_30m_3.jpg */; };
+		0917F77619EB375A00A7655B /* KT_30m_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77019EB375A00A7655B /* KT_30m_4.jpg */; };
+		0917F77719EB375A00A7655B /* KT_30m_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0917F77119EB375A00A7655B /* KT_30m_5.jpg */; };
 		0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926525419EC691500E057E7 /* 内庭景观按钮.png */; };
 		0926525719EC6DE200E057E7 /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926525619EC6DE200E057E7 /* 返回按钮.png */; };
 		0926525919EC7D0300E057E7 /* kanfang_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0926525819EC7D0300E057E7 /* kanfang_bg.jpg */; };
@@ -30,6 +30,12 @@
 		0926527419EC899300E057E7 /* 50m.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926527219EC899300E057E7 /* 50m.png */; };
 		0926527719EC904700E057E7 /* pingmiantu_30f.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926527519EC904700E057E7 /* pingmiantu_30f.png */; };
 		0926527819EC904700E057E7 /* pingmiantu_50f.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926527619EC904700E057E7 /* pingmiantu_50f.png */; };
+		094BB67019ED58C100923B2A /* zhuwo_30m_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66A19ED58C100923B2A /* zhuwo_30m_0.jpg */; };
+		094BB67119ED58C100923B2A /* zhuwo_30m_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66B19ED58C100923B2A /* zhuwo_30m_1.jpg */; };
+		094BB67219ED58C100923B2A /* zhuwo_30m_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66C19ED58C100923B2A /* zhuwo_30m_2.jpg */; };
+		094BB67319ED58C100923B2A /* zhuwo_30m_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66D19ED58C100923B2A /* zhuwo_30m_3.jpg */; };
+		094BB67419ED58C100923B2A /* zhuwo_30m_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66E19ED58C100923B2A /* zhuwo_30m_4.jpg */; };
+		094BB67519ED58C100923B2A /* zhuwo_30m_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66F19ED58C100923B2A /* zhuwo_30m_5.jpg */; };
 		09D72A5019EA832B0058D54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A4F19EA832B0058D54C /* Foundation.framework */; };
 		09D72A5219EA832B0058D54C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5119EA832B0058D54C /* CoreGraphics.framework */; };
 		09D72A5419EA832B0058D54C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5319EA832B0058D54C /* UIKit.framework */; };
@@ -117,7 +123,6 @@
 		09D96EDE19EB072F000D15AA /* glues_project.c in Sources */ = {isa = PBXBuildFile; fileRef = 09D96E7E19EB072F000D15AA /* glues_project.c */; };
 		09D96EDF19EB072F000D15AA /* glues_quad.c in Sources */ = {isa = PBXBuildFile; fileRef = 09D96E8019EB072F000D15AA /* glues_quad.c */; };
 		09D96EE019EB072F000D15AA /* glues_registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 09D96E8219EB072F000D15AA /* glues_registry.c */; };
-		09D96EE219EB072F000D15AA /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09D96E8719EB072F000D15AA /* LICENSE.txt */; };
 		09D96EE319EB072F000D15AA /* PLCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96E8919EB072F000D15AA /* PLCamera.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		09D96EE419EB072F000D15AA /* PLCubicPanorama.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96E8D19EB072F000D15AA /* PLCubicPanorama.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		09D96EE519EB072F000D15AA /* PLCylindricalPanorama.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D96E8F19EB072F000D15AA /* PLCylindricalPanorama.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -181,12 +186,12 @@
 /* Begin PBXFileReference section */
 		0917F76319EB313F00A7655B /* FTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTool.h; sourceTree = "<group>"; };
 		0917F76419EB313F00A7655B /* FTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTool.m; sourceTree = "<group>"; };
-		0917F76C19EB375A00A7655B /* KT_o_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_0.jpg; sourceTree = "<group>"; };
-		0917F76D19EB375A00A7655B /* KT_o_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_1.jpg; sourceTree = "<group>"; };
-		0917F76E19EB375A00A7655B /* KT_o_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_2.jpg; sourceTree = "<group>"; };
-		0917F76F19EB375A00A7655B /* KT_o_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_3.jpg; sourceTree = "<group>"; };
-		0917F77019EB375A00A7655B /* KT_o_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_4.jpg; sourceTree = "<group>"; };
-		0917F77119EB375A00A7655B /* KT_o_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_o_5.jpg; sourceTree = "<group>"; };
+		0917F76C19EB375A00A7655B /* KT_30m_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_30m_0.jpg; sourceTree = "<group>"; };
+		0917F76D19EB375A00A7655B /* KT_30m_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_30m_1.jpg; sourceTree = "<group>"; };
+		0917F76E19EB375A00A7655B /* KT_30m_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_30m_2.jpg; sourceTree = "<group>"; };
+		0917F76F19EB375A00A7655B /* KT_30m_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_30m_3.jpg; sourceTree = "<group>"; };
+		0917F77019EB375A00A7655B /* KT_30m_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_30m_4.jpg; sourceTree = "<group>"; };
+		0917F77119EB375A00A7655B /* KT_30m_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = KT_30m_5.jpg; sourceTree = "<group>"; };
 		0926525419EC691500E057E7 /* 内庭景观按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内庭景观按钮.png"; sourceTree = "<group>"; };
 		0926525619EC6DE200E057E7 /* 返回按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "返回按钮.png"; sourceTree = "<group>"; };
 		0926525819EC7D0300E057E7 /* kanfang_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kanfang_bg.jpg; sourceTree = "<group>"; };
@@ -203,6 +208,12 @@
 		0926527219EC899300E057E7 /* 50m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50m.png; sourceTree = "<group>"; };
 		0926527519EC904700E057E7 /* pingmiantu_30f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pingmiantu_30f.png; sourceTree = "<group>"; };
 		0926527619EC904700E057E7 /* pingmiantu_50f.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pingmiantu_50f.png; sourceTree = "<group>"; };
+		094BB66A19ED58C100923B2A /* zhuwo_30m_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_0.jpg; sourceTree = "<group>"; };
+		094BB66B19ED58C100923B2A /* zhuwo_30m_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_1.jpg; sourceTree = "<group>"; };
+		094BB66C19ED58C100923B2A /* zhuwo_30m_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_2.jpg; sourceTree = "<group>"; };
+		094BB66D19ED58C100923B2A /* zhuwo_30m_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_3.jpg; sourceTree = "<group>"; };
+		094BB66E19ED58C100923B2A /* zhuwo_30m_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_4.jpg; sourceTree = "<group>"; };
+		094BB66F19ED58C100923B2A /* zhuwo_30m_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_5.jpg; sourceTree = "<group>"; };
 		09D72A4C19EA832B0058D54C /* Meizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D72A4F19EA832B0058D54C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		09D72A5119EA832B0058D54C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -467,12 +478,12 @@
 		0917F76B19EB374900A7655B /* 客厅skybox */ = {
 			isa = PBXGroup;
 			children = (
-				0917F76C19EB375A00A7655B /* KT_o_0.jpg */,
-				0917F76D19EB375A00A7655B /* KT_o_1.jpg */,
-				0917F76E19EB375A00A7655B /* KT_o_2.jpg */,
-				0917F76F19EB375A00A7655B /* KT_o_3.jpg */,
-				0917F77019EB375A00A7655B /* KT_o_4.jpg */,
-				0917F77119EB375A00A7655B /* KT_o_5.jpg */,
+				0917F76C19EB375A00A7655B /* KT_30m_0.jpg */,
+				0917F76D19EB375A00A7655B /* KT_30m_1.jpg */,
+				0917F76E19EB375A00A7655B /* KT_30m_2.jpg */,
+				0917F76F19EB375A00A7655B /* KT_30m_3.jpg */,
+				0917F77019EB375A00A7655B /* KT_30m_4.jpg */,
+				0917F77119EB375A00A7655B /* KT_30m_5.jpg */,
 			);
 			name = "客厅skybox";
 			sourceTree = "<group>";
@@ -484,6 +495,26 @@
 				0926525619EC6DE200E057E7 /* 返回按钮.png */,
 			);
 			name = "项目设计图";
+			sourceTree = "<group>";
+		};
+		094BB66819ED56D700923B2A /* 主卧skybox */ = {
+			isa = PBXGroup;
+			children = (
+				094BB66A19ED58C100923B2A /* zhuwo_30m_0.jpg */,
+				094BB66B19ED58C100923B2A /* zhuwo_30m_1.jpg */,
+				094BB66C19ED58C100923B2A /* zhuwo_30m_2.jpg */,
+				094BB66D19ED58C100923B2A /* zhuwo_30m_3.jpg */,
+				094BB66E19ED58C100923B2A /* zhuwo_30m_4.jpg */,
+				094BB66F19ED58C100923B2A /* zhuwo_30m_5.jpg */,
+			);
+			name = "主卧skybox";
+			sourceTree = "<group>";
+		};
+		094BB66919ED56E600923B2A /* 次卧skybox */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "次卧skybox";
 			sourceTree = "<group>";
 		};
 		09D72A4319EA832B0058D54C = {
@@ -586,6 +617,8 @@
 		09D96C8C19EA9DD0000D15AA /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				094BB66919ED56E600923B2A /* 次卧skybox */,
+				094BB66819ED56D700923B2A /* 主卧skybox */,
 				1A9B854919EC1BCE0082E0EC /* 房贷计算器 */,
 				0926525319EC68FF00E057E7 /* 项目设计图 */,
 				0917F76B19EB374900A7655B /* 客厅skybox */,
@@ -971,19 +1004,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
+				094BB67419ED58C100923B2A /* zhuwo_30m_4.jpg in Resources */,
 				0926526419EC810D00E057E7 /* sidebar_ciwoshi.png in Resources */,
-				
 				0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */,
 				0926525919EC7D0300E057E7 /* kanfang_bg.jpg in Resources */,
-
-
 				1A9B855419EC1C080082E0EC /* jsqbackView.jpg in Resources */,
-
-
 				1A9B855519EC1C080082E0EC /* radioBtn1.png in Resources */,
-
-
 				09D96D0019EAEB9B000D15AA /* c11_003.jpg in Resources */,
 				09D96F4019EB14BA000D15AA /* ZT_0.jpg in Resources */,
 				09D96C9319EA9E86000D15AA /* daohang_icon_xiamgmusheji.png in Resources */,
@@ -991,9 +1017,10 @@
 				09D96F4519EB14BA000D15AA /* ZT_5.jpg in Resources */,
 				09D96F0019EB072F000D15AA /* README.txt in Resources */,
 				0926526819EC810D00E057E7 /* sidebar_weishengjian.png in Resources */,
+				094BB67119ED58C100923B2A /* zhuwo_30m_1.jpg in Resources */,
 				09D96EDB19EB072F000D15AA /* CHANGES.txt in Resources */,
 				09D96D2419EAEB9B000D15AA /* c11_0039.jpg in Resources */,
-				0917F77619EB375A00A7655B /* KT_o_4.jpg in Resources */,
+				0917F77619EB375A00A7655B /* KT_30m_4.jpg in Resources */,
 				09DEA10919EA9C2100F9EB93 /* HomeVC.xib in Resources */,
 				09D96D2519EAEB9B000D15AA /* c11_0040.jpg in Resources */,
 				09D96D1819EAEB9B000D15AA /* c11_0027.jpg in Resources */,
@@ -1018,15 +1045,16 @@
 				0926525B19EC7F9400E057E7 /* sidebar_bg.png in Resources */,
 				09D96CBC19EABFF1000D15AA /* KanfangVC.xib in Resources */,
 				09D96CFE19EAEB9B000D15AA /* c11_001.jpg in Resources */,
-				0917F77719EB375A00A7655B /* KT_o_5.jpg in Resources */,
+				0917F77719EB375A00A7655B /* KT_30m_5.jpg in Resources */,
 				09D96D1319EAEB9B000D15AA /* c11_0022.jpg in Resources */,
 				1A9B854D19EC1BFF0082E0EC /* jisuanqibtn1.png in Resources */,
-				0917F77219EB375A00A7655B /* KT_o_0.jpg in Resources */,
+				0917F77219EB375A00A7655B /* KT_30m_0.jpg in Resources */,
 				09D96CCC19EADEB8000D15AA /* 弹出框图片.png in Resources */,
 				09D96C8F19EA9DF6000D15AA /* daohang_back.png in Resources */,
 				0926527419EC899300E057E7 /* 50m.png in Resources */,
 				09D96CC119EAC003000D15AA /* DaikuanjisuanVC.xib in Resources */,
 				0926526719EC810D00E057E7 /* sidebar_shufang.png in Resources */,
+				094BB67519ED58C100923B2A /* zhuwo_30m_5.jpg in Resources */,
 				09D96D0419EAEB9B000D15AA /* c11_007.jpg in Resources */,
 				09D96D2319EAEB9B000D15AA /* c11_0038.jpg in Resources */,
 				1A9B854F19EC1BFF0082E0EC /* jisuanqibtn2.png in Resources */,
@@ -1034,12 +1062,14 @@
 				09D96D0C19EAEB9B000D15AA /* c11_0015.jpg in Resources */,
 				0926527719EC904700E057E7 /* pingmiantu_30f.png in Resources */,
 				09D96D1D19EAEB9B000D15AA /* c11_0032.jpg in Resources */,
+				094BB67219ED58C100923B2A /* zhuwo_30m_2.jpg in Resources */,
 				09D96D0B19EAEB9B000D15AA /* c11_0014.jpg in Resources */,
 				09D96CAF19EABF96000D15AA /* ZhanshishejiVC.xib in Resources */,
-				0917F77519EB375A00A7655B /* KT_o_3.jpg in Resources */,
+				0917F77519EB375A00A7655B /* KT_30m_3.jpg in Resources */,
 				09D96D2219EAEB9B000D15AA /* c11_0037.jpg in Resources */,
 				09D96D0219EAEB9B000D15AA /* c11_005.jpg in Resources */,
 				09D96D1A19EAEB9B000D15AA /* c11_0029.jpg in Resources */,
+				094BB67019ED58C100923B2A /* zhuwo_30m_0.jpg in Resources */,
 				09D96CFF19EAEB9B000D15AA /* c11_002.jpg in Resources */,
 				0926527819EC904700E057E7 /* pingmiantu_50f.png in Resources */,
 				09D96CC419EAD3DD000D15AA /* quweijiazhi_back.png in Resources */,
@@ -1052,6 +1082,7 @@
 				09D96D0D19EAEB9B000D15AA /* c11_0016.jpg in Resources */,
 				09D72A6819EA832B0058D54C /* Images.xcassets in Resources */,
 				0926526519EC810D00E057E7 /* sidebar_kecanting.png in Resources */,
+				094BB67319ED58C100923B2A /* zhuwo_30m_3.jpg in Resources */,
 				09D96D1019EAEB9B000D15AA /* c11_0019.jpg in Resources */,
 				09D96C9A19EAA12D000D15AA /* QuweijiazhiVC.xib in Resources */,
 				09D96D1F19EAEB9B000D15AA /* c11_0034.jpg in Resources */,
@@ -1060,7 +1091,7 @@
 				09D96D1519EAEB9B000D15AA /* c11_0024.jpg in Resources */,
 				09D72A5A19EA832B0058D54C /* InfoPlist.strings in Resources */,
 				09D96CC819EAD821000D15AA /* meizhi_biaoqian.png in Resources */,
-				0917F77319EB375A00A7655B /* KT_o_1.jpg in Resources */,
+				0917F77319EB375A00A7655B /* KT_30m_1.jpg in Resources */,
 				09D96D0319EAEB9B000D15AA /* c11_006.jpg in Resources */,
 				09D96F4219EB14BA000D15AA /* ZT_2.jpg in Resources */,
 				0926526919EC810D00E057E7 /* sidebar_zhuwoshi.png in Resources */,
@@ -1072,7 +1103,7 @@
 				09D96D1B19EAEB9B000D15AA /* c11_0030.jpg in Resources */,
 				09D96D0519EAEB9B000D15AA /* c11_008.jpg in Resources */,
 				09D96D1719EAEB9B000D15AA /* c11_0026.jpg in Resources */,
-				0917F77419EB375A00A7655B /* KT_o_2.jpg in Resources */,
+				0917F77419EB375A00A7655B /* KT_30m_2.jpg in Resources */,
 				09D96D1219EAEB9B000D15AA /* c11_0021.jpg in Resources */,
 				09D96CA719EAB99C000D15AA /* daohang_icon_zanshisheji.png in Resources */,
 				09D96C9F19EAA141000D15AA /* XiangmushejiVC.xib in Resources */,

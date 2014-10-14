@@ -19,6 +19,7 @@
                 <outlet property="bt_menu_zhuwoshi" destination="egw-B7-IfJ" id="ZgS-Ug-3wt"/>
                 <outlet property="iv_back" destination="GM0-lw-AB7" id="GMP-NW-7C0"/>
                 <outlet property="iv_return" destination="KEy-L4-Kl8" id="aPr-Zb-h8Z"/>
+                <outlet property="v_matherView" destination="wiw-ie-wGb" id="P1I-Sd-kVY"/>
                 <outlet property="v_menu" destination="dLg-BW-TnC" id="i3p-wD-F8D"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -32,6 +33,11 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wiw-ie-wGb">
+                    <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x3L-PU-VnJ">
                     <rect key="frame" x="26" y="125" width="462" height="462"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>

@@ -31,8 +31,17 @@
     if ([type isEqualToString:@"中庭"]) {
         string = @"ZT";
     }
-    else if([type isEqualToString:@"客厅"]){
-        string = @"KT_o";
+    else if([type isEqualToString:@"30m客厅"]){
+        string = @"KT_30m";
+    }
+    else if([type isEqualToString:@"50m客厅"]){
+        string = @"KT_50m";
+    }
+    else if([type isEqualToString:@"30m主卧"]){
+        string = @"zhuwo_30m";
+    }
+    else if([type isEqualToString:@"50m主卧"]){
+        string = @"zhuwo_50m";
     }
     
     PLCubicPanorama *cubicPanorama = [PLCubicPanorama panorama];

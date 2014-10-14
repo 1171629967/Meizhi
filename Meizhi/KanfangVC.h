@@ -7,12 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CustSkyBoxView.h"
 
 @interface KanfangVC : UIViewController
 {
     int currentTag;
     
     NSString *currentFangType;
+    CustSkyBoxView *skyboxView;
     
     BOOL isRight;
 }
@@ -30,6 +32,8 @@
 @property (strong, nonatomic) IBOutlet UIButton *bt_50m;
 @property (strong, nonatomic) IBOutlet UIButton *bt_back;
 @property (strong, nonatomic) IBOutlet UIImageView *iv_back;
+//用来加载skybox的父控件
+@property (strong, nonatomic) IBOutlet UIView *v_matherView;
 
 @property (strong, nonatomic) NSString *fangType;
 

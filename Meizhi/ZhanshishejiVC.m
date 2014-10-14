@@ -27,14 +27,39 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    [self initViews];
     
-    
+}
+- (void) initViews
+{
+    self.bt1.tag = 1;
+    self.bt2.tag = 2;
+    self.bt3.tag = 3;
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)btClick:(id)sender
+{
+    UIButton *bt = (UIButton *)sender;
+    int tag = (int)bt.tag;
+    switch (tag) {
+        case 1:
+            NSLog(@"sdfsf");
+            break;
+        case 2:
+            
+            break;
+        case 3:
+            
+            break;
+        default:
+            break;
+    }
 }
 
 

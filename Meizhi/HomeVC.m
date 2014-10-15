@@ -29,8 +29,9 @@
 {
     [super viewDidLoad];
     
-  [self loadPianTouData];
+//[self loadPianTouData];
     [self performSelectorInBackground:@selector(playPiantou) withObject:nil];
+    [self initViews];
   //[self performSelector:@selector(playPiantou) withObject:self afterDelay:0.1];
     
 }

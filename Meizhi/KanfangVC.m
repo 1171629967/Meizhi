@@ -75,12 +75,15 @@
     self.v_menu.frame = CGRectMake(self.v_menu.frame.origin.x+leftOrRightDistance, 170, 260, 428);
     [UIView commitAnimations];
     isRight = !isRight;
+    
 }
 
 
 
 - (IBAction)menuClick:(id)sender
 {
+    
+    
     UIButton *bt = (UIButton *)sender;
     int tag = (int)bt.tag;
     switch (tag) {
@@ -101,6 +104,9 @@
             break;
         case 2:
             if (currentTag != 2) {
+                if (isLoading) {
+                    return;
+                }
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
@@ -113,6 +119,9 @@
             break;
         case 3:
             if (currentTag != 3) {
+                if (isLoading) {
+                    return;
+                }
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
@@ -125,6 +134,9 @@
             break;
         case 4:
             if (currentTag != 4) {
+                if (isLoading) {
+                    return;
+                }
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
@@ -137,6 +149,9 @@
             break;
         case 5:
             if (currentTag != 5) {
+                if (isLoading) {
+                    return;
+                }
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
@@ -149,6 +164,9 @@
             break;
         case 6:
             if (currentTag != 6) {
+                if (isLoading) {
+                    return;
+                }
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
@@ -161,6 +179,9 @@
             break;
         case 7:
             if (currentTag != 7) {
+                if (isLoading) {
+                    return;
+                }
                 [self removeAllViewOnMatherView];
                 self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
                 if ([currentFangType isEqualToString:@"30m"]) {
@@ -188,6 +209,7 @@
     self.bt_back.hidden = NO;
     
     self.iv_back.image = [UIImage imageNamed:@"pingmiantu_30f"];
+    
 }
 
 - (IBAction)bt_click50m:(id)sender
@@ -199,6 +221,7 @@
     self.bt_back.hidden = NO;
     
     self.iv_back.image = [UIImage imageNamed:@"pingmiantu_50f"];
+    
 }
 
 - (IBAction)back:(id)sender
@@ -210,6 +233,7 @@
     
     self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
     [self removeAllViewOnMatherView];
+    
 }
 
 
@@ -275,10 +299,11 @@
 //加载skybox
 - (void)loadSkybox:(NSString *)type
 {
+    isLoading = YES;
     skyboxView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:type];
     [self.v_matherView addSubview:skyboxView];
     
-    
+    isLoading = NO;
 }
 
 

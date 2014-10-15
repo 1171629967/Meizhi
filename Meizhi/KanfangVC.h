@@ -17,6 +17,7 @@
     CustSkyBoxView *skyboxView;
     
     BOOL isRight;
+    BOOL isLoading;
 }
 @property (strong, nonatomic) IBOutlet UIView *v_menu;
 @property (strong, nonatomic) IBOutlet UIButton *bt_menuCloseOrOpen;

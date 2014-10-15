@@ -10,29 +10,29 @@
 	<string>Meizhi</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>711008F2-CE53-4ACA-BE41-0DA6A3BB32AD</key>
+		<key>C7912FF7908266F298AF03A9FB3C2BAF4589E12F</key>
 		<string>https://github.com/1171629967/Meizhi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>Meizhi.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>711008F2-CE53-4ACA-BE41-0DA6A3BB32AD</key>
+		<key>C7912FF7908266F298AF03A9FB3C2BAF4589E12F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/1171629967/Meizhi.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>711008F2-CE53-4ACA-BE41-0DA6A3BB32AD</string>
+	<string>C7912FF7908266F298AF03A9FB3C2BAF4589E12F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>711008F2-CE53-4ACA-BE41-0DA6A3BB32AD</string>
+			<string>C7912FF7908266F298AF03A9FB3C2BAF4589E12F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>Meizhi</string>
 		</dict>

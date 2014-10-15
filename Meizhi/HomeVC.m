@@ -28,9 +28,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-//  [self loadPianTouData];
-//  [self performSelector:@selector(playPiantou) withObject:self afterDelay:0.1];
-    [self initViews];
+    
+  [self loadPianTouData];
+    [self performSelectorInBackground:@selector(playPiantou) withObject:nil];
+  //[self performSelector:@selector(playPiantou) withObject:self afterDelay:0.1];
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -71,7 +73,7 @@
                                                   object:theMovie];
     
     [theMovie.view removeFromSuperview];
-    
+    [self initViews];
     
     
 }

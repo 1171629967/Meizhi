@@ -8,6 +8,7 @@
 
 #import "HomeVC.h"
 #import "CustSkyBoxView.h"
+#import "WLXAppDelegate.h"
 
 
 @interface HomeVC ()
@@ -29,10 +30,9 @@
 {
     [super viewDidLoad];
     
-//[self loadPianTouData];
+    [self loadPianTouData];
     [self performSelectorInBackground:@selector(playPiantou) withObject:nil];
     [self initViews];
-  //[self performSelector:@selector(playPiantou) withObject:self afterDelay:0.1];
     
 }
 
@@ -50,6 +50,8 @@
     theMovie= [[MPMoviePlayerController alloc] initWithContentURL:url];
     theMovie.controlStyle = MPMovieControlStyleNone;
     
+    
+    
     theMovie.view.frame = CGRectMake(0, 0, 1024, 768);
     [self.view addSubview:theMovie.view];
     
@@ -57,8 +59,27 @@
                                              selector:@selector(myMovieFinishedCallback:)
                                                  name:MPMoviePlayerPlaybackDidFinishNotification
                                                object:theMovie];
+    
+    //给片头添加按钮和点击
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+    [button addTarget:self action:@selector(clickMovie)
+     forControlEvents:UIControlEventTouchUpInside];
+    [theMovie.view addSubview:button];
+    
 }
 
+
+//点击片头动画，直接跳过
+- (void)clickMovie
+{
+    [theMovie stop];
+    [theMovie.view removeFromSuperview];
+    [self initViews];
+    WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    [appDelegate playSound:@"back_music"];
+}
+
+//播放片头
 - (void)playPiantou
 {
     [theMovie play];
@@ -75,7 +96,8 @@
     
     [theMovie.view removeFromSuperview];
     [self initViews];
-    
+    WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    [appDelegate playSound:@"back_music"];
     
 }
 

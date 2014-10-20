@@ -36,6 +36,7 @@
 		094BB67319ED58C100923B2A /* zhuwo_30m_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66D19ED58C100923B2A /* zhuwo_30m_3.jpg */; };
 		094BB67419ED58C100923B2A /* zhuwo_30m_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66E19ED58C100923B2A /* zhuwo_30m_4.jpg */; };
 		094BB67519ED58C100923B2A /* zhuwo_30m_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66F19ED58C100923B2A /* zhuwo_30m_5.jpg */; };
+		09A42E8819F40934007D2707 /* back_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A42E8719F40934007D2707 /* back_music.mp3 */; };
 		09BD55B119ED6D560031C2A5 /* ciwo_30m_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09BD55AB19ED6D560031C2A5 /* ciwo_30m_0.jpg */; };
 		09BD55B219ED6D560031C2A5 /* ciwo_30m_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09BD55AC19ED6D560031C2A5 /* ciwo_30m_1.jpg */; };
 		09BD55B319ED6D560031C2A5 /* ciwo_30m_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09BD55AD19ED6D560031C2A5 /* ciwo_30m_2.jpg */; };
@@ -243,6 +244,7 @@
 		094BB66D19ED58C100923B2A /* zhuwo_30m_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_3.jpg; sourceTree = "<group>"; };
 		094BB66E19ED58C100923B2A /* zhuwo_30m_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_4.jpg; sourceTree = "<group>"; };
 		094BB66F19ED58C100923B2A /* zhuwo_30m_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_5.jpg; sourceTree = "<group>"; };
+		09A42E8719F40934007D2707 /* back_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back_music.mp3; sourceTree = "<group>"; };
 		09BD55AB19ED6D560031C2A5 /* ciwo_30m_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciwo_30m_0.jpg; sourceTree = "<group>"; };
 		09BD55AC19ED6D560031C2A5 /* ciwo_30m_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciwo_30m_1.jpg; sourceTree = "<group>"; };
 		09BD55AD19ED6D560031C2A5 /* ciwo_30m_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciwo_30m_2.jpg; sourceTree = "<group>"; };
@@ -581,6 +583,14 @@
 			name = "次卧skybox";
 			sourceTree = "<group>";
 		};
+		09A42E8619F408DD007D2707 /* 背景音乐 */ = {
+			isa = PBXGroup;
+			children = (
+				09A42E8719F40934007D2707 /* back_music.mp3 */,
+			);
+			name = "背景音乐";
+			sourceTree = "<group>";
+		};
 		09BD55B719ED70190031C2A5 /* 卫生间skybox */ = {
 			isa = PBXGroup;
 			children = (
@@ -639,6 +649,7 @@
 		09D72A4319EA832B0058D54C = {
 			isa = PBXGroup;
 			children = (
+				09A42E8619F408DD007D2707 /* 背景音乐 */,
 				09D96C8C19EA9DD0000D15AA /* 图片 */,
 				09D72A8619EA86560058D54C /* 视频 */,
 				09D72A5519EA832B0058D54C /* Meizhi */,
@@ -1192,6 +1203,7 @@
 				09BD55E019ED75210031C2A5 /* ertongfang_30m_4.jpg in Resources */,
 				09D96CFE19EAEB9B000D15AA /* c11_001.jpg in Resources */,
 				0917F77719EB375A00A7655B /* KT_30m_5.jpg in Resources */,
+				09A42E8819F40934007D2707 /* back_music.mp3 in Resources */,
 				09D96D1319EAEB9B000D15AA /* c11_0022.jpg in Resources */,
 				1A91017219ED6C1C004F3617 /* zhanshi_xiaoguotu.png in Resources */,
 				1A9B854D19EC1BFF0082E0EC /* jisuanqibtn1.png in Resources */,

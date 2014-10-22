@@ -71,7 +71,18 @@
         return;
     }
     self.latelocal =_curlocal;
-    self.image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@%d.jpg",_path360,preName,_curCount]];
+    
+    if ([self.fileType isEqualToString:@"jpg"]) {
+        self.image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@%d.jpg",_path360,preName,_curCount]];
+    }
+    else if ([self.fileType isEqualToString:@"png"]){
+        self.image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@%d.png",_path360,preName,_curCount]];
+    }
+    else if ([self.fileType isEqualToString:@"PNG"]){
+        self.image = [UIImage imageWithContentsOfFile:[NSString stringWithFormat:@"%@/%@%d.PNG",_path360,preName,_curCount]];
+    }
+    
+    
     
     
     //当旋转到前10帧的时候，显示特定按钮，进入中庭

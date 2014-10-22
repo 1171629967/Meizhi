@@ -8,37 +8,39 @@
 
 #import <UIKit/UIKit.h>
 #import "CustSkyBoxView.h"
+#import "FTCircleImageView.h"
 
 @interface KanfangVC : UIViewController
 {
+    //目前处在第几层 第一层是两个按钮 第二层是序列帧 第三层是skybox层
+    int currentFloor;
     int currentTag;
+    
+    int startX;
+    int endX;
+    NSMutableArray *array;
+    int currentImageNo;
+    FTCircleImageView *circleView;
     
     NSString *currentFangType;
     CustSkyBoxView *skyboxView;
     
-    BOOL isRight;
     BOOL isLoading;
+    
+    
+    UIView *v_menu;
+    UIImageView *iv_menuReturn;
 }
-@property (strong, nonatomic) IBOutlet UIView *v_menu;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menuCloseOrOpen;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menu_pingming;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menu_kecanting;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menu_zhuwoshi;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menu_ciwoshi;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menu_weishengjian;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menu_chufang;
-@property (strong, nonatomic) IBOutlet UIButton *bt_menu_shufang;
-@property (strong, nonatomic) IBOutlet UIImageView *iv_return;
+
 @property (strong, nonatomic) IBOutlet UIButton *bt_30m;
 @property (strong, nonatomic) IBOutlet UIButton *bt_50m;
 @property (strong, nonatomic) IBOutlet UIButton *bt_back;
 @property (strong, nonatomic) IBOutlet UIImageView *iv_back;
-//用来加载skybox的父控件
-@property (strong, nonatomic) IBOutlet UIView *v_matherView;
+
 
 @property (strong, nonatomic) NSString *fangType;
 
-- (IBAction)menuClick:(id)sender;
+- (void)menuClick:(id)sender;
 - (IBAction)bt_click30m:(id)sender;
 - (IBAction)bt_click50m:(id)sender;
 - (IBAction)back:(id)sender;

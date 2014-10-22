@@ -42,11 +42,12 @@
 {
     //添加旋转模块
     circleView = [[FTCircleImageView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+    circleView.fileType = @"jpg";
     circleView.userInteractionEnabled = YES;
     circleView.isSkipFrame = YES;
     circleView.path360 = [[NSBundle mainBundle] resourcePath];
     [self.view insertSubview:circleView atIndex:0];
-    circleView.count = 41;
+    circleView.count = 100;
     circleView.curCount = 0;
     circleView.preName = @"c11_00";
     circleView.image = [UIImage imageNamed:@"c11_000.jpg"];
@@ -87,7 +88,7 @@
 //中庭按钮监听函数
 - (void)gotoZT {
     //添加中庭
-    [self performSelectorInBackground:@selector(loadZT) withObject:nil];
+    [self performSelector:@selector(loadZT) withObject:nil];
 }
 
 //加载中庭
@@ -97,7 +98,7 @@
     [self.view addSubview:ztView];
 
     //动态添加返回按钮
-    UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(80, 60, 100, 100)];
+    UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 70, 70)];
     UIImage *img = [UIImage imageNamed:@"返回按钮.png"];
     [bt_back setImage:img forState:UIControlStateNormal];
     [ztView addSubview:bt_back];

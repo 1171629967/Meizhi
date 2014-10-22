@@ -126,6 +126,15 @@
     
     //注册收起底部导航栏的通知
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(downTabBarView) name:Notification_DownTabBarView object:nil];
+    
+}
+
+
+
+
+- (void)kanfangSkyboxFinish
+{
+    
 }
 
 

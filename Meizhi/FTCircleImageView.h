@@ -29,6 +29,8 @@
     
 }
 
+@property (nonatomic,retain) NSString *fileType;
+
 @property (nonatomic,assign) id<ZTProtal> ztDelegate;
 @property (nonatomic,assign) CGPoint curlocal;
 @property (nonatomic,assign) CGPoint latelocal;

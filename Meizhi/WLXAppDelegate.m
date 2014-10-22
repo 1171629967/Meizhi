@@ -20,6 +20,8 @@
     
     self.window.rootViewController = homeVC;
     [self.window makeKeyAndVisible];
+    
+     [[UIApplication sharedApplication]setStatusBarHidden:YES withAnimation:UIStatusBarAnimationFade];
     return YES;
 }
 

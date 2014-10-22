@@ -10,4 +10,14 @@
 
 @interface HuxingjianshangVC : UIViewController
 
+
+@property (strong, nonatomic) IBOutlet UIButton *bt_1;
+@property (strong, nonatomic) IBOutlet UIButton *bt_2;
+@property (strong, nonatomic) IBOutlet UIButton *bt_3;
+@property (strong, nonatomic) IBOutlet UIButton *bt_4;
+@property (strong, nonatomic) IBOutlet UIButton *bt_5;
+
+
+- (IBAction)iconClick:(id)sender;
+
 @end

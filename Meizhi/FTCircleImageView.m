@@ -85,8 +85,8 @@
     
     
     
-    //当旋转到前10帧的时候，显示特定按钮，进入中庭
-    if (_curCount < 2) {
+    //当旋转到前6帧的时候，显示特定按钮，进入中庭
+    if (_curCount < 4 || _curCount > (_count - 4)) {
         [self.ztDelegate isShowButton:YES];
     }
     else

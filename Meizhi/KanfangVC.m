@@ -286,6 +286,7 @@
     circleView.fileType = @"PNG";
     circleView.userInteractionEnabled = YES;
     circleView.isSkipFrame = YES;
+    circleView.isRound = YES;
     circleView.path360 = [[NSBundle mainBundle] resourcePath];
     [self.view insertSubview:circleView aboveSubview:self.iv_back];
     circleView.count = 150;

@@ -9,18 +9,17 @@
 #import <UIKit/UIKit.h>
 #import <MediaPlayer/MediaPlayer.h>
 
-#import "QuweijiazhiVC.h"
+#import "Quweijiazhi.h"
 #import "XiangmushejiVC.h"
 #import "ZhanshishejiVC.h"
 #import "HuxingjianshangVC.h"
 #import "KanfangVC.h"
 #import "DaikuanjisuanVC.h"
-
 @interface HomeVC : UIViewController
 {
     MPMoviePlayerController *theMovie;
     
-    QuweijiazhiVC *quweijiazhiVC;
+    Quweijiazhi *quweijiazhi;
     XiangmushejiVC *xiangmushejiVC;
     ZhanshishejiVC *zhanshishejiVC;
     HuxingjianshangVC *huxingjianshangVC;

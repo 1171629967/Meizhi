@@ -121,7 +121,11 @@
     self.bt_360kanfang.tag = 5;
     self.bt_daikuanjisuan.tag = 6;
     
-    quweijiazhiVC = [[QuweijiazhiVC alloc] init];
+    //quweijiazhiVC = [[QuweijiazhiVC alloc] init];
+    //quweijiazhuVC2 = [[QuweijiazhuVC2 alloc] init];
+    
+    //初始化区位价值
+    quweijiazhi = [[Quweijiazhi alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
     xiangmushejiVC = [[XiangmushejiVC alloc] init];
     zhanshishejiVC = [[ZhanshishejiVC alloc] init];
     huxingjianshangVC = [[HuxingjianshangVC alloc] init];
@@ -129,7 +133,8 @@
     daikuanjisuanVC = [[DaikuanjisuanVC alloc] init];
     
     //默认加载区位价值模块
-    [self.myBackView addSubview:quweijiazhiVC.view];
+    [self removeAllviewsOnMyBackView];
+    [self.myBackView addSubview:quweijiazhi];
     currentTag = 1;
     
     //注册收起底部导航栏的通知
@@ -157,7 +162,7 @@
         case 1:
             if (currentTag != 1) {
                 [self removeAllviewsOnMyBackView];
-                [self.myBackView addSubview:quweijiazhiVC.view];
+                [self.myBackView addSubview:quweijiazhi];
             }
             break;
         case 2:

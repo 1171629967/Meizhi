@@ -67,6 +67,12 @@
     else if([type isEqualToString:@"50m书房"]){
         string = @"shufang_50m";
     }
+    else if([type isEqualToString:@"50m小孩房"]){
+        string = @"xiaohaifang_50m";
+    }
+    else if([type isEqualToString:@"50m衣帽间"]){
+        string = @"yimaojian_50m";
+    }
     
     PLCubicPanorama *cubicPanorama = [PLCubicPanorama panorama];
     

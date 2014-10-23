@@ -50,74 +50,162 @@
     UITapGestureRecognizer *singleTap1 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
     [self.iv_back addGestureRecognizer:singleTap1];
     
-    
-    
-    
-    //初始化右侧菜单
-    v_menu = [[UIView alloc] initWithFrame:CGRectMake(966, 170, 260, 428)];
-    [self.view addSubview:v_menu];
-    v_menu.hidden = YES;
-    //初始化菜单背景并加入菜单
-    UIImageView *iv_menuBack = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 260, 428)];
-    [iv_menuBack setImage:[UIImage imageNamed:@"sidebar_bg.png"]];
-    [v_menu addSubview:iv_menuBack];
-    
-    iv_menuReturn = [[UIImageView alloc] initWithFrame:CGRectMake(9, 9, 46, 46)];
-    [iv_menuReturn setImage:[UIImage imageNamed:@"sidebar_return.png"]];
-    [v_menu addSubview:iv_menuReturn];
-    //添加菜单移进移出按钮
-    UIButton *bt_menuCloseOrOpen = [[UIButton alloc] initWithFrame:CGRectMake(9, 9, 46, 46)];
-    bt_menuCloseOrOpen.tag = 0;
-    [bt_menuCloseOrOpen addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menuCloseOrOpen];
-    //平面按钮
-    UIButton *bt_menu_pingming = [[UIButton alloc] initWithFrame:CGRectMake(68, 5, 179, 55)];
-    [bt_menu_pingming setImage:[UIImage imageNamed:@"sidebar_pingmian.png"] forState:UIControlStateNormal];
-    bt_menu_pingming.tag = 1;
-    [bt_menu_pingming addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menu_pingming];
-    //客餐厅按钮
-    UIButton *bt_menu_kecanting = [[UIButton alloc] initWithFrame:CGRectMake(68, 63, 179, 55)];
-    [bt_menu_kecanting setImage:[UIImage imageNamed:@"sidebar_kecanting.png"] forState:UIControlStateNormal];
-    bt_menu_kecanting.tag = 2;
-    [bt_menu_kecanting addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menu_kecanting];
-    //主卧室按钮
-    UIButton *bt_menu_zhuwoshi = [[UIButton alloc] initWithFrame:CGRectMake(68, 127, 179, 55)];
-    [bt_menu_zhuwoshi setImage:[UIImage imageNamed:@"sidebar_zhuwoshi.png"] forState:UIControlStateNormal];
-    bt_menu_zhuwoshi.tag = 3;
-    [bt_menu_zhuwoshi addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menu_zhuwoshi];
-    //次卧室按钮
-    UIButton *bt_menu_ciwoshi = [[UIButton alloc] initWithFrame:CGRectMake(68, 185, 179, 55)];
-    [bt_menu_ciwoshi setImage:[UIImage imageNamed:@"sidebar_ciwoshi.png"] forState:UIControlStateNormal];
-    bt_menu_ciwoshi.tag = 4;
-    [bt_menu_ciwoshi addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menu_ciwoshi];
-    //卫生间按钮
-    UIButton *bt_menu_weishengjian = [[UIButton alloc] initWithFrame:CGRectMake(68, 248, 179, 55)];
-    [bt_menu_weishengjian setImage:[UIImage imageNamed:@"sidebar_weishengjian.png"] forState:UIControlStateNormal];
-    bt_menu_weishengjian.tag = 5;
-    [bt_menu_weishengjian addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menu_weishengjian];
-    //厨房按钮
-    UIButton *bt_menu_chufang = [[UIButton alloc] initWithFrame:CGRectMake(68, 306, 179, 55)];
-    [bt_menu_chufang setImage:[UIImage imageNamed:@"sidebar_chufang.png"] forState:UIControlStateNormal];
-    bt_menu_chufang.tag = 6;
-    [bt_menu_chufang addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menu_chufang];
-    //书房按钮
-    UIButton *bt_menu_shufang = [[UIButton alloc] initWithFrame:CGRectMake(68, 368, 179, 55)];
-    [bt_menu_shufang setImage:[UIImage imageNamed:@"sidebar_shufang.png"] forState:UIControlStateNormal];
-    bt_menu_shufang.tag = 7;
-    [bt_menu_shufang addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
-    [v_menu addSubview:bt_menu_shufang];
-    
-    
-   
-    
-    
 
+}
+
+
+//初始化右侧菜单
+-(void)initMenu
+{
+    if ([currentFangType isEqualToString:@"30m"]) {
+        
+        
+        v_menu = [[UIView alloc] initWithFrame:CGRectMake(966, 170, 260, 428)];
+        [self.view addSubview:v_menu];
+        v_menu.hidden = NO;
+        //初始化菜单背景并加入菜单
+        UIImageView *iv_menuBack = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 260, 428)];
+        [iv_menuBack setImage:[UIImage imageNamed:@"sidebar_bg.png"]];
+        [v_menu addSubview:iv_menuBack];
+        
+        iv_menuReturn = [[UIImageView alloc] initWithFrame:CGRectMake(9, 9, 46, 46)];
+        [iv_menuReturn setImage:[UIImage imageNamed:@"sidebar_return.png"]];
+        [v_menu addSubview:iv_menuReturn];
+        //添加菜单移进移出按钮
+        UIButton *bt_menuCloseOrOpen = [[UIButton alloc] initWithFrame:CGRectMake(9, 9, 46, 46)];
+        bt_menuCloseOrOpen.tag = 0;
+        [bt_menuCloseOrOpen addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menuCloseOrOpen];
+        //平面按钮
+        UIButton *bt_menu_pingming = [[UIButton alloc] initWithFrame:CGRectMake(68, 5, 179, 55)];
+        [bt_menu_pingming setImage:[UIImage imageNamed:@"sidebar_pingmian.png"] forState:UIControlStateNormal];
+        bt_menu_pingming.tag = 1;
+        [bt_menu_pingming addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_pingming];
+        //客餐厅按钮
+        UIButton *bt_menu_kecanting = [[UIButton alloc] initWithFrame:CGRectMake(68, 63, 179, 55)];
+        [bt_menu_kecanting setImage:[UIImage imageNamed:@"sidebar_kecanting.png"] forState:UIControlStateNormal];
+        bt_menu_kecanting.tag = 2;
+        [bt_menu_kecanting addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_kecanting];
+        //主卧室按钮
+        UIButton *bt_menu_zhuwoshi = [[UIButton alloc] initWithFrame:CGRectMake(68, 127, 179, 55)];
+        [bt_menu_zhuwoshi setImage:[UIImage imageNamed:@"sidebar_zhuwoshi.png"] forState:UIControlStateNormal];
+        bt_menu_zhuwoshi.tag = 3;
+        [bt_menu_zhuwoshi addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_zhuwoshi];
+        //次卧室按钮
+        UIButton *bt_menu_ciwoshi = [[UIButton alloc] initWithFrame:CGRectMake(68, 185, 179, 55)];
+        [bt_menu_ciwoshi setImage:[UIImage imageNamed:@"sidebar_ciwoshi.png"] forState:UIControlStateNormal];
+        bt_menu_ciwoshi.tag = 4;
+        [bt_menu_ciwoshi addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_ciwoshi];
+        //卫生间按钮
+        UIButton *bt_menu_weishengjian = [[UIButton alloc] initWithFrame:CGRectMake(68, 248, 179, 55)];
+        [bt_menu_weishengjian setImage:[UIImage imageNamed:@"sidebar_weishengjian.png"] forState:UIControlStateNormal];
+        bt_menu_weishengjian.tag = 5;
+        [bt_menu_weishengjian addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_weishengjian];
+        //厨房按钮
+        UIButton *bt_menu_chufang = [[UIButton alloc] initWithFrame:CGRectMake(68, 306, 179, 55)];
+        [bt_menu_chufang setImage:[UIImage imageNamed:@"sidebar_chufang.png"] forState:UIControlStateNormal];
+        bt_menu_chufang.tag = 6;
+        [bt_menu_chufang addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_chufang];
+        //书房按钮
+        UIButton *bt_menu_shufang = [[UIButton alloc] initWithFrame:CGRectMake(68, 368, 179, 55)];
+        [bt_menu_shufang setImage:[UIImage imageNamed:@"sidebar_shufang.png"] forState:UIControlStateNormal];
+        bt_menu_shufang.tag = 7;
+        [bt_menu_shufang addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_shufang];
+        
+        
+    }
+    else if([currentFangType isEqualToString:@"50m"]){
+        
+        heightBetter = 120;
+        
+        v_menu = [[UIView alloc] initWithFrame:CGRectMake(966, 170 - (heightBetter/2), 260, 428+heightBetter)];
+        [self.view addSubview:v_menu];
+        v_menu.hidden = NO;
+        //初始化菜单背景并加入菜单
+        UIImageView *iv_menuBack = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 260, 428+heightBetter)];
+        [iv_menuBack setImage:[UIImage imageNamed:@"sidebar_50bg.png"]];
+        [v_menu addSubview:iv_menuBack];
+        
+        iv_menuReturn = [[UIImageView alloc] initWithFrame:CGRectMake(9, 9, 46, 46)];
+        [iv_menuReturn setImage:[UIImage imageNamed:@"sidebar_return.png"]];
+        [v_menu addSubview:iv_menuReturn];
+        //添加菜单移进移出按钮
+        UIButton *bt_menuCloseOrOpen = [[UIButton alloc] initWithFrame:CGRectMake(9, 9, 46, 46)];
+        bt_menuCloseOrOpen.tag = 0;
+        [bt_menuCloseOrOpen addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menuCloseOrOpen];
+        //平面按钮
+        UIButton *bt_menu_pingming = [[UIButton alloc] initWithFrame:CGRectMake(68, 5, 179, 55)];
+        [bt_menu_pingming setImage:[UIImage imageNamed:@"sidebar_pingmian.png"] forState:UIControlStateNormal];
+        bt_menu_pingming.tag = 1;
+        [bt_menu_pingming addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_pingming];
+        //客餐厅按钮
+        UIButton *bt_menu_kecanting = [[UIButton alloc] initWithFrame:CGRectMake(68, 63, 179, 55)];
+        [bt_menu_kecanting setImage:[UIImage imageNamed:@"sidebar_kecanting.png"] forState:UIControlStateNormal];
+        bt_menu_kecanting.tag = 2;
+        [bt_menu_kecanting addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_kecanting];
+        //主卧室按钮
+        UIButton *bt_menu_zhuwoshi = [[UIButton alloc] initWithFrame:CGRectMake(68, 127, 179, 55)];
+        [bt_menu_zhuwoshi setImage:[UIImage imageNamed:@"sidebar_zhuwoshi.png"] forState:UIControlStateNormal];
+        bt_menu_zhuwoshi.tag = 3;
+        [bt_menu_zhuwoshi addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_zhuwoshi];
+        //次卧室按钮
+        UIButton *bt_menu_ciwoshi = [[UIButton alloc] initWithFrame:CGRectMake(68, 185, 179, 55)];
+        [bt_menu_ciwoshi setImage:[UIImage imageNamed:@"sidebar_ciwoshi.png"] forState:UIControlStateNormal];
+        bt_menu_ciwoshi.tag = 4;
+        [bt_menu_ciwoshi addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_ciwoshi];
+        //卫生间按钮
+        UIButton *bt_menu_weishengjian = [[UIButton alloc] initWithFrame:CGRectMake(68, 248, 179, 55)];
+        [bt_menu_weishengjian setImage:[UIImage imageNamed:@"sidebar_weishengjian.png"] forState:UIControlStateNormal];
+        bt_menu_weishengjian.tag = 5;
+        [bt_menu_weishengjian addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_weishengjian];
+        //厨房按钮
+        UIButton *bt_menu_chufang = [[UIButton alloc] initWithFrame:CGRectMake(68, 306, 179, 55)];
+        [bt_menu_chufang setImage:[UIImage imageNamed:@"sidebar_chufang.png"] forState:UIControlStateNormal];
+        bt_menu_chufang.tag = 6;
+        [bt_menu_chufang addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_chufang];
+        
+        
+        
+        //小孩房按钮
+        UIButton *bt_menu_xiaohaifang = [[UIButton alloc] initWithFrame:CGRectMake(68, 368, 179, 55)];
+        [bt_menu_xiaohaifang setImage:[UIImage imageNamed:@"sidebar_xiaohaifang.png"] forState:UIControlStateNormal];
+        bt_menu_xiaohaifang.tag = 8;
+        [bt_menu_xiaohaifang addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_xiaohaifang];
+        //衣帽间按钮
+        UIButton *bt_menu_yimaojian = [[UIButton alloc] initWithFrame:CGRectMake(68, 368+62, 179, 55)];
+        [bt_menu_yimaojian setImage:[UIImage imageNamed:@"sidebar_yimaojian.png"] forState:UIControlStateNormal];
+        bt_menu_yimaojian.tag = 9;
+        [bt_menu_yimaojian addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_yimaojian];
+        
+        
+        
+        
+        //书房按钮
+        UIButton *bt_menu_shufang = [[UIButton alloc] initWithFrame:CGRectMake(68, 368+(62*2), 179, 55)];
+        [bt_menu_shufang setImage:[UIImage imageNamed:@"sidebar_shufang.png"] forState:UIControlStateNormal];
+        bt_menu_shufang.tag = 7;
+        [bt_menu_shufang addTarget:self action:@selector(menuClick:) forControlEvents:UIControlEventTouchUpInside];
+        [v_menu addSubview:bt_menu_shufang];
+        
+        
+    }
+    
 }
 
 
@@ -134,7 +222,13 @@
     }
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:.3f];
-    v_menu.frame = CGRectMake(v_menu.frame.origin.x+leftOrRightDistance, 170, 260, 428);
+    if ([currentFangType isEqualToString:@"30m"]) {
+        v_menu.frame = CGRectMake(v_menu.frame.origin.x+leftOrRightDistance, 170, 260, 428);
+    }
+    else if([currentFangType isEqualToString:@"50m"]){
+        v_menu.frame = CGRectMake(v_menu.frame.origin.x+leftOrRightDistance, 170-(heightBetter/2), 260, 428+heightBetter);
+    }
+    
     [UIView commitAnimations];
     
 }
@@ -178,7 +272,7 @@
                     [self performSelector:@selector(add30mKeting) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    //[self performSelectorInBackground:@selector(add50mKeting) withObject:nil];
+                    [self performSelector:@selector(add50mKeting) withObject:nil];
                 }
             
             break;
@@ -192,7 +286,7 @@
                     [self performSelector:@selector(add30mZhuwo) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    //[self performSelectorInBackground:@selector(add50mZhuwo) withObject:nil];
+                    [self performSelector:@selector(add50mZhuwo) withObject:nil];
                 }
             
             break;
@@ -206,7 +300,7 @@
                     [self performSelector:@selector(add30mCiwo) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    //[self performSelectorInBackground:@selector(add50mCiwo) withObject:nil];
+                    [self performSelector:@selector(add50mCiwo) withObject:nil];
                 }
             
             break;
@@ -220,7 +314,7 @@
                     [self performSelector:@selector(add30mWeishengjian) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                   // [self performSelectorInBackground:@selector(add50mWeishengjian) withObject:nil];
+                    [self performSelector:@selector(add50mWeishengjian) withObject:nil];
                 }
             
             break;
@@ -247,8 +341,33 @@
                     [self performSelector:@selector(add30mShufang) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    //[self performSelectorInBackground:@selector(add50mShufang) withObject:nil];
+                    [self performSelector:@selector(add50mShufang) withObject:nil];
                 }
+            
+            break;
+        case 8:
+            if (isLoading) {
+                return;
+            }
+            [self removeAllViewOnMatherView];
+            if ([currentFangType isEqualToString:@"30m"]) {
+                
+            }
+            else if([currentFangType isEqualToString:@"50m"]){
+                [self performSelector:@selector(add50mXiaohaifang) withObject:nil];
+            }
+            break;
+        case 9:
+            if (isLoading) {
+                return;
+            }
+            [self removeAllViewOnMatherView];
+            if ([currentFangType isEqualToString:@"30m"]) {
+                
+            }
+            else if([currentFangType isEqualToString:@"50m"]){
+                [self performSelector:@selector(add50mYimaojian) withObject:nil];
+            }
             
             break;
         default:
@@ -268,10 +387,12 @@
     self.bt_30m.hidden = YES;
     self.bt_50m.hidden = YES;
     v_menu.hidden = NO;
-    self.bt_back.hidden = YES;
+    self.bt_back.hidden = NO;
+    //iv_menuReturn.hidden = NO;
     
+    [self initMenu];
     [self loadXuliezhen];
-    v_menu.frame = CGRectMake(966, 170, 260, 428);
+    //v_menu.frame = CGRectMake(966, 170, 260, 428);
 }
 
 - (IBAction)bt_click50m:(id)sender
@@ -281,10 +402,12 @@
     self.bt_30m.hidden = YES;
     self.bt_50m.hidden = YES;
     v_menu.hidden = NO;
-    self.bt_back.hidden = YES;
+    self.bt_back.hidden = NO;
+    //iv_menuReturn.hidden = NO;
     
+    [self initMenu];
     [self loadXuliezhen];
-    v_menu.frame = CGRectMake(966, 170, 260, 428);
+    //v_menu.frame = CGRectMake(966, 170, 260, 428);
 }
 
 
@@ -336,6 +459,10 @@
         self.bt_back.hidden = YES;
         self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
         [self removeAllViewOnMatherView];
+        
+        //把左侧菜单从移除掉
+        [v_menu removeFromSuperview];
+        v_menu = nil;
     }
     
 }
@@ -404,6 +531,14 @@
 -(void)add50mShufang
 {
     [self loadSkybox:@"50m书房"];
+}
+-(void)add50mXiaohaifang
+{
+    [self loadSkybox:@"50m小孩房"];
+}
+-(void)add50mYimaojian
+{
+    [self loadSkybox:@"50m衣帽间"];
 }
 
 //加载skybox

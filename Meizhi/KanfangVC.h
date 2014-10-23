@@ -30,6 +30,9 @@
     
     UIView *v_menu;
     UIImageView *iv_menuReturn;
+    
+    //50m的左侧菜单长出高度
+    int heightBetter;
 }
 
 @property (strong, nonatomic) IBOutlet UIButton *bt_30m;

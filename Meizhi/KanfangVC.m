@@ -244,10 +244,10 @@
                 }
                 [self removeAllViewOnMatherView];
                 if ([currentFangType isEqualToString:@"30m"]) {
-                    [self performSelector:@selector(add30mErtongfang) withObject:nil];
+                    [self performSelector:@selector(add30mShufang) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    //[self performSelectorInBackground:@selector(add50mErtongfang) withObject:nil];
+                    //[self performSelectorInBackground:@selector(add50mShufang) withObject:nil];
                 }
             
             break;
@@ -268,7 +268,7 @@
     self.bt_30m.hidden = YES;
     self.bt_50m.hidden = YES;
     v_menu.hidden = NO;
-    self.bt_back.hidden = NO;
+    self.bt_back.hidden = YES;
     
     [self loadXuliezhen];
     v_menu.frame = CGRectMake(966, 170, 260, 428);
@@ -281,7 +281,7 @@
     self.bt_30m.hidden = YES;
     self.bt_50m.hidden = YES;
     v_menu.hidden = NO;
-    self.bt_back.hidden = NO;
+    self.bt_back.hidden = YES;
     
     [self loadXuliezhen];
     v_menu.frame = CGRectMake(966, 170, 260, 428);
@@ -397,13 +397,13 @@
 {
     [self loadSkybox:@"50m厨房"];
 }
--(void)add30mErtongfang
+-(void)add30mShufang
 {
-    [self loadSkybox:@"30m儿童房"];
+    [self loadSkybox:@"30m书房"];
 }
--(void)add50mErtongfang
+-(void)add50mShufang
 {
-    [self loadSkybox:@"50m儿童房"];
+    [self loadSkybox:@"50m书房"];
 }
 
 //加载skybox

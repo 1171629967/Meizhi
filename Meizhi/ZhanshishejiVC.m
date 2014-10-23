@@ -28,13 +28,13 @@
 {
     [super viewDidLoad];
     [self initViews];
-    
 }
 - (void) initViews
 {
     self.bt1.tag = 1;
     self.bt2.tag = 2;
     self.bt3.tag = 3;
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -50,40 +50,75 @@
     switch (tag) {
 
         case 1:
-//            [self hideMenu];
+            [self hideMenu];
+            self.viewMovie.hidden = NO;
+            [self performSelector:@selector(playMovie) withObject:self afterDelay:0.1];
             break;
         case 2:
-//             [self hideMenu];
+             [self hideMenu];
             break;
         case 3:
-//             [self hideMenu];
+             [self hideMenu];
             break;
+            
         default:
             break;
     }
 }
 
 - (void) hideMenu{
+    self.bt3.hidden = YES;
     self.bt1.hidden = YES;
     self.bt2.hidden = YES;
-    self.bt2.hidden = YES;
+   
+    
 }
 
 //加载片头视频数据
-//- (void)loadPianTouData
-//{
-//    NSString* s = [[NSBundle mainBundle] pathForResource:@"piantou" ofType:@"mp4"];
-//    NSURL* url = [NSURL fileURLWithPath:s];
-//    theMovie= [[MPMoviePlayerController alloc] initWithContentURL:url];
-//    theMovie.controlStyle = MPMovieControlStyleNone;
-//    
-//    theMovie.view.frame = CGRectMake(0, 0, 1024, 768);
-//    [self.view addSubview:theMovie.view];
-//    
-//    [[NSNotificationCenter defaultCenter] addObserver:self
-//                                             selector:@selector(myMovieFinishedCallback:)
-//                                                 name:MPMoviePlayerPlaybackDidFinishNotification
-//                                               object:theMovie];
-//}
+- (void)playMovie
+{
+    NSString *s = [[NSBundle mainBundle] pathForResource:@"zhanshi" ofType:@"mp4"];
+    NSURL *url = [NSURL fileURLWithPath:s];
+    theMovie= [[MPMoviePlayerController alloc] initWithContentURL:url];
+    theMovie.
+    
+    theMovie.view.frame = CGRectMake(0, 0, 1024, 768);
+    [self.viewMovie addSubview:theMovie.view];
+    
+    CGRect frame = CGRectMake(50, 50, 50, 50);
+    UIButton *someAddButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [someAddButton setBackgroundImage:[UIImage imageNamed:@"zhanshi_back.png"] forState:UIControlStateNormal];
+    someAddButton.frame = frame;
+    [someAddButton addTarget:self action:@selector(movieBackClicked) forControlEvents:UIControlEventTouchUpInside];
+    [theMovie.view addSubview:someAddButton];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self
+                                             selector:@selector(myMovieFinishedCallback:)
+                                                 name:MPMoviePlayerPlaybackDidFinishNotification
+                                               object:theMovie];
+    [theMovie play];
+}
+
+
+-(void) movieBackClicked{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示"
+                                                    message:@"您点击了动态按钮！"
+                                                   delegate:self
+                                          cancelButtonTitle:@"确定"
+                                          otherButtonTitles:nil];
+    [alert show];
+}
+
+//片头视频播放完毕后的回调
+- (void)myMovieFinishedCallback:(NSNotification*)aNotification
+{
+    MPMoviePlayerController *theMovie=[aNotification object];
+    [[NSNotificationCenter defaultCenter] removeObserver:self
+                                                    name:MPMoviePlayerPlaybackDidFinishNotification
+                                                  object:theMovie];
+    [theMovie.view removeFromSuperview];
+
+}
+
 
 @end

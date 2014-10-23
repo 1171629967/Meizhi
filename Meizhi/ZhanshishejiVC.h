@@ -8,12 +8,18 @@
 
 #import <UIKit/UIKit.h>
 #import "PLView.h"
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface ZhanshishejiVC : UIViewController
-
+{
+     MPMoviePlayerController *theMovie;
+}
 @property (strong, nonatomic) IBOutlet UIButton *bt1;
 @property (strong, nonatomic) IBOutlet UIButton *bt2;
 @property (strong, nonatomic) IBOutlet UIButton *bt3;
+
+@property (strong, nonatomic) IBOutlet UIView *viewMovie;
+
 
 - (IBAction)btClick:(id)sender;
 

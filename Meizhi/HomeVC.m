@@ -66,10 +66,7 @@
      forControlEvents:UIControlEventTouchUpInside];
     [theMovie.view addSubview:button];
     
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
->>>>>>> Stashed changes
+
 }
 
 
@@ -83,24 +80,13 @@
     [appDelegate playSound:@"back_music"];
 }
 
-<<<<<<< Updated upstream
-=======
-=======
-}
 
 
-//点击片头动画，直接跳过
-- (void)clickMovie
-{
-    [theMovie stop];
-    [theMovie.view removeFromSuperview];
-    [self initViews];
-    WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    [appDelegate playSound:@"back_music"];
-}
 
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
+
+
+
+
 //播放片头
 - (void)playPiantou
 {

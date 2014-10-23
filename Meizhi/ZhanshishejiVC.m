@@ -77,15 +77,10 @@
 //加载片头视频数据
 - (void)playMovie
 {
-    NSString *s = [[NSBundle mainBundle] pathForResource:@"zhanshi" ofType:@"mp4"];
+    NSString *s = [[NSBundle mainBundle] pathForResource:@"piantou" ofType:@"mp4"];
     NSURL *url = [NSURL fileURLWithPath:s];
     theMovie= [[MPMoviePlayerController alloc] initWithContentURL:url];
-<<<<<<< HEAD
 
-=======
-    
-    
->>>>>>> FETCH_HEAD
     theMovie.view.frame = CGRectMake(0, 0, 1024, 768);
     [self.viewMovie addSubview:theMovie.view];
     

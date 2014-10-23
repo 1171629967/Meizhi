@@ -34,11 +34,6 @@
 		094BB67319ED58C100923B2A /* zhuwo_30m_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66D19ED58C100923B2A /* zhuwo_30m_3.jpg */; };
 		094BB67419ED58C100923B2A /* zhuwo_30m_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66E19ED58C100923B2A /* zhuwo_30m_4.jpg */; };
 		094BB67519ED58C100923B2A /* zhuwo_30m_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 094BB66F19ED58C100923B2A /* zhuwo_30m_5.jpg */; };
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
 		09991CA019F69EB000171080 /* c11_000.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09991C3B19F69EB000171080 /* c11_000.jpg */; };
 		09991CA119F69EB000171080 /* c11_001.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09991C3C19F69EB000171080 /* c11_001.jpg */; };
 		09991CA219F69EB000171080 /* c11_002.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09991C3D19F69EB000171080 /* c11_002.jpg */; };
@@ -142,10 +137,6 @@
 		09991D0419F69EB000171080 /* c11_00100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09991C9F19F69EB000171080 /* c11_00100.jpg */; };
 		09991D0619F6A81300171080 /* 30m.png in Resources */ = {isa = PBXBuildFile; fileRef = 09991D0519F6A81300171080 /* 30m.png */; };
 		09991D0819F6A89300171080 /* 50m.png in Resources */ = {isa = PBXBuildFile; fileRef = 09991D0719F6A89300171080 /* 50m.png */; };
-<<<<<<< Updated upstream
-=======
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
 		09A42E8819F40934007D2707 /* back_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A42E8719F40934007D2707 /* back_music.mp3 */; };
 		09BD55B119ED6D560031C2A5 /* ciwo_30m_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09BD55AB19ED6D560031C2A5 /* ciwo_30m_0.jpg */; };
 		09BD55B219ED6D560031C2A5 /* ciwo_30m_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09BD55AC19ED6D560031C2A5 /* ciwo_30m_1.jpg */; };
@@ -254,12 +245,6 @@
 		09D96F4519EB14BA000D15AA /* ZT_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09D96F3F19EB14BA000D15AA /* ZT_5.jpg */; };
 		09DEA10819EA9C2100F9EB93 /* HomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DEA10619EA9C2100F9EB93 /* HomeVC.m */; };
 		09DEA10919EA9C2100F9EB93 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09DEA10719EA9C2100F9EB93 /* HomeVC.xib */; };
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-		1A6C5DA819F5577200A74199 /* zhanshi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1A6C5DA719F5577200A74199 /* zhanshi.mp4 */; };
-=======
->>>>>>> Stashed changes
 		09EEAF1019F77C56005ED36F /* 30F_000.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 09EEAE7919F77C56005ED36F /* 30F_000.PNG */; };
 		09EEAF1119F77C56005ED36F /* 30F_001.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 09EEAE7A19F77C56005ED36F /* 30F_001.PNG */; };
 		09EEAF1219F77C56005ED36F /* 30F_002.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 09EEAE7B19F77C56005ED36F /* 30F_002.PNG */; };
@@ -569,10 +554,7 @@
 		09EEB0E219F785CB005ED36F /* huxingjianshang_niaokan_icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EEB0DC19F785CB005ED36F /* huxingjianshang_niaokan_icon4.png */; };
 		09EEB0E319F785CB005ED36F /* huxingjianshang_niaokan_icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EEB0DD19F785CB005ED36F /* huxingjianshang_niaokan_icon5.png */; };
 		09EEB0E619F786B3005ED36F /* huxingjianshang_niaokan_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09EEB0E519F786B3005ED36F /* huxingjianshang_niaokan_bg.jpg */; };
-<<<<<<< Updated upstream
-=======
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
+		1A17752019F899EF00C9481A /* zhanshi.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1A17751F19F899EF00C9481A /* zhanshi.mp4 */; };
 		1A91016C19ED683C004F3617 /* zhanshi_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A91016B19ED683C004F3617 /* zhanshi_bg.jpg */; };
 		1A91016E19ED6900004F3617 /* zhanshi_xuanchuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91016D19ED6900004F3617 /* zhanshi_xuanchuan.png */; };
 		1A91017119ED6C1C004F3617 /* zhanshi_sanwei.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91016F19ED6C1C004F3617 /* zhanshi_sanwei.png */; };
@@ -628,11 +610,6 @@
 		094BB66D19ED58C100923B2A /* zhuwo_30m_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_3.jpg; sourceTree = "<group>"; };
 		094BB66E19ED58C100923B2A /* zhuwo_30m_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_4.jpg; sourceTree = "<group>"; };
 		094BB66F19ED58C100923B2A /* zhuwo_30m_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_30m_5.jpg; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
 		09991C3B19F69EB000171080 /* c11_000.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c11_000.jpg; sourceTree = "<group>"; };
 		09991C3C19F69EB000171080 /* c11_001.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c11_001.jpg; sourceTree = "<group>"; };
 		09991C3D19F69EB000171080 /* c11_002.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c11_002.jpg; sourceTree = "<group>"; };
@@ -736,10 +713,6 @@
 		09991C9F19F69EB000171080 /* c11_00100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = c11_00100.jpg; sourceTree = "<group>"; };
 		09991D0519F6A81300171080 /* 30m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30m.png; sourceTree = "<group>"; };
 		09991D0719F6A89300171080 /* 50m.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 50m.png; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
-=======
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
 		09A42E8719F40934007D2707 /* back_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back_music.mp3; sourceTree = "<group>"; };
 		09BD55AB19ED6D560031C2A5 /* ciwo_30m_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciwo_30m_0.jpg; sourceTree = "<group>"; };
 		09BD55AC19ED6D560031C2A5 /* ciwo_30m_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ciwo_30m_1.jpg; sourceTree = "<group>"; };
@@ -924,12 +897,6 @@
 		09DEA10519EA9C2100F9EB93 /* HomeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeVC.h; sourceTree = "<group>"; };
 		09DEA10619EA9C2100F9EB93 /* HomeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeVC.m; sourceTree = "<group>"; };
 		09DEA10719EA9C2100F9EB93 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-		1A6C5DA719F5577200A74199 /* zhanshi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zhanshi.mp4; sourceTree = "<group>"; };
-=======
->>>>>>> Stashed changes
 		09EEAE7919F77C56005ED36F /* 30F_000.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30F_000.PNG; sourceTree = "<group>"; };
 		09EEAE7A19F77C56005ED36F /* 30F_001.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30F_001.PNG; sourceTree = "<group>"; };
 		09EEAE7B19F77C56005ED36F /* 30F_002.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 30F_002.PNG; sourceTree = "<group>"; };
@@ -1239,10 +1206,7 @@
 		09EEB0DC19F785CB005ED36F /* huxingjianshang_niaokan_icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huxingjianshang_niaokan_icon4.png; sourceTree = "<group>"; };
 		09EEB0DD19F785CB005ED36F /* huxingjianshang_niaokan_icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huxingjianshang_niaokan_icon5.png; sourceTree = "<group>"; };
 		09EEB0E519F786B3005ED36F /* huxingjianshang_niaokan_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huxingjianshang_niaokan_bg.jpg; sourceTree = "<group>"; };
-<<<<<<< Updated upstream
-=======
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
+		1A17751F19F899EF00C9481A /* zhanshi.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = zhanshi.mp4; sourceTree = "<group>"; };
 		1A91016B19ED683C004F3617 /* zhanshi_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhanshi_bg.jpg; sourceTree = "<group>"; };
 		1A91016D19ED6900004F3617 /* zhanshi_xuanchuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanshi_xuanchuan.png; sourceTree = "<group>"; };
 		1A91016F19ED6C1C004F3617 /* zhanshi_sanwei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanshi_sanwei.png; sourceTree = "<group>"; };
@@ -1357,11 +1321,6 @@
 			name = "次卧skybox";
 			sourceTree = "<group>";
 		};
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
-=======
->>>>>>> Stashed changes
 		09991C3919F6973C00171080 /* 30F序列帧 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1678,10 +1637,6 @@
 			name = "50F序列帧";
 			sourceTree = "<group>";
 		};
-<<<<<<< Updated upstream
-=======
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
 		09A42E8619F408DD007D2707 /* 背景音乐 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1838,16 +1793,8 @@
 		09D72A8619EA86560058D54C /* 视频 */ = {
 			isa = PBXGroup;
 			children = (
-<<<<<<< Updated upstream
+				1A17751F19F899EF00C9481A /* zhanshi.mp4 */,
 				09EEB0D519F77D3B005ED36F /* piantou.mp4 */,
-=======
-<<<<<<< HEAD
-				1A6C5DA719F5577200A74199 /* zhanshi.mp4 */,
-				09D72A8719EA86630058D54C /* piantou.mp4 */,
-=======
-				09EEB0D519F77D3B005ED36F /* piantou.mp4 */,
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
 			);
 			name = "视频";
 			sourceTree = "<group>";
@@ -2487,20 +2434,12 @@
 				09BD55B519ED6D560031C2A5 /* ciwo_30m_4.jpg in Resources */,
 				09D96CA619EAB99C000D15AA /* daohang_icon_huxingjianshang.png in Resources */,
 				09BD55D219ED733A0031C2A5 /* chufang_30m_5.jpg in Resources */,
-<<<<<<< Updated upstream
 				09991D0619F6A81300171080 /* 30m.png in Resources */,
 				09991CB619F69EB000171080 /* c11_0022.jpg in Resources */,
 				09EEB06319F77C6E005ED36F /* 50F_0037.PNG in Resources */,
-=======
-<<<<<<< HEAD
-				09D96D1E19EAEB9B000D15AA /* c11_0033.jpg in Resources */,
-				1A6C5DA819F5577200A74199 /* zhanshi.mp4 in Resources */,
-=======
 				09991D0619F6A81300171080 /* 30m.png in Resources */,
 				09991CB619F69EB000171080 /* c11_0022.jpg in Resources */,
 				09EEB06319F77C6E005ED36F /* 50F_0037.PNG in Resources */,
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
 				1A9B855319EC1C080082E0EC /* radioBtn2.png in Resources */,
 				09991CAE19F69EB000171080 /* c11_0014.jpg in Resources */,
 				09991CA919F69EB000171080 /* c11_009.jpg in Resources */,
@@ -2601,13 +2540,7 @@
 				09EEAF5F19F77C56005ED36F /* 30F_0079.PNG in Resources */,
 				09991CE119F69EB000171080 /* c11_0065.jpg in Resources */,
 				0917F77719EB375A00A7655B /* KT_30m_5.jpg in Resources */,
-<<<<<<< Updated upstream
-=======
-<<<<<<< HEAD
 				09A42E8819F40934007D2707 /* back_music.mp3 in Resources */,
-				09D96D1319EAEB9B000D15AA /* c11_0022.jpg in Resources */,
-=======
->>>>>>> Stashed changes
 				09EEAF1F19F77C56005ED36F /* 30F_0015.PNG in Resources */,
 				09EEB08A19F77C6E005ED36F /* 50F_0076.PNG in Resources */,
 				09EEAF6F19F77C57005ED36F /* 30F_0095.PNG in Resources */,
@@ -2616,10 +2549,6 @@
 				09A42E8819F40934007D2707 /* back_music.mp3 in Resources */,
 				09991CC519F69EB000171080 /* c11_0037.jpg in Resources */,
 				09EEB05819F77C6E005ED36F /* 50F_0026.PNG in Resources */,
-<<<<<<< Updated upstream
-=======
->>>>>>> FETCH_HEAD
->>>>>>> Stashed changes
 				1A91017219ED6C1C004F3617 /* zhanshi_xiaoguotu.png in Resources */,
 				09EEB04A19F77C6E005ED36F /* 50F_0012.PNG in Resources */,
 				09EEB04919F77C6E005ED36F /* 50F_0011.PNG in Resources */,
@@ -2772,6 +2701,7 @@
 				09EEB0C219F77C6E005ED36F /* 50F_00132.PNG in Resources */,
 				09EEAF8E19F77C57005ED36F /* 30F_00126.PNG in Resources */,
 				09D96C9A19EAA12D000D15AA /* QuweijiazhiVC.xib in Resources */,
+				1A17752019F899EF00C9481A /* zhanshi.mp4 in Resources */,
 				09EEB0BD19F77C6E005ED36F /* 50F_00127.PNG in Resources */,
 				09D96CA919EABB4E000D15AA /* daohang_icon_logo.png in Resources */,
 				09EEAF4419F77C56005ED36F /* 30F_0052.PNG in Resources */,

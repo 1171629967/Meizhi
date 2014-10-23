@@ -80,7 +80,7 @@
     NSString *s = [[NSBundle mainBundle] pathForResource:@"zhanshi" ofType:@"mp4"];
     NSURL *url = [NSURL fileURLWithPath:s];
     theMovie= [[MPMoviePlayerController alloc] initWithContentURL:url];
-    theMovie.
+    
     
     theMovie.view.frame = CGRectMake(0, 0, 1024, 768);
     [self.viewMovie addSubview:theMovie.view];

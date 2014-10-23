@@ -11,6 +11,7 @@
 @interface Quweijiazhi : UIScrollView <UIScrollViewDelegate>
 {
     UIImageView *imgView;
+    
 }
 
 @end

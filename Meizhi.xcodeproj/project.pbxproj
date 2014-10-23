@@ -13,6 +13,7 @@
 		090D5EAB19F940E2004F5BA7 /* sidebar_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 090D5EAA19F940E2004F5BA7 /* sidebar_bg.png */; };
 		090D5EAE19F94106004F5BA7 /* sidebar_xiaohaifang.png in Resources */ = {isa = PBXBuildFile; fileRef = 090D5EAC19F94106004F5BA7 /* sidebar_xiaohaifang.png */; };
 		090D5EAF19F94106004F5BA7 /* sidebar_yimaojian.png in Resources */ = {isa = PBXBuildFile; fileRef = 090D5EAD19F94106004F5BA7 /* sidebar_yimaojian.png */; };
+		090D5EB119F95287004F5BA7 /* quwei_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 090D5EB019F95287004F5BA7 /* quwei_bg.jpg */; };
 		0917F76519EB313F00A7655B /* FTTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0917F76419EB313F00A7655B /* FTTool.m */; };
 		0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926525419EC691500E057E7 /* 内庭景观按钮.png */; };
 		0926525719EC6DE200E057E7 /* 返回按钮.png in Resources */ = {isa = PBXBuildFile; fileRef = 0926525619EC6DE200E057E7 /* 返回按钮.png */; };
@@ -640,6 +641,7 @@
 		090D5EAA19F940E2004F5BA7 /* sidebar_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidebar_bg.png; sourceTree = "<group>"; };
 		090D5EAC19F94106004F5BA7 /* sidebar_xiaohaifang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidebar_xiaohaifang.png; sourceTree = "<group>"; };
 		090D5EAD19F94106004F5BA7 /* sidebar_yimaojian.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sidebar_yimaojian.png; sourceTree = "<group>"; };
+		090D5EB019F95287004F5BA7 /* quwei_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = quwei_bg.jpg; sourceTree = "<group>"; };
 		0917F76319EB313F00A7655B /* FTTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTTool.h; sourceTree = "<group>"; };
 		0917F76419EB313F00A7655B /* FTTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTTool.m; sourceTree = "<group>"; };
 		0926525419EC691500E057E7 /* 内庭景观按钮.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "内庭景观按钮.png"; sourceTree = "<group>"; };
@@ -2130,6 +2132,7 @@
 		09D96CC219EAD3BB000D15AA /* 区位价值图 */ = {
 			isa = PBXGroup;
 			children = (
+				090D5EB019F95287004F5BA7 /* quwei_bg.jpg */,
 				09D96CC719EAD821000D15AA /* meizhi_biaoqian.png */,
 				09D96CC319EAD3DD000D15AA /* quweijiazhi_back.png */,
 				09D96CC919EADCA8000D15AA /* 弹出窗背景图.png */,
@@ -2531,6 +2534,7 @@
 				093299CD19F9527A00A1B05A /* 50F_00144.png in Resources */,
 				0932987219F94CEC00A1B05A /* 30F_0099.png in Resources */,
 				0926525519EC691500E057E7 /* 内庭景观按钮.png in Resources */,
+				090D5EB119F95287004F5BA7 /* quwei_bg.jpg in Resources */,
 				0932997519F9527A00A1B05A /* 50F_0056.png in Resources */,
 				093299EA19F9645100A1B05A /* ciwo_30m_4.jpg in Resources */,
 				0932975119F94BAE00A1B05A /* c12_00062.jpg in Resources */,

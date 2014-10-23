@@ -14,19 +14,23 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
+        
+        int width = 2583;
+        int height = 1316;
+        
         self.delegate = self;
-        self.maximumZoomScale = (float)1493/768;
+        self.maximumZoomScale = (float)height/768;
         self.minimumZoomScale = 1;
         self.bounces = NO;
-        self.zoomScale = (float)1493/768;
-        self.contentOffset = CGPointMake(888, 359);
-        self.contentSize = CGSizeMake((float)768/1493*2800, 768);
+        self.zoomScale = (float)height/768;
+        self.contentOffset = CGPointMake(200, height/2);
+        self.contentSize = CGSizeMake((float)768/height*width, 768);
         self.backgroundColor = [UIColor clearColor];
         
         imgView = [[UIImageView alloc] init];
         imgView.userInteractionEnabled = YES;
-        imgView.image = [UIImage imageNamed:@"nearBigImage.jpg"];
-        imgView.frame = CGRectMake(0, 0, (float)768/1493*2800, 768);
+        imgView.image = [UIImage imageNamed:@"quwei_bg.jpg"];
+        imgView.frame = CGRectMake(0, 0, (float)768/height*width, 768);
         
         [self addSubview:imgView];
         

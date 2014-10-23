@@ -50,8 +50,8 @@
     [self.view insertSubview:circleView atIndex:0];
     circleView.count = 100;
     circleView.curCount = 0;
-    circleView.preName = @"c11_00";
-    circleView.image = [UIImage imageNamed:@"c11_000.jpg"];
+    circleView.preName = @"c12_000";
+    circleView.image = [UIImage imageNamed:@"c12_0000.jpg"];
     
     //动态添加进入内庭的按钮
     bt_neitingjingguan = [[UIButton alloc] initWithFrame:CGRectMake(467, 389, 91, 38)];
@@ -97,6 +97,11 @@
 {
     ztView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:@"中庭"];
     [self.view addSubview:ztView];
+    
+    //给中庭添加点击监听
+    ztView.userInteractionEnabled=YES;
+    UITapGestureRecognizer *singleTap2 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
+    [ztView addGestureRecognizer:singleTap2];
 
     //动态添加返回按钮
     UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 70, 70)];
@@ -107,12 +112,14 @@
 
     //移除掉旋转控件
     [circleView removeFromSuperview];
+    
 }
 
 //关闭内庭
 - (void)closeZT
 {
     [ztView removeFromSuperview];
+    ztView = nil;
     [self.view addSubview:circleView];
 }
 

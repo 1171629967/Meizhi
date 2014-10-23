@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HuxingjianshangVC : UIViewController
+@property (strong, nonatomic) IBOutlet UIImageView *iv_bg;
 
 
 @property (strong, nonatomic) IBOutlet UIButton *bt_1;

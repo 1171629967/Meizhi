@@ -11,6 +11,7 @@
                 <outlet property="bt_3" destination="Bbx-cS-OwK" id="het-00-WFQ"/>
                 <outlet property="bt_4" destination="wb7-gr-aDM" id="U3U-xm-NQQ"/>
                 <outlet property="bt_5" destination="DzL-ae-2Se" id="yZA-m6-Akd"/>
+                <outlet property="iv_bg" destination="AFF-BH-oKM" id="tWQ-Fq-Lso"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>

@@ -45,6 +45,12 @@
     currentTag = -1;
     
     
+    //给背景添加点击监听
+    self.iv_back.userInteractionEnabled=YES;
+    UITapGestureRecognizer *singleTap1 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
+    [self.iv_back addGestureRecognizer:singleTap1];
+    
+    
     
     
     //初始化右侧菜单
@@ -135,10 +141,15 @@
 
 
 
+- (void)hideTanchukuang
+{
+    //发出通知，把底部导航栏控件收起来
+    [[NSNotificationCenter defaultCenter] postNotificationName:Notification_DownTabBarView object:nil];
+}
+
+
 - (void)menuClick:(id)sender
 {
-    
-    
     UIButton *bt = (UIButton *)sender;
     int tag = (int)bt.tag;
     switch (tag) {
@@ -223,7 +234,7 @@
                     [self performSelector:@selector(add30mChufang) withObject:nil];
                 }
                 else if([currentFangType isEqualToString:@"50m"]){
-                    //[self performSelectorInBackground:@selector(add50mChufang) withObject:nil];
+                    [self performSelector:@selector(add50mChufang) withObject:nil];
                 }
             
             break;
@@ -283,7 +294,7 @@
     [self removeAllViewOnMatherView];
     //添加旋转模块
     circleView = [[FTCircleImageView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
-    circleView.fileType = @"PNG";
+    circleView.fileType = @"png";
     circleView.userInteractionEnabled = YES;
     circleView.isSkipFrame = YES;
     circleView.isRound = YES;
@@ -294,12 +305,18 @@
     
     if ([currentFangType isEqualToString:@"30m"]) {
         circleView.preName = @"30F_00";
-        circleView.image = [UIImage imageNamed:@"30F_000.PNG"];
+        circleView.image = [UIImage imageNamed:@"30F_000.png"];
     }
     else if([currentFangType isEqualToString:@"50m"]){
         circleView.preName = @"50F_00";
-        circleView.image = [UIImage imageNamed:@"50F_000.PNG"];
+        circleView.image = [UIImage imageNamed:@"50F_000.png"];
     }
+    
+    
+    //给序列帧添加点击监听
+    circleView.userInteractionEnabled=YES;
+    UITapGestureRecognizer *singleTap2 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
+    [circleView addGestureRecognizer:singleTap2];
     
 }
 
@@ -309,6 +326,7 @@
     if (currentFloor == 3) {
         v_menu.hidden = NO;
         [self loadXuliezhen];
+        self.iv_back.image = [UIImage imageNamed:@"kanfang_bg.jpg"];
         currentFloor = 2;
     }
     else if(currentFloor == 2){
@@ -395,6 +413,11 @@
     skyboxView = [[CustSkyBoxView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768) andType:type];
     [self.view insertSubview:skyboxView aboveSubview:self.iv_back];
     isLoading = NO;
+    
+    //给skybox添加点击监听
+    skyboxView.userInteractionEnabled=YES;
+    UITapGestureRecognizer *singleTap3 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
+    [skyboxView addGestureRecognizer:singleTap3];
 }
 
 

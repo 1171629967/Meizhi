@@ -27,8 +27,17 @@
 {
     [super viewDidLoad];
     
+    //给背景添加点击监听
+    self.iv_bg.userInteractionEnabled=YES;
+    UITapGestureRecognizer *singleTap2 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
+    [self.iv_bg addGestureRecognizer:singleTap2];
     
-    
+}
+
+- (void)hideTanchukuang
+{
+    //发出通知，把底部导航栏控件收起来
+    [[NSNotificationCenter defaultCenter] postNotificationName:Notification_DownTabBarView object:nil];
 }
 
 - (void)didReceiveMemoryWarning

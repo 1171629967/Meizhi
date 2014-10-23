@@ -13,6 +13,7 @@
 @interface ZhanshishejiVC : UIViewController
 {
      MPMoviePlayerController *theMovie;
+     MPMoviePlayerViewController *playerViewController;
 }
 @property (strong, nonatomic) IBOutlet UIButton *bt1;
 @property (strong, nonatomic) IBOutlet UIButton *bt2;

@@ -70,54 +70,34 @@
     self.bt3.hidden = YES;
     self.bt1.hidden = YES;
     self.bt2.hidden = YES;
-   
-    
+}
+- (void) showMenu{
+    self.bt3.hidden = NO;
+    self.bt1.hidden = NO;
+    self.bt2.hidden = NO;
 }
 
-//加载片头视频数据
-- (void)playMovie
-{
+- (void)playMovie{
     NSString *s = [[NSBundle mainBundle] pathForResource:@"piantou" ofType:@"mp4"];
     NSURL *url = [NSURL fileURLWithPath:s];
-    theMovie= [[MPMoviePlayerController alloc] initWithContentURL:url];
-
-    theMovie.view.frame = CGRectMake(0, 0, 1024, 768);
-    [self.viewMovie addSubview:theMovie.view];
-    
-    CGRect frame = CGRectMake(50, 50, 50, 50);
-    UIButton *someAddButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    [someAddButton setBackgroundImage:[UIImage imageNamed:@"zhanshi_back.png"] forState:UIControlStateNormal];
-    someAddButton.frame = frame;
-    [someAddButton addTarget:self action:@selector(movieBackClicked) forControlEvents:UIControlEventTouchUpInside];
-    [theMovie.view addSubview:someAddButton];
-    
-    [[NSNotificationCenter defaultCenter] addObserver:self
-                                             selector:@selector(myMovieFinishedCallback:)
-                                                 name:MPMoviePlayerPlaybackDidFinishNotification
-                                               object:theMovie];
-    [theMovie play];
+    playerViewController = [[MPMoviePlayerViewController alloc]     initWithContentURL:url];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(playVideoFinished:) name:MPMoviePlayerPlaybackDidFinishNotification object:[playerViewController moviePlayer]];
+    playerViewController.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
+    [self presentModalViewController:playerViewController animated:NO];
+    MPMoviePlayerController *player = [playerViewController moviePlayer];
+    [player play];
 }
 
-
--(void) movieBackClicked{
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"提示"
-                                                    message:@"您点击了动态按钮！"
-                                                   delegate:self
-                                          cancelButtonTitle:@"确定"
-                                          otherButtonTitles:nil];
-    [alert show];
-}
-
-//片头视频播放完毕后的回调
-- (void)myMovieFinishedCallback:(NSNotification*)aNotification
+- (void) playVideoFinished:(NSNotification *)theNotification//当点击Done按键或者播放完毕时调用此函数
 {
-    MPMoviePlayerController *theMovie=[aNotification object];
-    [[NSNotificationCenter defaultCenter] removeObserver:self
-                                                    name:MPMoviePlayerPlaybackDidFinishNotification
-                                                  object:theMovie];
-    [theMovie.view removeFromSuperview];
-
+    MPMoviePlayerController *player = [theNotification object];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:player];
+    [player stop];
+    [playerViewController dismissModalViewControllerAnimated:NO];
+    self.viewMovie.hidden = YES;
+    //将菜单再次显示出来
+    [self showMenu];
+    
 }
-
 
 @end

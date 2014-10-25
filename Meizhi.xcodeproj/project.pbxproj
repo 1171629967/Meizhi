@@ -607,6 +607,24 @@
 		09EEB0E219F785CB005ED36F /* huxingjianshang_niaokan_icon4.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EEB0DC19F785CB005ED36F /* huxingjianshang_niaokan_icon4.png */; };
 		09EEB0E319F785CB005ED36F /* huxingjianshang_niaokan_icon5.png in Resources */ = {isa = PBXBuildFile; fileRef = 09EEB0DD19F785CB005ED36F /* huxingjianshang_niaokan_icon5.png */; };
 		09EEB0E619F786B3005ED36F /* huxingjianshang_niaokan_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09EEB0E519F786B3005ED36F /* huxingjianshang_niaokan_bg.jpg */; };
+		1A39F86219FB755F00197C21 /* xiaoguotu_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85319FB755F00197C21 /* xiaoguotu_1.png */; };
+		1A39F86319FB755F00197C21 /* xiaoguotu_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85419FB755F00197C21 /* xiaoguotu_2.png */; };
+		1A39F86419FB755F00197C21 /* xiaoguotu_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85519FB755F00197C21 /* xiaoguotu_3.png */; };
+		1A39F86519FB755F00197C21 /* xiaoguotu_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85619FB755F00197C21 /* xiaoguotu_4.png */; };
+		1A39F86619FB755F00197C21 /* xiaoguotu_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85719FB755F00197C21 /* xiaoguotu_5.png */; };
+		1A39F86719FB755F00197C21 /* xiaoguotu_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85819FB755F00197C21 /* xiaoguotu_6.png */; };
+		1A39F86819FB755F00197C21 /* xiaoguotu_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85919FB755F00197C21 /* xiaoguotu_7.png */; };
+		1A39F86919FB755F00197C21 /* xiaoguotu_8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85A19FB755F00197C21 /* xiaoguotu_8.png */; };
+		1A39F86A19FB755F00197C21 /* xiaoguotu_9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85B19FB755F00197C21 /* xiaoguotu_9.png */; };
+		1A39F86B19FB755F00197C21 /* xiaoguotu_10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85C19FB755F00197C21 /* xiaoguotu_10.png */; };
+		1A39F86C19FB755F00197C21 /* xiaoguotu_11.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85D19FB755F00197C21 /* xiaoguotu_11.png */; };
+		1A39F86D19FB755F00197C21 /* xiaoguotu_12.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85E19FB755F00197C21 /* xiaoguotu_12.png */; };
+		1A39F86E19FB755F00197C21 /* xiaoguotu_13.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F85F19FB755F00197C21 /* xiaoguotu_13.png */; };
+		1A39F86F19FB755F00197C21 /* xiaoguotu_14.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F86019FB755F00197C21 /* xiaoguotu_14.png */; };
+		1A39F87019FB755F00197C21 /* xiaoguotu_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F86119FB755F00197C21 /* xiaoguotu_bg.jpg */; };
+		1A39F87419FB757100197C21 /* xuanchuantu_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F87119FB757100197C21 /* xuanchuantu_bg.jpg */; };
+		1A39F87519FB757100197C21 /* xuanchuanye_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F87219FB757100197C21 /* xuanchuanye_1.png */; };
+		1A39F87619FB757100197C21 /* xuanchuanye_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A39F87319FB757100197C21 /* xuanchuanye_2.png */; };
 		1A91016C19ED683C004F3617 /* zhanshi_bg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A91016B19ED683C004F3617 /* zhanshi_bg.jpg */; };
 		1A91016E19ED6900004F3617 /* zhanshi_xuanchuan.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91016D19ED6900004F3617 /* zhanshi_xuanchuan.png */; };
 		1A91017119ED6C1C004F3617 /* zhanshi_sanwei.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A91016F19ED6C1C004F3617 /* zhanshi_sanwei.png */; };
@@ -1312,6 +1330,24 @@
 		09EEB0DC19F785CB005ED36F /* huxingjianshang_niaokan_icon4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huxingjianshang_niaokan_icon4.png; sourceTree = "<group>"; };
 		09EEB0DD19F785CB005ED36F /* huxingjianshang_niaokan_icon5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huxingjianshang_niaokan_icon5.png; sourceTree = "<group>"; };
 		09EEB0E519F786B3005ED36F /* huxingjianshang_niaokan_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = huxingjianshang_niaokan_bg.jpg; sourceTree = "<group>"; };
+		1A39F85319FB755F00197C21 /* xiaoguotu_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_1.png; sourceTree = "<group>"; };
+		1A39F85419FB755F00197C21 /* xiaoguotu_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_2.png; sourceTree = "<group>"; };
+		1A39F85519FB755F00197C21 /* xiaoguotu_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_3.png; sourceTree = "<group>"; };
+		1A39F85619FB755F00197C21 /* xiaoguotu_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_4.png; sourceTree = "<group>"; };
+		1A39F85719FB755F00197C21 /* xiaoguotu_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_5.png; sourceTree = "<group>"; };
+		1A39F85819FB755F00197C21 /* xiaoguotu_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_6.png; sourceTree = "<group>"; };
+		1A39F85919FB755F00197C21 /* xiaoguotu_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_7.png; sourceTree = "<group>"; };
+		1A39F85A19FB755F00197C21 /* xiaoguotu_8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_8.png; sourceTree = "<group>"; };
+		1A39F85B19FB755F00197C21 /* xiaoguotu_9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_9.png; sourceTree = "<group>"; };
+		1A39F85C19FB755F00197C21 /* xiaoguotu_10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_10.png; sourceTree = "<group>"; };
+		1A39F85D19FB755F00197C21 /* xiaoguotu_11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_11.png; sourceTree = "<group>"; };
+		1A39F85E19FB755F00197C21 /* xiaoguotu_12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_12.png; sourceTree = "<group>"; };
+		1A39F85F19FB755F00197C21 /* xiaoguotu_13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_13.png; sourceTree = "<group>"; };
+		1A39F86019FB755F00197C21 /* xiaoguotu_14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xiaoguotu_14.png; sourceTree = "<group>"; };
+		1A39F86119FB755F00197C21 /* xiaoguotu_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xiaoguotu_bg.jpg; sourceTree = "<group>"; };
+		1A39F87119FB757100197C21 /* xuanchuantu_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = xuanchuantu_bg.jpg; sourceTree = "<group>"; };
+		1A39F87219FB757100197C21 /* xuanchuanye_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuanchuanye_1.png; sourceTree = "<group>"; };
+		1A39F87319FB757100197C21 /* xuanchuanye_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = xuanchuanye_2.png; sourceTree = "<group>"; };
 		1A91016B19ED683C004F3617 /* zhanshi_bg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhanshi_bg.jpg; sourceTree = "<group>"; };
 		1A91016D19ED6900004F3617 /* zhanshi_xuanchuan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanshi_xuanchuan.png; sourceTree = "<group>"; };
 		1A91016F19ED6C1C004F3617 /* zhanshi_sanwei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zhanshi_sanwei.png; sourceTree = "<group>"; };
@@ -2037,6 +2073,8 @@
 		09D96C8C19EA9DD0000D15AA /* 图片 */ = {
 			isa = PBXGroup;
 			children = (
+				1A39F85219FB754200197C21 /* 展示设计宣传图 */,
+				1A39F85119FB752B00197C21 /* 展示设计效果图 */,
 				0909A4A319F92BD100089A08 /* nearBigImage.jpg */,
 				09EEB0D719F785A3005ED36F /* 户型鉴赏 */,
 				1A91016A19ED680B004F3617 /* 展示设计 */,
@@ -2414,6 +2452,38 @@
 			name = "鸟瞰图";
 			sourceTree = "<group>";
 		};
+		1A39F85119FB752B00197C21 /* 展示设计效果图 */ = {
+			isa = PBXGroup;
+			children = (
+				1A39F85319FB755F00197C21 /* xiaoguotu_1.png */,
+				1A39F85419FB755F00197C21 /* xiaoguotu_2.png */,
+				1A39F85519FB755F00197C21 /* xiaoguotu_3.png */,
+				1A39F85619FB755F00197C21 /* xiaoguotu_4.png */,
+				1A39F85719FB755F00197C21 /* xiaoguotu_5.png */,
+				1A39F85819FB755F00197C21 /* xiaoguotu_6.png */,
+				1A39F85919FB755F00197C21 /* xiaoguotu_7.png */,
+				1A39F85A19FB755F00197C21 /* xiaoguotu_8.png */,
+				1A39F85B19FB755F00197C21 /* xiaoguotu_9.png */,
+				1A39F85C19FB755F00197C21 /* xiaoguotu_10.png */,
+				1A39F85D19FB755F00197C21 /* xiaoguotu_11.png */,
+				1A39F85E19FB755F00197C21 /* xiaoguotu_12.png */,
+				1A39F85F19FB755F00197C21 /* xiaoguotu_13.png */,
+				1A39F86019FB755F00197C21 /* xiaoguotu_14.png */,
+				1A39F86119FB755F00197C21 /* xiaoguotu_bg.jpg */,
+			);
+			name = "展示设计效果图";
+			sourceTree = "<group>";
+		};
+		1A39F85219FB754200197C21 /* 展示设计宣传图 */ = {
+			isa = PBXGroup;
+			children = (
+				1A39F87119FB757100197C21 /* xuanchuantu_bg.jpg */,
+				1A39F87219FB757100197C21 /* xuanchuanye_1.png */,
+				1A39F87319FB757100197C21 /* xuanchuanye_2.png */,
+			);
+			name = "展示设计宣传图";
+			sourceTree = "<group>";
+		};
 		1A91016A19ED680B004F3617 /* 展示设计 */ = {
 			isa = PBXGroup;
 			children = (
@@ -2545,6 +2615,7 @@
 				0932998919F9527A00A1B05A /* 50F_0076.png in Resources */,
 				0932988719F94CEC00A1B05A /* 30F_00120.png in Resources */,
 				0932997419F9527A00A1B05A /* 50F_0055.png in Resources */,
+				1A39F86E19FB755F00197C21 /* xiaoguotu_13.png in Resources */,
 				1AAA80A619EEC2BC000606C0 /* ZhanshishejiVC.xib in Resources */,
 				09329A4B19F96F4A00A1B05A /* xiaohaifang_50m_3.jpg in Resources */,
 				0926525919EC7D0300E057E7 /* kanfang_bg.jpg in Resources */,
@@ -2586,6 +2657,7 @@
 				0932994F19F9527A00A1B05A /* 50F_0018.png in Resources */,
 				0932993F19F9527A00A1B05A /* 50F_002.png in Resources */,
 				0932976119F94BAE00A1B05A /* c12_00078.jpg in Resources */,
+				1A39F86919FB755F00197C21 /* xiaoguotu_8.png in Resources */,
 				0932976B19F94BAE00A1B05A /* c12_00088.jpg in Resources */,
 				0932974819F94BAE00A1B05A /* c12_00053.jpg in Resources */,
 				0932981E19F94CEC00A1B05A /* 30F_0015.png in Resources */,
@@ -2595,6 +2667,7 @@
 				0932989B19F94CEC00A1B05A /* 30F_00140.png in Resources */,
 				0932986819F94CEC00A1B05A /* 30F_0089.png in Resources */,
 				0932972319F94BAE00A1B05A /* c12_00016.jpg in Resources */,
+				1A39F87419FB757100197C21 /* xuanchuantu_bg.jpg in Resources */,
 				0932987A19F94CEC00A1B05A /* 30F_00107.png in Resources */,
 				09D96F4519EB14BA000D15AA /* ZT_5.jpg in Resources */,
 				0932971A19F94BAE00A1B05A /* c12_0007.jpg in Resources */,
@@ -2620,6 +2693,7 @@
 				0932976319F94BAE00A1B05A /* c12_00080.jpg in Resources */,
 				09EEB0DF19F785CB005ED36F /* huxingjianshang_niaokan_icon1.png in Resources */,
 				0932994319F9527A00A1B05A /* 50F_006.png in Resources */,
+				1A39F86219FB755F00197C21 /* xiaoguotu_1.png in Resources */,
 				093299DF19F9629500A1B05A /* chufang_30m_5.jpg in Resources */,
 				093299D219F9527A00A1B05A /* 50F_00149.png in Resources */,
 				093299C319F9527A00A1B05A /* 50F_00134.png in Resources */,
@@ -2746,6 +2820,7 @@
 				0932972719F94BAE00A1B05A /* c12_00020.jpg in Resources */,
 				0932996E19F9527A00A1B05A /* 50F_0049.png in Resources */,
 				0932994619F9527A00A1B05A /* 50F_009.png in Resources */,
+				1A39F86C19FB755F00197C21 /* xiaoguotu_11.png in Resources */,
 				09329A6619F9708000A1B05A /* zhuwo_50m_4.jpg in Resources */,
 				093299A319F9527A00A1B05A /* 50F_00102.png in Resources */,
 				0932975319F94BAE00A1B05A /* c12_00064.jpg in Resources */,
@@ -2756,6 +2831,7 @@
 				0932989519F94CEC00A1B05A /* 30F_00134.png in Resources */,
 				0932974919F94BAE00A1B05A /* c12_00054.jpg in Resources */,
 				0932998E19F9527A00A1B05A /* 50F_0081.png in Resources */,
+				1A39F87019FB755F00197C21 /* xiaoguotu_bg.jpg in Resources */,
 				0932969D19F9496200A1B05A /* ciwo_50m_1.jpg in Resources */,
 				0932987D19F94CEC00A1B05A /* 30F_00110.png in Resources */,
 				0932974319F94BAE00A1B05A /* c12_00048.jpg in Resources */,
@@ -2784,6 +2860,7 @@
 				0932984119F94CEC00A1B05A /* 30F_0050.png in Resources */,
 				0932972E19F94BAE00A1B05A /* c12_00027.jpg in Resources */,
 				1A91017219ED6C1C004F3617 /* zhanshi_xiaoguotu.png in Resources */,
+				1A39F86819FB755F00197C21 /* xiaoguotu_7.png in Resources */,
 				0932989019F94CEC00A1B05A /* 30F_00129.png in Resources */,
 				0932977719F94BAE00A1B05A /* c12_000100.jpg in Resources */,
 				09329A4019F96E9000A1B05A /* weishengjian_50m_5.jpg in Resources */,
@@ -2797,6 +2874,7 @@
 				0932975719F94BAE00A1B05A /* c12_00068.jpg in Resources */,
 				0932974A19F94BAE00A1B05A /* c12_00055.jpg in Resources */,
 				0932996019F9527A00A1B05A /* 50F_0035.png in Resources */,
+				1A39F86F19FB755F00197C21 /* xiaoguotu_14.png in Resources */,
 				0932971419F94BAE00A1B05A /* c12_0001.jpg in Resources */,
 				0932987119F94CEC00A1B05A /* 30F_0098.png in Resources */,
 				0932994719F9527A00A1B05A /* 50F_0010.png in Resources */,
@@ -2807,6 +2885,7 @@
 				09D96CCC19EADEB8000D15AA /* 弹出框图片.png in Resources */,
 				0932989219F94CEC00A1B05A /* 30F_00131.png in Resources */,
 				0932982C19F94CEC00A1B05A /* 30F_0029.png in Resources */,
+				1A39F86319FB755F00197C21 /* xiaoguotu_2.png in Resources */,
 				093299F619F9650B00A1B05A /* KT_30m_4.jpg in Resources */,
 				09D96C8F19EA9DF6000D15AA /* daohang_back.png in Resources */,
 				0932995019F9527A00A1B05A /* 50F_0019.png in Resources */,
@@ -2832,24 +2911,28 @@
 				09329A2319F9693500A1B05A /* zhuwo_30m_2.jpg in Resources */,
 				093299AD19F9527A00A1B05A /* 50F_00112.png in Resources */,
 				093299CA19F9527A00A1B05A /* 50F_00141.png in Resources */,
+				1A39F86B19FB755F00197C21 /* xiaoguotu_10.png in Resources */,
 				0932985119F94CEC00A1B05A /* 30F_0066.png in Resources */,
 				0932985719F94CEC00A1B05A /* 30F_0072.png in Resources */,
 				093296A019F9496200A1B05A /* ciwo_50m_4.jpg in Resources */,
 				0932982F19F94CEC00A1B05A /* 30F_0032.png in Resources */,
 				0932984619F94CEC00A1B05A /* 30F_0055.png in Resources */,
 				09EEB0E619F786B3005ED36F /* huxingjianshang_niaokan_bg.jpg in Resources */,
+				1A39F86719FB755F00197C21 /* xiaoguotu_6.png in Resources */,
 				09329A3319F96DE500A1B05A /* shufang_50m_5.jpg in Resources */,
 				0932983719F94CEC00A1B05A /* 30F_0040.png in Resources */,
 				0932999C19F9527A00A1B05A /* 50F_0095.png in Resources */,
 				09329A2E19F96DE500A1B05A /* shufang_50m_0.jpg in Resources */,
 				0932998A19F9527A00A1B05A /* 50F_0077.png in Resources */,
 				0932972219F94BAE00A1B05A /* c12_00015.jpg in Resources */,
+				1A39F86519FB755F00197C21 /* xiaoguotu_4.png in Resources */,
 				0932975919F94BAE00A1B05A /* c12_00070.jpg in Resources */,
 				0932981419F94CEC00A1B05A /* 30F_005.png in Resources */,
 				0932988919F94CEC00A1B05A /* 30F_00122.png in Resources */,
 				0932995219F9527A00A1B05A /* 50F_0021.png in Resources */,
 				0932981019F94CEC00A1B05A /* 30F_001.png in Resources */,
 				0932989819F94CEC00A1B05A /* 30F_00137.png in Resources */,
+				1A39F87619FB757100197C21 /* xuanchuanye_2.png in Resources */,
 				0932983C19F94CEC00A1B05A /* 30F_0045.png in Resources */,
 				1A91016E19ED6900004F3617 /* zhanshi_xuanchuan.png in Resources */,
 				0932982919F94CEC00A1B05A /* 30F_0026.png in Resources */,
@@ -2865,6 +2948,7 @@
 				0932999519F9527A00A1B05A /* 50F_0088.png in Resources */,
 				0932999219F9527A00A1B05A /* 50F_0085.png in Resources */,
 				0932994019F9527A00A1B05A /* 50F_003.png in Resources */,
+				1A39F86A19FB755F00197C21 /* xiaoguotu_9.png in Resources */,
 				093296AA19F94A3300A1B05A /* KT_50m_2.jpg in Resources */,
 				093299C419F9527A00A1B05A /* 50F_00135.png in Resources */,
 				093299B819F9527A00A1B05A /* 50F_00123.png in Resources */,
@@ -2876,7 +2960,9 @@
 				0932984919F94CEC00A1B05A /* 30F_0058.png in Resources */,
 				0932995B19F9527A00A1B05A /* 50F_0030.png in Resources */,
 				0932997E19F9527A00A1B05A /* 50F_0065.png in Resources */,
+				1A39F87519FB757100197C21 /* xuanchuanye_1.png in Resources */,
 				0932994519F9527A00A1B05A /* 50F_008.png in Resources */,
+				1A39F86D19FB755F00197C21 /* xiaoguotu_12.png in Resources */,
 				0932997119F9527A00A1B05A /* 50F_0052.png in Resources */,
 				0932997919F9527A00A1B05A /* 50F_0060.png in Resources */,
 				0932972119F94BAE00A1B05A /* c12_00014.jpg in Resources */,
@@ -2895,6 +2981,7 @@
 				0932973019F94BAE00A1B05A /* c12_00029.jpg in Resources */,
 				0932975519F94BAE00A1B05A /* c12_00066.jpg in Resources */,
 				0932982D19F94CEC00A1B05A /* 30F_0030.png in Resources */,
+				1A39F86619FB755F00197C21 /* xiaoguotu_5.png in Resources */,
 				0932986A19F94CEC00A1B05A /* 30F_0091.png in Resources */,
 				093299A819F9527A00A1B05A /* 50F_00107.png in Resources */,
 				0932971C19F94BAE00A1B05A /* c12_0009.jpg in Resources */,
@@ -3067,6 +3154,7 @@
 				0932998319F9527A00A1B05A /* 50F_0070.png in Resources */,
 				09D96CA719EAB99C000D15AA /* daohang_icon_zanshisheji.png in Resources */,
 				09D96C9F19EAA141000D15AA /* XiangmushejiVC.xib in Resources */,
+				1A39F86419FB755F00197C21 /* xiaoguotu_3.png in Resources */,
 				09EEB0E119F785CB005ED36F /* huxingjianshang_niaokan_icon3.png in Resources */,
 				09D96C9219EA9E86000D15AA /* daohang_icon_quweijiazhi.png in Resources */,
 				0932975D19F94BAE00A1B05A /* c12_00074.jpg in Resources */,

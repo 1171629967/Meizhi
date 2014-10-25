@@ -119,7 +119,6 @@
 
 }
 
-
 -(void)back{
     [self removeFromSuperview];
 }

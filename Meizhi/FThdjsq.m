@@ -75,9 +75,14 @@
 
 //等额还款
 +(double)dengeLjhklx:(double)jinne qixian:(NSInteger)qi lilv:(double)ll{
-    double a = [FThdjsq numeber:(1+ll/1000) cimi:qi*12];
-    double b = [FThdjsq numeber:(1+ll/1000) cimi:qi*12];
-    return (double)100*ll*a/(b-1)*(jinne/10)*qi*12-jinne*10000;
+//    double a = [FThdjsq numeber:(1+ll/1000) cimi:qi*12];
+//    double b = [FThdjsq numeber:(1+ll/1000) cimi:qi*12];
+//    return (double)100*ll*a/(b-1)*(jinne/10)*qi*12-jinne*10000;
+    
+    NSMutableArray *arr = [self dengEhk:jinne qixian:qi lilv:ll];
+    
+    FThdjsq *obj = [arr objectAtIndex:0];
+    return obj.guihuanbenxi;
 }
 
 +(double)dengeLjhkzs:(double)jinne qixian:(NSInteger)qi lilv:(double)ll{
@@ -87,8 +92,11 @@
 }
 //等本还款
 +(double)dengbLjhklx:(double)jinne qixian:(NSInteger)qi lilv:(double)ll{
-    double a = jinne*10000/(qi*12)*(ll/1000);
-    return (double)(jinne*10000*ll/1000-(double)((12*qi-1)*a)/2)*12*qi;
+//    double a = jinne*10000/(qi*12)*(ll/1000);
+//    return (double)(jinne*10000*ll/1000-(double)((12*qi-1)*a)/2)*12*qi;
+   NSMutableArray *arr = [self dengBhk:jinne qixian:qi lilv:ll];
+    FThdjsq *obj = [arr objectAtIndex:0];
+    return obj.guihuanbenxi;
 }
 
 +(double)dengbLjhkzs:(double)jinne qixian:(NSInteger)qi lilv:(double)ll{

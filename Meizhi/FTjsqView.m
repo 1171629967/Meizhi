@@ -105,6 +105,12 @@
     dbbxbtn.frame = CGRectMake(176, 582, 30, 30);
     [self addSubview:dbbxbtn];
     
+    UIButton *information = [UIButton buttonWithType:UIButtonTypeCustom];
+    [information setImage:[UIImage imageNamed:@"jiquanqi_information.png"] forState:UIControlStateNormal];
+    [information addTarget:self action:@selector(informationPressed) forControlEvents:UIControlEventTouchUpInside];
+    information.frame = CGRectMake(973, 17, 30, 30);
+    [self addSubview:information];
+    
 //    UIButton *fanhui = [UIButton buttonWithType:UIButtonTypeCustom];
 //    [fanhui setImage:[UIImage imageNamed:@"jisuanqibtn1.png"] forState:UIControlStateNormal];
 //    [fanhui addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
@@ -129,6 +135,10 @@
         [(UIButton *)[self viewWithTag:1000] setImage:[UIImage imageNamed:@"radioBtn2.png"] forState:UIControlStateNormal];
         [(UIButton *)[self viewWithTag:1001] setImage:[UIImage imageNamed:@"radioBtn1.png"] forState:UIControlStateNormal];
     }
+}
+
+-(void)informationPressed{
+    
 }
 
 -(void)chongzhi{

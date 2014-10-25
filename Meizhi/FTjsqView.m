@@ -29,7 +29,7 @@
 - (void)drawRect:(CGRect)rect
 {
     // Drawing code
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"jsqbackView.jpg"]];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"jsqbackView1.jpg"]];
     imageView.frame = CGRectMake(0, 0, 1024, 768);
     [self addSubview:imageView];
     [imageView release];
@@ -80,13 +80,13 @@
     [tableView release];
     
     UIButton *jisuanbtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [jisuanbtn setImage:[UIImage imageNamed:@"jisuanqibtn2.png"] forState:UIControlStateNormal];
+    [jisuanbtn setImage:[UIImage imageNamed:@"jisuanqibtn_2.png"] forState:UIControlStateNormal];
     [jisuanbtn addTarget:self action:@selector(jisuan) forControlEvents:UIControlEventTouchUpInside];
     jisuanbtn.frame = CGRectMake(82, 661, 76, 41);
     [self addSubview:jisuanbtn];
     
     UIButton *chongzbtn = [UIButton buttonWithType:UIButtonTypeCustom];
-    [chongzbtn setImage:[UIImage imageNamed:@"jisuanqibtn3.png"] forState:UIControlStateNormal];
+    [chongzbtn setImage:[UIImage imageNamed:@"jisuanqibtn_3.png"] forState:UIControlStateNormal];
     [chongzbtn addTarget:self action:@selector(chongzhi) forControlEvents:UIControlEventTouchUpInside];
     chongzbtn.frame = CGRectMake(193, 661, 76, 41);
     [self addSubview:chongzbtn];

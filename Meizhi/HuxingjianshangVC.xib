@@ -10,7 +10,6 @@
                 <outlet property="bt_2" destination="VSG-Ao-O3d" id="4f9-ex-8AO"/>
                 <outlet property="bt_3" destination="Bbx-cS-OwK" id="het-00-WFQ"/>
                 <outlet property="bt_4" destination="wb7-gr-aDM" id="U3U-xm-NQQ"/>
-                <outlet property="bt_5" destination="DzL-ae-2Se" id="yZA-m6-Akd"/>
                 <outlet property="iv_bg" destination="AFF-BH-oKM" id="tWQ-Fq-Lso"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -24,7 +23,7 @@
                     <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                 </imageView>
-                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="707-PB-87G">
+                <button appearanceType="aqua" opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="707-PB-87G">
                     <rect key="frame" x="615" y="365" width="40" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="huxingjianshang_niaokan_icon1.png">
@@ -34,7 +33,7 @@
                         <action selector="iconClick:" destination="-1" eventType="touchUpInside" id="we5-B6-Ml4"/>
                     </connections>
                 </button>
-                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSG-Ao-O3d">
+                <button appearanceType="aqua" opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSG-Ao-O3d">
                     <rect key="frame" x="364" y="365" width="40" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="huxingjianshang_niaokan_icon2.png">
@@ -44,7 +43,7 @@
                         <action selector="iconClick:" destination="-1" eventType="touchUpInside" id="7PT-PO-tc3"/>
                     </connections>
                 </button>
-                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbx-cS-OwK">
+                <button appearanceType="aqua" opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bbx-cS-OwK">
                     <rect key="frame" x="380" y="222" width="40" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="huxingjianshang_niaokan_icon3.png">
@@ -54,7 +53,7 @@
                         <action selector="iconClick:" destination="-1" eventType="touchUpInside" id="jbU-Zx-WR2"/>
                     </connections>
                 </button>
-                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb7-gr-aDM">
+                <button appearanceType="aqua" opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wb7-gr-aDM">
                     <rect key="frame" x="598" y="222" width="40" height="60"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <state key="normal" image="huxingjianshang_niaokan_icon4.png">
@@ -62,16 +61,6 @@
                     </state>
                     <connections>
                         <action selector="iconClick:" destination="-1" eventType="touchUpInside" id="C1G-gk-DCk"/>
-                    </connections>
-                </button>
-                <button appearanceType="aqua" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DzL-ae-2Se">
-                    <rect key="frame" x="492" y="63" width="40" height="60"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    <state key="normal" image="huxingjianshang_niaokan_icon5.png">
-                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                    </state>
-                    <connections>
-                        <action selector="iconClick:" destination="-1" eventType="touchUpInside" id="ACJ-WJ-Ssm"/>
                     </connections>
                 </button>
             </subviews>
@@ -86,6 +75,5 @@
         <image name="huxingjianshang_niaokan_icon2.png" width="82" height="123"/>
         <image name="huxingjianshang_niaokan_icon3.png" width="82" height="123"/>
         <image name="huxingjianshang_niaokan_icon4.png" width="82" height="123"/>
-        <image name="huxingjianshang_niaokan_icon5.png" width="82" height="123"/>
     </resources>
 </document>

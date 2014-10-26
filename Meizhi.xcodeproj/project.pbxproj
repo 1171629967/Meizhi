@@ -519,6 +519,15 @@
 		09329A6619F9708000A1B05A /* zhuwo_50m_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09329A6019F9708000A1B05A /* zhuwo_50m_4.jpg */; };
 		09329A6719F9708000A1B05A /* zhuwo_50m_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09329A6119F9708000A1B05A /* zhuwo_50m_5.jpg */; };
 		09329A6D19F9785200A1B05A /* FTZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09329A6A19F9785200A1B05A /* FTZoomScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		096D1D0619FC8D8700692102 /* pingmianhuxing1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 096D1D0219FC8D8700692102 /* pingmianhuxing1.jpg */; };
+		096D1D0719FC8D8700692102 /* pingmianhuxing2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 096D1D0319FC8D8700692102 /* pingmianhuxing2.jpg */; };
+		096D1D0819FC8D8700692102 /* pingmianhuxing3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 096D1D0419FC8D8700692102 /* pingmianhuxing3.jpg */; };
+		096D1D0919FC8D8700692102 /* pingmianhuxing4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 096D1D0519FC8D8700692102 /* pingmianhuxing4.jpg */; };
+		096D1D0C19FC8F6500692102 /* HuxingBgView1.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D1D0B19FC8F6500692102 /* HuxingBgView1.m */; };
+		096D1D0F19FC937800692102 /* HuxingBgView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D1D0E19FC937800692102 /* HuxingBgView2.m */; };
+		096D1D1219FC938600692102 /* HuxingBgView3.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D1D1119FC938600692102 /* HuxingBgView3.m */; };
+		096D1D1519FC939500692102 /* HuxingBgView4.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D1D1419FC939500692102 /* HuxingBgView4.m */; };
+		096D1D1719FC9C5400692102 /* pingmianhuxing_return.png in Resources */ = {isa = PBXBuildFile; fileRef = 096D1D1619FC9C5400692102 /* pingmianhuxing_return.png */; };
 		09A42E8819F40934007D2707 /* back_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A42E8719F40934007D2707 /* back_music.mp3 */; };
 		09D72A5019EA832B0058D54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A4F19EA832B0058D54C /* Foundation.framework */; };
 		09D72A5219EA832B0058D54C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5119EA832B0058D54C /* CoreGraphics.framework */; };
@@ -1149,6 +1158,19 @@
 		09329A6119F9708000A1B05A /* zhuwo_50m_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zhuwo_50m_5.jpg; sourceTree = "<group>"; };
 		09329A6919F9785200A1B05A /* FTZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTZoomScrollView.h; sourceTree = "<group>"; };
 		09329A6A19F9785200A1B05A /* FTZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTZoomScrollView.m; sourceTree = "<group>"; };
+		096D1D0219FC8D8700692102 /* pingmianhuxing1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pingmianhuxing1.jpg; sourceTree = "<group>"; };
+		096D1D0319FC8D8700692102 /* pingmianhuxing2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pingmianhuxing2.jpg; sourceTree = "<group>"; };
+		096D1D0419FC8D8700692102 /* pingmianhuxing3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pingmianhuxing3.jpg; sourceTree = "<group>"; };
+		096D1D0519FC8D8700692102 /* pingmianhuxing4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pingmianhuxing4.jpg; sourceTree = "<group>"; };
+		096D1D0A19FC8F6500692102 /* HuxingBgView1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuxingBgView1.h; sourceTree = "<group>"; };
+		096D1D0B19FC8F6500692102 /* HuxingBgView1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuxingBgView1.m; sourceTree = "<group>"; };
+		096D1D0D19FC937800692102 /* HuxingBgView2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuxingBgView2.h; sourceTree = "<group>"; };
+		096D1D0E19FC937800692102 /* HuxingBgView2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuxingBgView2.m; sourceTree = "<group>"; };
+		096D1D1019FC938600692102 /* HuxingBgView3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuxingBgView3.h; sourceTree = "<group>"; };
+		096D1D1119FC938600692102 /* HuxingBgView3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuxingBgView3.m; sourceTree = "<group>"; };
+		096D1D1319FC939500692102 /* HuxingBgView4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HuxingBgView4.h; sourceTree = "<group>"; };
+		096D1D1419FC939500692102 /* HuxingBgView4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HuxingBgView4.m; sourceTree = "<group>"; };
+		096D1D1619FC9C5400692102 /* pingmianhuxing_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pingmianhuxing_return.png; sourceTree = "<group>"; };
 		09A42E8719F40934007D2707 /* back_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back_music.mp3; sourceTree = "<group>"; };
 		09D72A4C19EA832B0058D54C /* Meizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D72A4F19EA832B0058D54C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -1609,6 +1631,18 @@
 				09329A6A19F9785200A1B05A /* FTZoomScrollView.m */,
 			);
 			name = ZoomScroll;
+			sourceTree = "<group>";
+		};
+		096D1D0119FC8D6C00692102 /* 平面户型 */ = {
+			isa = PBXGroup;
+			children = (
+				096D1D1619FC9C5400692102 /* pingmianhuxing_return.png */,
+				096D1D0219FC8D8700692102 /* pingmianhuxing1.jpg */,
+				096D1D0319FC8D8700692102 /* pingmianhuxing2.jpg */,
+				096D1D0419FC8D8700692102 /* pingmianhuxing3.jpg */,
+				096D1D0519FC8D8700692102 /* pingmianhuxing4.jpg */,
+			);
+			name = "平面户型";
 			sourceTree = "<group>";
 		};
 		09991C3919F6973C00171080 /* 30F序列帧 */ = {
@@ -2101,6 +2135,14 @@
 				09D96CB319EABFD5000D15AA /* HuxingjianshangVC.h */,
 				09D96CB419EABFD5000D15AA /* HuxingjianshangVC.m */,
 				09D96CB519EABFD5000D15AA /* HuxingjianshangVC.xib */,
+				096D1D0A19FC8F6500692102 /* HuxingBgView1.h */,
+				096D1D0B19FC8F6500692102 /* HuxingBgView1.m */,
+				096D1D0D19FC937800692102 /* HuxingBgView2.h */,
+				096D1D0E19FC937800692102 /* HuxingBgView2.m */,
+				096D1D1019FC938600692102 /* HuxingBgView3.h */,
+				096D1D1119FC938600692102 /* HuxingBgView3.m */,
+				096D1D1319FC939500692102 /* HuxingBgView4.h */,
+				096D1D1419FC939500692102 /* HuxingBgView4.m */,
 			);
 			name = "户型鉴赏";
 			sourceTree = "<group>";
@@ -2396,6 +2438,7 @@
 		09EEB0D719F785A3005ED36F /* 户型鉴赏 */ = {
 			isa = PBXGroup;
 			children = (
+				096D1D0119FC8D6C00692102 /* 平面户型 */,
 				09EEB0D819F785B3005ED36F /* 鸟瞰图 */,
 			);
 			name = "户型鉴赏";
@@ -2524,6 +2567,7 @@
 				0932973419F94BAE00A1B05A /* c12_00033.jpg in Resources */,
 				0926526419EC810D00E057E7 /* sidebar_ciwoshi.png in Resources */,
 				0932982E19F94CEC00A1B05A /* 30F_0031.png in Resources */,
+				096D1D0919FC8D8700692102 /* pingmianhuxing4.jpg in Resources */,
 				090D5EA919F9402E004F5BA7 /* sidebar_50bg.png in Resources */,
 				093296AB19F94A3300A1B05A /* KT_50m_3.jpg in Resources */,
 				0932972919F94BAE00A1B05A /* c12_00022.jpg in Resources */,
@@ -2767,6 +2811,7 @@
 				0932973219F94BAE00A1B05A /* c12_00031.jpg in Resources */,
 				09329A2119F9693500A1B05A /* zhuwo_30m_0.jpg in Resources */,
 				0932995919F9527A00A1B05A /* 50F_0028.png in Resources */,
+				096D1D0819FC8D8700692102 /* pingmianhuxing3.jpg in Resources */,
 				0932987F19F94CEC00A1B05A /* 30F_00112.png in Resources */,
 				0932973A19F94BAE00A1B05A /* c12_00039.jpg in Resources */,
 				093299BA19F9527A00A1B05A /* 50F_00125.png in Resources */,
@@ -2804,6 +2849,7 @@
 				0932995C19F9527A00A1B05A /* 50F_0031.png in Resources */,
 				0932973319F94BAE00A1B05A /* c12_00032.jpg in Resources */,
 				0932983319F94CEC00A1B05A /* 30F_0036.png in Resources */,
+				096D1D0619FC8D8700692102 /* pingmianhuxing1.jpg in Resources */,
 				09D96CCC19EADEB8000D15AA /* 弹出框图片.png in Resources */,
 				0932989219F94CEC00A1B05A /* 30F_00131.png in Resources */,
 				0932982C19F94CEC00A1B05A /* 30F_0029.png in Resources */,
@@ -2908,6 +2954,7 @@
 				09D96F4119EB14BA000D15AA /* ZT_1.jpg in Resources */,
 				0932989C19F94CEC00A1B05A /* 30F_00141.png in Resources */,
 				0932969019F946F500A1B05A /* chufang_50m_0.jpg in Resources */,
+				096D1D1719FC9C5400692102 /* pingmianhuxing_return.png in Resources */,
 				0932985819F94CEC00A1B05A /* 30F_0073.png in Resources */,
 				093299B319F9527A00A1B05A /* 50F_00118.png in Resources */,
 				0932988619F94CEC00A1B05A /* 30F_00119.png in Resources */,
@@ -3013,6 +3060,7 @@
 				0932996719F9527A00A1B05A /* 50F_0042.png in Resources */,
 				093299BD19F9527A00A1B05A /* 50F_00128.png in Resources */,
 				0932999819F9527A00A1B05A /* 50F_0091.png in Resources */,
+				096D1D0719FC8D8700692102 /* pingmianhuxing2.jpg in Resources */,
 				090D5EAB19F940E2004F5BA7 /* sidebar_bg.png in Resources */,
 				0932998B19F9527A00A1B05A /* 50F_0078.png in Resources */,
 				0932998119F9527A00A1B05A /* 50F_0068.png in Resources */,
@@ -3095,6 +3143,7 @@
 				09D96EE319EB072F000D15AA /* PLCamera.m in Sources */,
 				09D96CB619EABFD5000D15AA /* HuxingjianshangVC.m in Sources */,
 				09D96CBB19EABFF1000D15AA /* KanfangVC.m in Sources */,
+				096D1D0C19FC8F6500692102 /* HuxingBgView1.m in Sources */,
 				09329A6D19F9785200A1B05A /* FTZoomScrollView.m in Sources */,
 				09D96EE019EB072F000D15AA /* glues_registry.c in Sources */,
 				09D96EE419EB072F000D15AA /* PLCubicPanorama.m in Sources */,
@@ -3106,6 +3155,7 @@
 				09D96CAE19EABF96000D15AA /* ZhanshishejiVC.m in Sources */,
 				09D72A6019EA832B0058D54C /* WLXAppDelegate.m in Sources */,
 				09D96EF219EB072F000D15AA /* PLScene.m in Sources */,
+				096D1D1519FC939500692102 /* HuxingBgView4.m in Sources */,
 				09D96EFF19EB072F000D15AA /* PLViewBase.m in Sources */,
 				09D96EF019EB072F000D15AA /* PLRenderableElementBase.m in Sources */,
 				0917F76519EB313F00A7655B /* FTTool.m in Sources */,
@@ -3116,6 +3166,7 @@
 				09D96EF319EB072F000D15AA /* PLSceneElement.m in Sources */,
 				09D96EEB19EB072F000D15AA /* PLMath.m in Sources */,
 				09D96EF719EB072F000D15AA /* PLTexture.m in Sources */,
+				096D1D0F19FC937800692102 /* HuxingBgView2.m in Sources */,
 				09D96EF819EB072F000D15AA /* PLTransition.m in Sources */,
 				09D96C9E19EAA141000D15AA /* XiangmushejiVC.m in Sources */,
 				09D96EEC19EB072F000D15AA /* PLObject.m in Sources */,
@@ -3139,6 +3190,7 @@
 				1A9B854819EC1A8B0082E0EC /* FTjsqView.m in Sources */,
 				09D96F2D19EB11A0000D15AA /* FTDoorBaseView.m in Sources */,
 				09D96EE619EB072F000D15AA /* PLHotspot.m in Sources */,
+				096D1D1219FC938600692102 /* HuxingBgView3.m in Sources */,
 				09D96EEF19EB072F000D15AA /* PLPanoramaBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

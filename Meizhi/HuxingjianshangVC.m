@@ -8,6 +8,7 @@
 
 #import "HuxingjianshangVC.h"
 
+
 @interface HuxingjianshangVC ()
 
 @end
@@ -48,6 +49,28 @@
 
 - (IBAction)iconClick:(id)sender
 {
-    
+    UIButton *bt = (UIButton *)sender;
+    int tag = (int)bt.tag;
+    switch (tag) {
+        case 1:
+            bg1 = [[HuxingBgView1 alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+            [self.view addSubview:bg1];
+            break;
+        case 2:
+            bg2 = [[HuxingBgView2 alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+            [self.view addSubview:bg2];
+            break;
+        case 3:
+            bg3 = [[HuxingBgView3 alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+            [self.view addSubview:bg3];
+            break;
+        case 4:
+            bg4 = [[HuxingBgView4 alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
+            [self.view addSubview:bg4];
+            break;
+            
+        default:
+            break;
+    }
 }
 @end

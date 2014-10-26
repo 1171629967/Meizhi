@@ -32,6 +32,9 @@
     FTjsqView * ftjsview = [[FTjsqView alloc] initWithFrame:CGRectMake(0, 0, 1024, 768)];
     [self.view addSubview:ftjsview];
     
+    UITapGestureRecognizer *singleTap1 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
+    [ftjsview addGestureRecognizer:singleTap1];
+    
 }
 - (void)hideTanchukuang
 {

@@ -37,6 +37,15 @@
     self.bt2.tag = 2;
     self.bt3.tag = 3;
     
+    UITapGestureRecognizer *singleTap1 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
+    [self.view addGestureRecognizer:singleTap1];
+    
+}
+
+- (void)hideTanchukuang
+{
+    //发出通知，把底部导航栏控件收起来
+    [[NSNotificationCenter defaultCenter] postNotificationName:Notification_DownTabBarView object:nil];
 }
 
 - (void)didReceiveMemoryWarning
@@ -55,18 +64,21 @@
             [self hideMenu];
             self.viewMovie.hidden = NO;
             [self performSelector:@selector(playMovie) withObject:self afterDelay:0.1];
+            [self hideTanchukuang];
             break;
         case 2:
             self.viewMovie.backgroundColor = [UIColor colorWithPatternImage: [UIImage imageNamed:@"xiaoguotu_bg.jpg"] ];
             self.viewMovie.hidden = NO;
             [self xiaoguotu];
             [self hideMenu];
+            [self hideTanchukuang];
             break;
         case 3:
             self.viewMovie.backgroundColor=[UIColor clearColor];
             self.viewMovie.hidden = NO;
             [self xuanchuanye];
             [self hideMenu];
+            [self hideTanchukuang];
             break;
             
         default:

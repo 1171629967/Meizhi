@@ -9,6 +9,7 @@
 #import "ZhanshishejiVC.h"
 #import "PanoramaGL/PLView.h"
 #import "FTThreePageScrollView.h"
+#import "WLXAppDelegate.h"
 
 @interface ZhanshishejiVC ()
 
@@ -136,6 +137,10 @@
 }
 
 - (void)playMovie{
+    //暂停背景音乐
+    WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    [appDelegate stopSound];
+    
     NSString *s = [[NSBundle mainBundle] pathForResource:@"piantou" ofType:@"mp4"];
     NSURL *url = [NSURL fileURLWithPath:s];
     playerViewController = [[MPMoviePlayerViewController alloc] initWithContentURL:url];
@@ -154,6 +159,10 @@
 
 - (void) playVideoFinished:(NSNotification *)theNotification//当点击Done按键或者播放完毕时调用此函数
 {
+    //继续音乐
+    WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
+    [appDelegate startSound];
+    
     MPMoviePlayerController *player = [theNotification object];
     [[NSNotificationCenter defaultCenter] removeObserver:self name:MPMoviePlayerPlaybackDidFinishNotification object:player];
     [player stop];

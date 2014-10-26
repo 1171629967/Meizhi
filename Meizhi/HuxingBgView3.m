@@ -72,16 +72,19 @@
     NSString *picName;
     switch (tag) {
         case 101:
-            picName = @"B2.jpg";
+            //picName = @"B2.jpg";
+            picName = @"A.jpg";
             break;
         case 102:
             picName = @"A.jpg";
             break;
         case 103:
-            picName = @"B2.jpg";
+            //picName = @"B2.jpg";
+            picName = @"A.jpg";
             break;
         case 104:
-            picName = @"B1.jpg";
+            //picName = @"B1.jpg";
+            picName = @"A.jpg";
             break;
         case 105:
             picName = @"A2.jpg";
@@ -108,7 +111,8 @@
             picName = @"A2.jpg";
             break;
         case 113:
-            picName = @"B1.jpg";
+            //picName = @"B1.jpg";
+            picName = @"A.jpg";
             break;
         default:
             break;

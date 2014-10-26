@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HuxingBgView1 : UIImageView
+{
+    UIImageView *iv_huxingtu;
+}
 
 @end

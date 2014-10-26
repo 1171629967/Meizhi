@@ -19,4 +19,30 @@
 #define Notification_DownTabBarView @"Notification_DownTabBarView"
 
 
+/*
+ A1 101
+ A2 102
+ A3 103 
+ A4 104
+ 
+ B1 201
+ B2 202
+ 
+ C1 301
+ C2 302
+ 
+ D1 401
+ D2 402
+ 
+ E 501
+ 
+ F1 601
+ F2 602
+ F3 603
+ 
+ J1 701
+ J2 702
+ */
+
+
 #endif

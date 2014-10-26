@@ -19,7 +19,7 @@
         UITapGestureRecognizer *singleTap =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
         [self addGestureRecognizer:singleTap];
         //添加返回按钮
-        UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(29, 39, 60, 60)];
+        UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(29, 39, 50, 50)];
         [bt_back setImage:[UIImage imageNamed:@"pingmianhuxing_return.png"] forState:UIControlStateNormal];
         [bt_back addTarget:self action:@selector(close) forControlEvents:UIControlEventTouchUpInside];
         [self addSubview:bt_back];
@@ -59,7 +59,7 @@
 //添加户型图
 -(void)addHuxingtuByTag:(int)tag
 {
-    UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(29, 39, 60, 60)];
+    UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(29, 39, 50, 50)];
     [bt_back setImage:[UIImage imageNamed:@"pingmianhuxing_return.png"] forState:UIControlStateNormal];
     [bt_back addTarget:self action:@selector(close2) forControlEvents:UIControlEventTouchUpInside];
     

@@ -104,7 +104,7 @@
     [ztView addGestureRecognizer:singleTap2];
 
     //动态添加返回按钮
-    UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 70, 70)];
+    UIButton *bt_back = [[UIButton alloc] initWithFrame:CGRectMake(20, 20, 50, 50)];
     UIImage *img = [UIImage imageNamed:@"返回按钮.png"];
     [bt_back setImage:img forState:UIControlStateNormal];
     [ztView addSubview:bt_back];

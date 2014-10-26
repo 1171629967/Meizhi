@@ -77,7 +77,7 @@
     [theMovie.view removeFromSuperview];
     [self initViews];
     WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    //[appDelegate playSound:@"back_music"];
+    [appDelegate playSound:@"back_music"];
 }
 
 
@@ -105,7 +105,7 @@
     [theMovie.view removeFromSuperview];
     [self initViews];
     WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
-    //[appDelegate playSound:@"back_music"];
+    [appDelegate playSound:@"back_music"];
     
 }
 

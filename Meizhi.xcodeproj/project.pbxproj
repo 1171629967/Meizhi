@@ -528,6 +528,8 @@
 		096D1D1519FC939500692102 /* HuxingBgView4.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D1D1419FC939500692102 /* HuxingBgView4.m */; };
 		096D1D1719FC9C5400692102 /* pingmianhuxing_return.png in Resources */ = {isa = PBXBuildFile; fileRef = 096D1D1619FC9C5400692102 /* pingmianhuxing_return.png */; };
 		096D1D1B19FCA4B000692102 /* FTZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D1D1A19FCA4B000692102 /* FTZoomScrollView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		096D1D1F19FCBC7400692102 /* WLXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D1D1D19FCBC7400692102 /* WLXViewController.m */; };
+		096D1D2019FCBC7400692102 /* WLXViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 096D1D1E19FCBC7400692102 /* WLXViewController.xib */; };
 		09A42E8819F40934007D2707 /* back_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 09A42E8719F40934007D2707 /* back_music.mp3 */; };
 		09D72A5019EA832B0058D54C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A4F19EA832B0058D54C /* Foundation.framework */; };
 		09D72A5219EA832B0058D54C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D72A5119EA832B0058D54C /* CoreGraphics.framework */; };
@@ -1195,6 +1197,9 @@
 		096D1D1619FC9C5400692102 /* pingmianhuxing_return.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pingmianhuxing_return.png; sourceTree = "<group>"; };
 		096D1D1919FCA4B000692102 /* FTZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTZoomScrollView.h; sourceTree = "<group>"; };
 		096D1D1A19FCA4B000692102 /* FTZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTZoomScrollView.m; sourceTree = "<group>"; };
+		096D1D1C19FCBC7400692102 /* WLXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLXViewController.h; sourceTree = "<group>"; };
+		096D1D1D19FCBC7400692102 /* WLXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLXViewController.m; sourceTree = "<group>"; };
+		096D1D1E19FCBC7400692102 /* WLXViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WLXViewController.xib; sourceTree = "<group>"; };
 		09A42E8719F40934007D2707 /* back_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back_music.mp3; sourceTree = "<group>"; };
 		09D72A4C19EA832B0058D54C /* Meizhi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Meizhi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09D72A4F19EA832B0058D54C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -2196,6 +2201,9 @@
 				096D1D1119FC938600692102 /* HuxingBgView3.m */,
 				096D1D1319FC939500692102 /* HuxingBgView4.h */,
 				096D1D1419FC939500692102 /* HuxingBgView4.m */,
+				096D1D1C19FCBC7400692102 /* WLXViewController.h */,
+				096D1D1D19FCBC7400692102 /* WLXViewController.m */,
+				096D1D1E19FCBC7400692102 /* WLXViewController.xib */,
 			);
 			name = "户型鉴赏";
 			sourceTree = "<group>";
@@ -2837,6 +2845,7 @@
 				0932971B19F94BAE00A1B05A /* c12_0008.jpg in Resources */,
 				093299A419F9527A00A1B05A /* 50F_00103.png in Resources */,
 				0932974219F94BAE00A1B05A /* c12_00047.jpg in Resources */,
+				096D1D2019FCBC7400692102 /* WLXViewController.xib in Resources */,
 				0932985419F94CEC00A1B05A /* 30F_0069.png in Resources */,
 				09D96CB719EABFD5000D15AA /* HuxingjianshangVC.xib in Resources */,
 				0932973E19F94BAE00A1B05A /* c12_00043.jpg in Resources */,
@@ -3251,6 +3260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				096D1D1F19FCBC7400692102 /* WLXViewController.m in Sources */,
 				09D96EF519EB072F000D15AA /* PLSpherical2Panorama.m in Sources */,
 				09D96EEA19EB072F000D15AA /* PLLog.m in Sources */,
 				09D96EE319EB072F000D15AA /* PLCamera.m in Sources */,

@@ -49,7 +49,7 @@
     [self addSubview:daikuanqx];
     [daikuanqx release];
     
-    UITextField *daikuanll = [[UITextField alloc] initWithFrame:CGRectMake(75, 476, 41, 25)];
+    daikuanll = [[UITextField alloc] initWithFrame:CGRectMake(75, 476, 41, 25)];
     daikuanll.keyboardType = UIKeyboardTypeNumberPad;
     daikuanll.delegate = self;
     daikuanll.tag = 12;
@@ -114,23 +114,28 @@
     /*--------添加下拉start-------*/
     UIButton *llxiala = [UIButton buttonWithType:UIButtonTypeCustom];
     [llxiala setImage:[UIImage imageNamed:@"xialakuang.jpg"] forState:UIControlStateNormal];
+    [llxiala addTarget:self action:@selector(xialaMenuShowOrHide) forControlEvents:UIControlEventTouchUpInside];
     llxiala.frame = CGRectMake(148, 474, 150, 25);
     [self addSubview:llxiala];
     
-//    UIButton *lljizhun1 = [UIButton buttonWithType:UIButtonTypeCustom];
-//    [lljizhun1 setImage:[UIImage imageNamed:@"jisuanqibtn_2.png"] forState:UIControlStateNormal];
-//    lljizhun1.frame = CGRectMake(149, 499, 150, 25);
-    UIButton *btn1 = [[UIButton alloc]initWithFrame:CGRectMake(149, 499, 150, 25)];
-    [btn1 setTitle:@"" forState:UIControlStateNormal];
-    [btn1 setBackgroundImage:[UIImage imageNamed:@"off.png"] forState:UIControlStateNormal];
+    UIButton *lljizhun = [UIButton buttonWithType:UIButtonTypeCustom];
+    [lljizhun setImage:[UIImage imageNamed:@"jizhun.png"] forState:UIControlStateNormal];
+    [lljizhun addTarget:self action:@selector(jizhun) forControlEvents:UIControlEventTouchUpInside];
+    lljizhun.frame = CGRectMake(0, 0, 150, 25);
     
-    UIView *llxialarongqi = [[UIView alloc]initWithFrame:CGRectMake(148, 498, 150, 50)];
+    UIButton *llshangxian = [UIButton buttonWithType:UIButtonTypeCustom];
+    [llshangxian setImage:[UIImage imageNamed:@"shangxian.png"] forState:UIControlStateNormal];
+    [llshangxian addTarget:self action:@selector(shangxian) forControlEvents:UIControlEventTouchUpInside];
+    llshangxian.frame = CGRectMake(0, 25, 150, 25);
+    
+    llxialarongqi = [[UIView alloc]initWithFrame:CGRectMake(148, 498, 150, 50)];
     [llxialarongqi setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"xialakuang_bg.jpg"]]];
     
-    
-    [llxialarongqi addSubview:btn1];
-    
+    [llxialarongqi addSubview:lljizhun];
+    [llxialarongqi addSubview:llshangxian];
     [self addSubview:llxialarongqi];
+    llxialarongqi.hidden = YES;
+    /*--------添加下拉end-------*/
     
 //    UIButton *fanhui = [UIButton buttonWithType:UIButtonTypeCustom];
 //    [fanhui setImage:[UIImage imageNamed:@"jisuanqibtn1.png"] forState:UIControlStateNormal];
@@ -138,6 +143,27 @@
 //    fanhui.frame = CGRectMake(853, 43, 76, 41);
 //    [self addSubview:fanhui];
 
+}
+
+-(void)jizhun{
+    [self xialaMenuShowOrHide];
+    [daikuanll setText:@"6.55"];
+}
+
+-(void)shangxian{
+    [self xialaMenuShowOrHide];
+    [daikuanll setText:@"7.21"];
+}
+
+-(void)xialaMenuShowOrHide{
+    if (llxialarongqi != nil) {
+        if (llxialarongqi.hidden == YES) {
+             llxialarongqi.hidden = NO;
+        }else{
+            llxialarongqi.hidden = YES;
+        }
+    }
+    
 }
 
 -(void)back{

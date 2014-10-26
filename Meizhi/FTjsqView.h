@@ -14,6 +14,8 @@
     NSArray *arr;
     NSInteger type;
     UIView *informationView;
+    UIView *llxialarongqi;
+    UITextField *daikuanll;
 }
 @property (nonatomic,assign) UITableView *table;
 @property (nonatomic,retain) NSArray *arr;

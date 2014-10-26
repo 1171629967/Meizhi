@@ -13,8 +13,10 @@
     UITableView *table;
     NSArray *arr;
     NSInteger type;
+    UIView *informationView;
 }
 @property (nonatomic,assign) UITableView *table;
 @property (nonatomic,retain) NSArray *arr;
 @property (nonatomic,assign) NSInteger type;
+
 @end

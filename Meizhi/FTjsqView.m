@@ -111,6 +111,27 @@
     information.frame = CGRectMake(973, 17, 30, 30);
     [self addSubview:information];
     
+    /*--------添加下拉start-------*/
+    UIButton *llxiala = [UIButton buttonWithType:UIButtonTypeCustom];
+    [llxiala setImage:[UIImage imageNamed:@"xialakuang.jpg"] forState:UIControlStateNormal];
+    llxiala.frame = CGRectMake(148, 474, 150, 25);
+    [self addSubview:llxiala];
+    
+//    UIButton *lljizhun1 = [UIButton buttonWithType:UIButtonTypeCustom];
+//    [lljizhun1 setImage:[UIImage imageNamed:@"jisuanqibtn_2.png"] forState:UIControlStateNormal];
+//    lljizhun1.frame = CGRectMake(149, 499, 150, 25);
+    UIButton *btn1 = [[UIButton alloc]initWithFrame:CGRectMake(149, 499, 150, 25)];
+    [btn1 setTitle:@"" forState:UIControlStateNormal];
+    [btn1 setBackgroundImage:[UIImage imageNamed:@"off.png"] forState:UIControlStateNormal];
+    
+    UIView *llxialarongqi = [[UIView alloc]initWithFrame:CGRectMake(148, 498, 150, 50)];
+    [llxialarongqi setBackgroundColor:[UIColor colorWithPatternImage:[UIImage imageNamed:@"xialakuang_bg.jpg"]]];
+    
+    
+    [llxialarongqi addSubview:btn1];
+    
+    [self addSubview:llxialarongqi];
+    
 //    UIButton *fanhui = [UIButton buttonWithType:UIButtonTypeCustom];
 //    [fanhui setImage:[UIImage imageNamed:@"jisuanqibtn1.png"] forState:UIControlStateNormal];
 //    [fanhui addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
@@ -137,7 +158,25 @@
 }
 
 -(void)informationPressed{
+    informationView = [[UIView alloc]initWithFrame: CGRectMake(0, 0, 1024, 768)];
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"information_detail.png"]];
+    imageView.frame = CGRectMake(0, 0, 1024, 768);
+    [informationView addSubview:imageView];
     
+    UIButton *off = [UIButton buttonWithType:UIButtonTypeCustom];
+    [off setImage:[UIImage imageNamed:@"off.png"] forState:UIControlStateNormal];
+    [off addTarget:self action:@selector(offIspressed) forControlEvents:UIControlEventTouchUpInside];
+    off.frame = CGRectMake(984, 20, 20, 20);
+    [informationView addSubview:off];
+    
+    [self addSubview:informationView];
+}
+
+-(void)offIspressed{
+    if (informationView != nil) {
+        [informationView removeFromSuperview];
+        informationView = nil;
+    }
 }
 
 -(void)chongzhi{

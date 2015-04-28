@@ -29,6 +29,8 @@
     int currentTag;
     
     BOOL isDown;
+    
+    NSLock *theLock;
 }
 @property (strong, nonatomic) IBOutlet UIView *myBackView;
 @property (strong, nonatomic) IBOutlet UIView *tabBarView;

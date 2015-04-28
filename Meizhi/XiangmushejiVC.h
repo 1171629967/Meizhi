@@ -10,6 +10,7 @@
 #import "FTCircleImageView.h"
 #import "CustSkyBoxView.h"
 
+
 @interface XiangmushejiVC : UIViewController<ZTProtal>
 {
     int startX;
@@ -17,8 +18,9 @@
     NSMutableArray *array;
     int currentImageNo;
     FTCircleImageView *circleView;
-    
     CustSkyBoxView *ztView;
+    
+    
     UIButton *bt_neitingjingguan;
 }
 

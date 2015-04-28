@@ -1,13 +1,14 @@
 //
 //  360kanfangVC.m
 //  Meizhi
-//
 //  Created by 王 李鑫 on 14-10-12.
 //  Copyright (c) 2014年 wlx. All rights reserved.
 //
 
 #import "KanfangVC.h"
 #import "CustSkyBoxView.h"
+
+
 
 @interface KanfangVC ()
 
@@ -423,14 +424,15 @@
     circleView.isRound = YES;
     circleView.path360 = [[NSBundle mainBundle] resourcePath];
     [self.view insertSubview:circleView aboveSubview:self.iv_back];
-    circleView.count = 150;
     circleView.curCount = 0;
     
     if ([currentFangType isEqualToString:@"30m"]) {
+        circleView.count = 250;
         circleView.preName = @"30F_00";
         circleView.image = [UIImage imageNamed:@"30F_000.png"];
     }
     else if([currentFangType isEqualToString:@"50m"]){
+        circleView.count = 150;
         circleView.preName = @"50F_00";
         circleView.image = [UIImage imageNamed:@"50F_000.png"];
     }
@@ -554,6 +556,9 @@
     UITapGestureRecognizer *singleTap3 =[[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(hideTanchukuang)];
     [skyboxView addGestureRecognizer:singleTap3];
 }
+
+
+
 
 
 

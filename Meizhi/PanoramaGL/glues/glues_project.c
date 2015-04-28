@@ -58,7 +58,7 @@ gluPerspective(GLfloat fovy, GLfloat aspect, GLfloat zNear, GLfloat zFar)
 {
     GLfloat m[4][4];
     GLfloat sine, cotangent, deltaZ;
-    GLfloat radians=(GLfloat)(fovy/2.0f*__glPi/180.0f);
+    GLfloat radians=(GLfloat)(fovy/2.2f*__glPi/180.0f);
 
     deltaZ=zFar-zNear;
     sine=(GLfloat)sin(radians);

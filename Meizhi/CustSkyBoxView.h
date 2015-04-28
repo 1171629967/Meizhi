@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 #import "FTDoorBaseView.h"
-#import "PLView.h"
+#import "PanoramaGL/PLView.h"
+
 
 @interface CustSkyBoxView : FTDoorBaseView
 {

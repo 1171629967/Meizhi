@@ -7,7 +7,6 @@
 //
 
 #import "HomeVC.h"
-#import "CustSkyBoxView.h"
 #import "WLXAppDelegate.h"
 
 
@@ -29,6 +28,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    theLock = [[NSLock alloc] init];
     
     [self loadPianTouData];
     [self performSelectorInBackground:@selector(playPiantou) withObject:nil];
@@ -194,7 +194,7 @@
                 [self removeAllviewsOnMyBackView];
                 [self.myBackView addSubview:daikuanjisuanVC.view];
             }
-            [self downTabBarView];
+            [self performSelector:@selector(downTabBarView) withObject:nil afterDelay:0.1];
             break;
         default:
             break;
@@ -217,7 +217,18 @@
 
 
 //控制条上下移动
+
+
+
+
 - (void)downOrUp{
+    
+    
+    
+    
+    
+    
+    
     NSInteger downOrUpDistance;
     if (isDown) {
         downOrUpDistance = -73;
@@ -242,10 +253,13 @@
     [UIView commitAnimations];
     isDown = !isDown;
     //[self btnTouched:nil];
+    
+  
 }
 
 - (void)downTabBarView
 {
+    [theLock lock];
     if (!isDown) {
         [UIView beginAnimations:nil context:nil];
         [UIView setAnimationDuration:.3f];
@@ -253,6 +267,7 @@
         [UIView commitAnimations];
         isDown = !isDown;
     }
+    [theLock unlock];
     
 }
 

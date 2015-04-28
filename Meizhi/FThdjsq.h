@@ -27,12 +27,14 @@
 @property (nonatomic, assign) double guihuanlixi;
 @property (nonatomic, assign) double guihuanbenjin;
 @property (nonatomic, assign) double qimoyue;
+
 +(double)numeber:(double)num cimi:(NSInteger)cimi;
 +(NSArray *)dengEhk:(double)jinne qixian:(NSInteger)qi lilv:(double)ll;
 +(NSArray *)dengBhk:(double)jinne qixian:(NSInteger)qi lilv:(double)ll;
 
 //等额还款
 +(double)dengeLjhklx:(double)jinne qixian:(NSInteger)qi lilv:(double)ll;
+
 +(double)dengeLjhkzs:(double)jinne qixian:(NSInteger)qi lilv:(double)ll;
 //等本还款
 +(double)dengbLjhklx:(double)jinne qixian:(NSInteger)qi lilv:(double)ll;

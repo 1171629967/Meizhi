@@ -14,7 +14,7 @@
 		<string>https://github.com/1171629967/Meizhi.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Meizhi.xcodeproj/project.xcworkspace</string>
+	<string>Meizhi.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>C7912FF7908266F298AF03A9FB3C2BAF4589E12F</key>

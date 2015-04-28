@@ -27,19 +27,19 @@
         
         
         //---------------开始添加按钮----------------
-        [self addButtonOnView:105 andY:271 andWidth:74 andHeight:73 andTag:101];
-        [self addButtonOnView:182 andY:271 andWidth:67 andHeight:73 andTag:102];
-        [self addButtonOnView:250 andY:271 andWidth:131 andHeight:73 andTag:103];
-        [self addButtonOnView:382 andY:271 andWidth:66 andHeight:73 andTag:104];
+        [self addButtonOnView:105 andY:271-35 andWidth:74 andHeight:73 andTag:101];
+        [self addButtonOnView:182 andY:271-35 andWidth:67 andHeight:73 andTag:102];
+        [self addButtonOnView:250 andY:271-35 andWidth:131 andHeight:73 andTag:103];
+        [self addButtonOnView:382 andY:271-35 andWidth:66 andHeight:73 andTag:104];
         
-        [self addButtonOnView:451 andY:271 andWidth:201 andHeight:73 andTag:105];
-        [self addButtonOnView:655 andY:271 andWidth:134 andHeight:73 andTag:106];
-        [self addButtonOnView:784 andY:271 andWidth:66 andHeight:73 andTag:107];
-        [self addButtonOnView:853 andY:271 andWidth:74 andHeight:73 andTag:108];
+        [self addButtonOnView:451 andY:271-35 andWidth:201 andHeight:73 andTag:105];
+        [self addButtonOnView:655 andY:271-35 andWidth:134 andHeight:73 andTag:106];
+        [self addButtonOnView:784 andY:271-35 andWidth:66 andHeight:73 andTag:107];
+        [self addButtonOnView:853 andY:271-35 andWidth:74 andHeight:73 andTag:108];
         
-        [self addButtonOnView:105 andY:365 andWidth:74 andHeight:73 andTag:109];
-        [self addButtonOnView:178 andY:365 andWidth:672 andHeight:73 andTag:110];
-        [self addButtonOnView:853 andY:365 andWidth:74 andHeight:73 andTag:111];
+        [self addButtonOnView:105 andY:365-35 andWidth:74 andHeight:73 andTag:109];
+        [self addButtonOnView:178 andY:365-35 andWidth:672 andHeight:73 andTag:110];
+        [self addButtonOnView:853 andY:365-35 andWidth:74 andHeight:73 andTag:111];
         //---------------结束添加按钮----------------
         
     }
@@ -69,7 +69,7 @@
     switch (tag) {
         case 101:
             //picName = @"D2.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
         case 102:
             picName = @"C2.jpg";
@@ -91,22 +91,25 @@
             break;
         case 108:
             //picName = @"D2.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
         case 109:
             //picName = @"D1.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
         case 110:
             picName = @"C.jpg";
             break;
         case 111:
             //picName = @"D1.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
         
         default:
             break;
+    }
+    if ([picName isEqualToString:@""]) {
+        return;
     }
     iv_huxingtu.image = [UIImage imageNamed:picName];
     [iv_huxingtu addSubview:bt_back];

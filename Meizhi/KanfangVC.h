@@ -7,8 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "CustSkyBoxView.h"
 #import "FTCircleImageView.h"
+#import "CustSkyBoxView.h"
 
 @interface KanfangVC : UIViewController
 {

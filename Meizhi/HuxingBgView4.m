@@ -26,20 +26,20 @@
         
         
         //---------------开始添加按钮----------------
-        [self addButtonOnView:112 andY:338 andWidth:74 andHeight:73 andTag:101];
-        [self addButtonOnView:187 andY:338 andWidth:39 andHeight:73 andTag:102];
-        [self addButtonOnView:234 andY:338 andWidth:114 andHeight:73 andTag:103];
-        [self addButtonOnView:350 andY:338 andWidth:81 andHeight:73 andTag:104];
-        [self addButtonOnView:431 andY:338 andWidth:65 andHeight:73 andTag:105];
-        [self addButtonOnView:526 andY:338 andWidth:65 andHeight:73 andTag:106];
-        [self addButtonOnView:599 andY:338 andWidth:71 andHeight:73 andTag:107];
-        [self addButtonOnView:678 andY:338 andWidth:114 andHeight:73 andTag:108];
-        [self addButtonOnView:800 andY:338 andWidth:37 andHeight:73 andTag:109];
-        [self addButtonOnView:839 andY:338 andWidth:73 andHeight:73 andTag:110];
+        [self addButtonOnView:112 andY:338-110 andWidth:74 andHeight:73 andTag:101];
+        [self addButtonOnView:187 andY:338-110 andWidth:39 andHeight:73 andTag:102];
+        [self addButtonOnView:234 andY:338-110 andWidth:114 andHeight:73 andTag:103];
+        [self addButtonOnView:350 andY:338-110 andWidth:81 andHeight:73 andTag:104];
+        [self addButtonOnView:431 andY:338-110 andWidth:65 andHeight:73 andTag:105];
+        [self addButtonOnView:526 andY:338-110 andWidth:65 andHeight:73 andTag:106];
+        [self addButtonOnView:599 andY:338-110 andWidth:71 andHeight:73 andTag:107];
+        [self addButtonOnView:678 andY:338-110 andWidth:114 andHeight:73 andTag:108];
+        [self addButtonOnView:800 andY:338-110 andWidth:37 andHeight:73 andTag:109];
+        [self addButtonOnView:839 andY:338-110 andWidth:73 andHeight:73 andTag:110];
         
-        [self addButtonOnView:112 andY:429 andWidth:73 andHeight:73 andTag:111];
-        [self addButtonOnView:187 andY:429 andWidth:650 andHeight:73 andTag:112];
-        [self addButtonOnView:839 andY:429 andWidth:73 andHeight:73 andTag:113];
+        [self addButtonOnView:112 andY:429-110 andWidth:73 andHeight:73 andTag:111];
+        [self addButtonOnView:187 andY:429-110 andWidth:650 andHeight:73 andTag:112];
+        [self addButtonOnView:839 andY:429-110 andWidth:73 andHeight:73 andTag:113];
         //---------------结束添加按钮----------------
         
     }
@@ -74,7 +74,7 @@
     switch (tag) {
         case 101:
             //picName = @"B1.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
         case 102:
             picName = @"A2.jpg";
@@ -102,22 +102,25 @@
             break;
         case 110:
             //picName = @"B1.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
         case 111:
             //picName = @"B2.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
         case 112:
             picName = @"A.jpg";
             break;
         case 113:
             //picName = @"B2.jpg";
-            picName = @"A.jpg";
+            picName = @"";
             break;
             
         default:
             break;
+    }
+    if ([picName isEqualToString:@""]) {
+        return;
     }
     iv_huxingtu.image = [UIImage imageNamed:picName];
     [iv_huxingtu addSubview:bt_back];

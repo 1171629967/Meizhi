@@ -7,7 +7,6 @@
 //
 
 #import "ZhanshishejiVC.h"
-#import "PanoramaGL/PLView.h"
 #import "FTThreePageScrollView.h"
 #import "WLXAppDelegate.h"
 
@@ -153,7 +152,7 @@
     WLXAppDelegate *appDelegate = [[UIApplication sharedApplication] delegate];
     [appDelegate stopSound];
     
-    NSString *s = [[NSBundle mainBundle] pathForResource:@"piantou" ofType:@"mp4"];
+    NSString *s = [[NSBundle mainBundle] pathForResource:@"zhanshi" ofType:@"mp4"];
     NSURL *url = [NSURL fileURLWithPath:s];
     playerViewController = [[MPMoviePlayerViewController alloc] initWithContentURL:url];
     //设置视频的播放模式
